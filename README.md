@@ -2,6 +2,34 @@
 
 Benchmark harness for evaluating PDF parsing quality on optical transceiver datasheets.
 
+## Benchmark Result: Reviewed Datasheet Subset
+
+This repository includes a reproducible benchmark slice intended for reporting parser quality on optical transceiver datasheets. The evaluated subset contains 9 fully reviewed, non-empty ground-truth datasheets from `corpus/ground_truth`; 3 zero-table Nokia datasheets are excluded from this result set.
+
+The benchmark compares 7 parser output types using the repository KPI definitions:
+
+- `TCA`: Table Cell Accuracy
+- `FLS`: Footnote Linkage Score
+- `SS`: Structure Score
+- `MMNS`: Multi-modulation Normalization Score
+- `Composite`: `0.40*TCA + 0.25*FLS + 0.20*SS + 0.15*MMNS`
+
+`FLS` and `MMNS` are scored only where applicable, then the composite is reweighted over the available KPI components. The table below reports tier-weighted scores for the reviewed subset.
+
+| Rank | Parser | Composite | TCA | FLS | SS | MMNS | Speed score | Seconds/page |
+|---:|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 | `docling` | 0.8270 | 0.8521 | 0.7284 | 0.8983 | 0.6500 | 0.6977 | 1.7698 |
+| 2 | `unstructured_hires` | 0.8170 | 0.8485 | 0.7284 | 0.8499 | 0.6500 | 0.6751 | 2.2242 |
+| 3 | `marker` | 0.7658 | 0.8080 | 0.5972 | 0.8336 | 0.6500 | 0.5691 | 7.0003 |
+| 4 | `pymupdf4llm` | 0.6652 | 0.6681 | 0.4486 | 0.8200 | 0.8500 | 0.8455 | 0.5409 |
+| 5 | `unstructured_fast` | 0.1873 | 0.0000 | 0.2539 | 0.4000 | 0.9000 | 0.9535 | 0.1353 |
+| 6 | `opendataloader_heuristic` | 0.0637 | 0.0000 | 0.0000 | 0.2346 | 0.0000 | 1.0000 | 0.0000 |
+| 7 | `opendataloader_hybrid` | 0.0637 | 0.0000 | 0.0000 | 0.2346 | 0.0000 | 1.0000 | 0.0000 |
+
+In this reviewed subset, `docling` achieves the highest overall composite score (`0.8270`), closely followed by `unstructured_hires` (`0.8170`). `pymupdf4llm` is the fastest high-quality parser and has the strongest `MMNS` score, while `marker` provides competitive extraction quality at higher runtime. The OpenDataLoader runs produced `library not installed` outputs in this environment, so their scores should be interpreted as failed-run baselines rather than final parser capability measurements.
+
+For a detailed result narrative, reviewed-file list, and reproduction notes, see `REVIEWED_DATASHEET_KPI_FINDINGS.md`.
+
 ## What This Runs
 
 - 7 parsers:
@@ -88,11 +116,25 @@ bash run_all.sh
 .\venv\Scripts\python.exe evaluation/aggregate_scores.py
 ```
 
+## Reproduce Reviewed-Subset Results
+
+```powershell
+python evaluation\llm_rescore_reviewed.py
+```
+
+This writes:
+
+- `reports/llm_rescore_reviewed_summary.csv`
+- `reports/llm_rescore_reviewed_detail.csv`
+- `reports/llm_rescore_reviewed.json`
+
 ## Outputs
 
 - Ranked summary: `reports/summary.csv`
 - Workflow observability events: `reports/observability/events.jsonl`
 - Per-parser scores: `outputs/{parser}/scores/{pdf_stem}.json`
+- Reviewed-subset KPI findings: `REVIEWED_DATASHEET_KPI_FINDINGS.md`
+- Reviewed-subset generated reports: `reports/llm_rescore_reviewed_*`
 
 ## Interpreting Scores
 
