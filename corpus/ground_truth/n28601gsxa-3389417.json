@@ -1,0 +1,170 @@
+{
+  "source": "n28601gsxa-3389417.pdf",
+  "page_count": 4,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Table 1",
+      "page": 1,
+      "headers": [
+        "UPC Code",
+        "037332283979",
+        "Column 3"
+      ],
+      "rows": [
+        {
+          "UPC Code": "Brand Compatibility",
+          "037332283979": "Arista",
+          "Column 3": ""
+        },
+        {
+          "UPC Code": "Technology",
+          "037332283979": "Fiber; Multimode",
+          "Column 3": ""
+        },
+        {
+          "UPC Code": "Optical Mode",
+          "037332283979": "OM2",
+          "Column 3": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "Table 2",
+      "page": 2,
+      "headers": [
+        "Mode Type",
+        "Multimode"
+      ],
+      "rows": [
+        {
+          "Mode Type": "CONNECTIONS",
+          "Multimode": "CONNECTIONS"
+        },
+        {
+          "Mode Type": "Side A - Connector 1",
+          "Multimode": "SFP (MALE)"
+        },
+        {
+          "Mode Type": "Side B - Connector 1",
+          "Multimode": "LC DUPLEX (MALE)"
+        },
+        {
+          "Mode Type": "Connector Material",
+          "Multimode": "Zinc Alloy"
+        },
+        {
+          "Mode Type": "PHYSICAL",
+          "Multimode": "PHYSICAL"
+        },
+        {
+          "Mode Type": "Shipping Dimensions (hwd / in.)",
+          "Multimode": "0.70 x 3.10 x 5.70"
+        },
+        {
+          "Mode Type": "Shipping Weight (Ibs.)",
+          "Multimode": "0.11"
+        },
+        {
+          "Mode Type": "Unit Dimensions (hwd / in.)",
+          "Multimode": "0.700 x 3.100 x 5.700"
+        },
+        {
+          "Mode Type": "Unit Weight (Ibs.)",
+          "Multimode": "0.1102"
+        },
+        {
+          "Mode Type": "Unit Weight (kg)",
+          "Multimode": "0.05"
+        },
+        {
+          "Mode Type": "ENVIRONMENTAL",
+          "Multimode": "ENVIRONMENTAL"
+        },
+        {
+          "Mode Type": "Operating Temperature Range",
+          "Multimode": "32° to 158°F (0° to 70°C)"
+        },
+        {
+          "Mode Type": "Storage Temperature Range",
+          "Multimode": "-40° to 185°F (-40° to 85°C)"
+        },
+        {
+          "Mode Type": "Relative Humidity",
+          "Multimode": "5% to 95% RH, Non-Condensing"
+        },
+        {
+          "Mode Type": "COMMUNICATIONS",
+          "Multimode": "COMMUNICATIONS"
+        },
+        {
+          "Mode Type": "Maximum Data Rate",
+          "Multimode": "1.25 Gbps"
+        },
+        {
+          "Mode Type": "Network Compatibility",
+          "Multimode": "Gbps (Gigabit)"
+        },
+        {
+          "Mode Type": "Wavelength",
+          "Multimode": "830nm; 850nm; 860nm"
+        },
+        {
+          "Mode Type": "Transmission Distance",
+          "Multimode": "550 m"
+        },
+        {
+          "Mode Type": "FEATURES & SPECIFICATIONS",
+          "Multimode": "FEATURES & SPECIFICATIONS"
+        },
+        {
+          "Mode Type": "Data Transfer Rate",
+          "Multimode": "1.25 Gbps"
+        },
+        {
+          "Mode Type": "Multi-Source Agreement (MSA) Compliant",
+          "Multimode": "Yes"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_standards_compliance",
+      "title": "STANDARDS & COMPLIANCE",
+      "page": 2,
+      "headers": [
+        "Text"
+      ],
+      "rows": [
+        {
+          "Text": "EN 55032; IEC/EN 63000 CE (Europe); FCC Part 15 Class B (USA); RoHS; UKCA"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "STANDARDS & COMPLIANCE",
+      "WARRANTY & SUPPORT"
+    ],
+    "total_tables": 3,
+    "total_footnotes": 0,
+    "modulation_block": false
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "unstructured_hires",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

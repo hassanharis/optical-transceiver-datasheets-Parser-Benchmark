@@ -1,0 +1,435 @@
+{
+  "source": "Ciena 160-9116-900 compatible SFP+ transceiver.pdf",
+  "page_count": 6,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Absolute Maximum Ratings ",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min.",
+        "Max.",
+        "Unit"
+      ],
+      "rows": [
+        {
+          "Parameter": "Maximum Supply Voltage",
+          "Symbol": "Vcc",
+          "Min.": "-0.5",
+          "Max.": "4.0",
+          "Unit": "V"
+        },
+        {
+          "Parameter": "Storage Temperature",
+          "Symbol": "TS",
+          "Min.": "-40",
+          "Max.": "85",
+          "Unit": "°C"
+        },
+        {
+          "Parameter": "Operating Case Temperature",
+          "Symbol": "Tc",
+          "Min.": "0",
+          "Max.": "70",
+          "Unit": "°C"
+        },
+        {
+          "Parameter": "Operating Humidity",
+          "Symbol": "RH",
+          "Min.": "5",
+          "Max.": "85",
+          "Unit": "%"
+        },
+        {
+          "Parameter": "Receiver Power",
+          "Symbol": "Rmax",
+          "Min.": "",
+          "Max.": "-1",
+          "Unit": "dBm"
+        },
+        {
+          "Parameter": "Maximum Bitrate",
+          "Symbol": "Bmax",
+          "Min.": "",
+          "Max.": "11.3",
+          "Unit": "Gbps"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "Electrical Characteristics (TOP=25°C, Vcc=3.3Volts) ",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min.",
+        "Typ.",
+        "Max.",
+        "Unit",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Parameter": "Power Supply Voltage",
+          "Symbol": "Vcc",
+          "Min.": "3.15",
+          "Typ.": "3.30",
+          "Max.": "3.43",
+          "Unit": "V",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Power Supply Current",
+          "Symbol": "Icc",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "303",
+          "Unit": "mA",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Power Consumption",
+          "Symbol": "Pdiss",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "1",
+          "Unit": "W",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Differential data input swing",
+          "Symbol": "Vin,pp",
+          "Min.": "120",
+          "Typ.": "",
+          "Max.": "850",
+          "Unit": "mV",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Input differential impedance",
+          "Symbol": "Zin",
+          "Min.": "80",
+          "Typ.": "100",
+          "Max.": "120",
+          "Unit": "Ω ",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Receiver",
+          "Symbol": "Receiver",
+          "Min.": "Receiver",
+          "Typ.": "Receiver",
+          "Max.": "Receiver",
+          "Unit": "Receiver",
+          "Notes": "Receiver"
+        },
+        {
+          "Parameter": "Differential data output swing",
+          "Symbol": "Vout, pp",
+          "Min.": "300",
+          "Typ.": "",
+          "Max.": "850",
+          "Unit": "mV",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Output differential impedance",
+          "Symbol": "Zin",
+          "Min.": "80",
+          "Typ.": "100",
+          "Max.": "120",
+          "Unit": "Ω ",
+          "Notes": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_table_3",
+      "title": "Table 3",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min.",
+        "Typ.",
+        "Max.",
+        "Unit",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Parameter": "Transmitter",
+          "Symbol": "Transmitter",
+          "Min.": "-Transmitter",
+          "Typ.": "Transmitter",
+          "Max.": "-Transmitter",
+          "Unit": "Transmitter",
+          "Notes": "Transmitter"
+        },
+        {
+          "Parameter": "Optical Power (average)",
+          "Symbol": "Pave",
+          "Min.": "-7.3",
+          "Typ.": "",
+          "Max.": "-1.2",
+          "Unit": "dBm",
+          "Notes": "1"
+        },
+        {
+          "Parameter": "Optical Modulation amplitude (OMA)",
+          "Symbol": "Poma",
+          "Min.": "-1.5",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dBm",
+          "Notes": "2"
+        },
+        {
+          "Parameter": "Optical Extinction Ratio",
+          "Symbol": "ER",
+          "Min.": "3",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dB",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Optical Wavelength",
+          "Symbol": "Tλ",
+          "Min.": "840",
+          "Typ.": "850",
+          "Max.": "860",
+          "Unit": "nm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Insertion loss",
+          "Symbol": "IL",
+          "Min.": "",
+          "Typ.": "2",
+          "Max.": "",
+          "Unit": "",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Receiver",
+          "Symbol": "Receiver",
+          "Min.": "Receiver",
+          "Typ.": "Receiver",
+          "Max.": "Receiver",
+          "Unit": "Receiver",
+          "Notes": "Receiver"
+        },
+        {
+          "Parameter": "Receiver Sensitivity (average)",
+          "Symbol": "Rave",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "-9.9",
+          "Unit": "dBm",
+          "Notes": "3"
+        },
+        {
+          "Parameter": "Receiver Sensitivity (OMA)",
+          "Symbol": "Roma",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "-11.1",
+          "Unit": "",
+          "Notes": "2"
+        },
+        {
+          "Parameter": "Receiver overload",
+          "Symbol": "Pmax",
+          "Min.": "-1",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dBm",
+          "Notes": "4"
+        },
+        {
+          "Parameter": "Receiver wavelength",
+          "Symbol": "Rλ ",
+          "Min.": "840",
+          "Typ.": "",
+          "Max.": "860",
+          "Unit": "nm",
+          "Notes": ""
+        }
+      ],
+      "footnotes": {
+        "1": "Coupled into a Multi-mode fibre",
+        "2": "Per IEEE 802.3ae specification",
+        "3": "Average power, back-to-back, @10.31Gbps, BER 1E-12, PRBS 231-1.",
+        "4": "Exceeding the Receiver overload can physically damage the module. Please use appropriate attenuation."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_table_4",
+      "title": "Pin Descriptions ",
+      "page": 3,
+      "headers": [
+        "Pin",
+        "Symbol",
+        "Name/Descriptions",
+        "Ref."
+      ],
+      "rows": [
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Transmitter Ground (Common with Receiver Ground).",
+          "Symbol": "VeeT",
+          "Pin": "1"
+        },
+        {
+          "Ref.": "2",
+          "Name/Descriptions": "Transmitter Fault. LVTTL-O",
+          "Symbol": "TX Fault",
+          "Pin": "2"
+        },
+        {
+          "Ref.": "3",
+          "Name/Descriptions": "Transmitter Disable. Laser output disabled on high or open. LVTT-I ",
+          "Symbol": "TX Disable",
+          "Pin": "3"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "2-Wire Serial Interface Data Line (same as MOD-DEF2 in INF-8074i). LVTTL-I/0.",
+          "Symbol": "SDA",
+          "Pin": "4"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Sole Serial Interface Data Line (Same as MOD-DEF2 in INF-8074i). LVTTL-I.",
+          "Symbol": "SCL",
+          "Pin": "5"
+        },
+        {
+          "Ref.": "4",
+          "Name/Descriptions": "Module Absent, Connect to VeeT or VeeR in Module.",
+          "Symbol": "MOD_ABS",
+          "Pin": "6"
+        },
+        {
+          "Ref.": "S)",
+          "Name/Descriptions": "Rate Select 0. Not used",
+          "Symbol": "RSO",
+          "Pin": "7"
+        },
+        {
+          "Ref.": "2",
+          "Name/Descriptions": "Loss of Signal indication. Logic 0 indicates normal operation. LVTTL-O.",
+          "Symbol": "LOS",
+          "Pin": "8"
+        },
+        {
+          "Ref.": "S)",
+          "Name/Descriptions": "Rate Select 1. Not used",
+          "Symbol": "RS1",
+          "Pin": "9"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Receiver Ground (Common with Transmitter Ground).",
+          "Symbol": "VeeR",
+          "Pin": "10"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Receiver Ground (Common with Transmitter Ground).",
+          "Symbol": "VeeR",
+          "Pin": "11"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver Inverted DATA out. AC Coupled. CML-O.",
+          "Symbol": "RD-",
+          "Pin": "12"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver Non-inverted DATA out. AC Coupled. CML-O.",
+          "Symbol": "RD+",
+          "Pin": "13"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Receiver Ground (Common with Transmitter Ground).",
+          "Symbol": "VeeR",
+          "Pin": "14"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver Power Supply.",
+          "Symbol": "VccR",
+          "Pin": "15"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Transmitter Power Supply.",
+          "Symbol": "VecT",
+          "Pin": "16"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Transmitter Ground (Common with Receiver Ground).",
+          "Symbol": "VeeT",
+          "Pin": "17"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Transmitter Non-Inverted DATA in. AC Coupled. CML-I.",
+          "Symbol": "TD+",
+          "Pin": "18"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Transmitter Inverted DATA in. AC Coupled. CML-O.",
+          "Symbol": "TD-",
+          "Pin": "19"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Transmitter Ground (Common with Receiver Ground).",
+          "Symbol": "VeeT",
+          "Pin": "20"
+        }
+      ],
+      "footnotes": {
+        "1": "The module signal ground contacts, VeeR and VeeT, should be isolated from the module case.",
+        "2": "This contact is an open collector/drain output and should be pulled up to the Vcc_Host with resister in the range 4.7KΩ to 10KΩ. Pull ups can be connected to one or several power supplies, however the host board design shall ensure that no module contract has voltage exceeding module VccT/R +0.5.V.",
+        "3": "Tx_Disable is an input contact with a 4.7KΩ to 10KΩ pull-up resistor to VccT inside module.",
+        "4": "Mod_ABS is connected to VeeT or VeeR in the SFP+ module. The host may pull the contract up to Vcc_Host with a resistor in the range from 4.7KΩ to 10KΩ. Mod_ABS is asserted “High” when the SFP+ module is physically absent from a host slot."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "160-9116-900-C"
+    ],
+    "total_tables": 4,
+    "total_footnotes": 8,
+    "modulation_block": false
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "unstructured_hires",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

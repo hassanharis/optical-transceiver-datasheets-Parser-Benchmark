@@ -1,0 +1,1118 @@
+{
+  "source": "QSFP-100G-LR4-ARISTA-C_datasheets_EN.pdf",
+  "page_count": 8,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Absolute Maximum Ratings  Parameter ",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min.",
+        "Typ.",
+        "Max.",
+        "Unit"
+      ],
+      "rows": [
+        {
+          "Parameter": "Maximum Supply Voltage",
+          "Symbol": "Vcc",
+          "Min.": "-0.5",
+          "Typ.": "",
+          "Max.": "3.6",
+          "Unit": "V"
+        },
+        {
+          "Parameter": "Storage Temperature",
+          "Symbol": "TS",
+          "Min.": "-40",
+          "Typ.": "",
+          "Max.": "85",
+          "Unit": "°C"
+        },
+        {
+          "Parameter": "Operating Case Temperature",
+          "Symbol": "Tc",
+          "Min.": "0",
+          "Typ.": "25",
+          "Max.": "70",
+          "Unit": "°C"
+        },
+        {
+          "Parameter": "Operating Humidity",
+          "Symbol": "RH",
+          "Min.": "5",
+          "Typ.": "",
+          "Max.": "85",
+          "Unit": "%"
+        },
+        {
+          "Parameter": "Receiver Damage Threshold, per Lane",
+          "Symbol": "Rxdmg",
+          "Min.": "5.5",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dBm"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "Electrical Characteristics ",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min.",
+        "Typ.",
+        "Max.",
+        "Unit",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Parameter": "Power Dissipation",
+          "Symbol": "PD",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "3.5",
+          "Unit": "W",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Power Supply Voltage",
+          "Symbol": "Vcc",
+          "Min.": "3.135",
+          "Typ.": "3.3",
+          "Max.": "3.465",
+          "Unit": "V",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Transmitter",
+          "Symbol": "Transmitter",
+          "Min.": "Transmitter",
+          "Typ.": "Transmitter",
+          "Max.": "Transmitter",
+          "Unit": "Transmitter",
+          "Notes": "Transmitter"
+        },
+        {
+          "Parameter": "Differential data input swing per lane",
+          "Symbol": "Vin",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "900",
+          "Unit": "Mvp-p",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Input Impedance (Differential)",
+          "Symbol": "Zin",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "10",
+          "Unit": "%",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Stressed Input Parameters",
+          "Symbol": "Stressed Input Parameters",
+          "Min.": "Stressed Input Parameters",
+          "Typ.": "Stressed Input Parameters",
+          "Max.": "Stressed Input Parameters",
+          "Unit": "Stressed Input Parameters",
+          "Notes": "Stressed Input Parameters"
+        },
+        {
+          "Parameter": "Eye width",
+          "Symbol": "",
+          "Min.": "0.46",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "UI",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Applied pk-pk sinusoidal jitter",
+          "Symbol": "",
+          "Min.": "IEEE 802.3bm Table 88-13",
+          "Typ.": "IEEE 802.3bm Table 88-13",
+          "Max.": "IEEE 802.3bm Table 88-13",
+          "Unit": "",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Eye height",
+          "Symbol": "",
+          "Min.": "95",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "mv",
+          "Notes": ""
+        },
+        {
+          "Parameter": "DC common mode voltage",
+          "Symbol": "",
+          "Min.": "-350",
+          "Typ.": "",
+          "Max.": "2850",
+          "Unit": "mv",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Receiver",
+          "Symbol": "Receiver",
+          "Min.": "Receiver",
+          "Typ.": "Receiver",
+          "Max.": "Receiver",
+          "Unit": "Receiver",
+          "Notes": "Receiver"
+        },
+        {
+          "Parameter": "Differential output amplitude",
+          "Symbol": "",
+          "Min.": "200",
+          "Typ.": "",
+          "Max.": "900",
+          "Unit": "Mvp-p",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Output Impedance (Differential)",
+          "Symbol": "Zout",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "10",
+          "Unit": "%",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Output Rise/Fall Time",
+          "Symbol": "tr/tf",
+          "Min.": "12",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "ps",
+          "Notes": "20%~80%"
+        },
+        {
+          "Parameter": "Eye width",
+          "Symbol": "",
+          "Min.": "0.57",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "Ul",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Eye height differential",
+          "Symbol": "",
+          "Min.": "228",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "mv",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Vertical eye closure",
+          "Symbol": "",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "5.5",
+          "Unit": "db",
+          "Notes": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_table_3",
+      "title": "Optical Characteristics ",
+      "page": 3,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min.",
+        "Typ.",
+        "Max.",
+        "Unit",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Parameter": "Signaling Speed per Lane",
+          "Symbol": "Brave",
+          "Min.": "",
+          "Typ.": "25.78",
+          "Max.": "",
+          "Unit": "Gbps",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Data Rate Variation",
+          "Symbol": "",
+          "Min.": "-100",
+          "Typ.": "",
+          "Max.": "+100",
+          "Unit": "",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Lane_0 Center Wavelength",
+          "Symbol": "λC0",
+          "Min.": "1294.53",
+          "Typ.": "1295.56",
+          "Max.": "1296.59",
+          "Unit": "nm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Lane_2 Center Wavelength",
+          "Symbol": "λC2",
+          "Min.": "1303.54",
+          "Typ.": "1304.58",
+          "Max.": "1305.63",
+          "Unit": "nm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Lane_3 Center Wavelength",
+          "Symbol": "λC3",
+          "Min.": "1308.09",
+          "Typ.": "1309.14",
+          "Max.": "1310.19",
+          "Unit": "nm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Average Launch Power each Lane",
+          "Symbol": "Peach",
+          "Min.": "-4.3",
+          "Typ.": "",
+          "Max.": "4.5",
+          "Unit": "dBm",
+          "Notes": "1"
+        },
+        {
+          "Parameter": "Optical Modulation Amplitude (OMA) each Lane",
+          "Symbol": "TxOMA",
+          "Min.": "-1.3",
+          "Typ.": "",
+          "Max.": "4.5",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Difference in launch power between any two lanes (OMA)",
+          "Symbol": "",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "5",
+          "Unit": "dB",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Launch power in OMA minus TDP, each lane",
+          "Symbol": "",
+          "Min.": "-2.3",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Transmitter and dispersion penalty (TDP), each lane",
+          "Symbol": "",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "2.2",
+          "Unit": "dB",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Extinction Ratio",
+          "Symbol": "ER",
+          "Min.": "4",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dB",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Side-mode Suppression ratio",
+          "Symbol": "SMSRmin",
+          "Min.": "30",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dB",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Average launch power of OFF transmitter per lane",
+          "Symbol": "",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "-30",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Relative Intensity Noise",
+          "Symbol": "RIN",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "-130",
+          "Unit": "dB/hz",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Transmitter Reflectance",
+          "Symbol": "",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "-12",
+          "Unit": "dB",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Optical Return Loss Tolerance ",
+          "Symbol": "",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "20",
+          "Unit": "dB",
+          "Notes": "2"
+        },
+        {
+          "Parameter": "Transmitter eye mask definitions: X1, X2, X3,Y1, Y2, Y3 ",
+          "Symbol": "0.25, 0.4, 0.45,0.25, 0.28, 0.4",
+          "Min.": "0.25, 0.4, 0.45,0.25, 0.28, 0.4",
+          "Typ.": "0.25, 0.4, 0.45,0.25, 0.28, 0.4",
+          "Max.": "0.25, 0.4, 0.45,0.25, 0.28, 0.4",
+          "Unit": "",
+          "Notes": "2"
+        },
+        {
+          "Parameter": "Y1, Y2, Y3 Transmitter eye mask definitions: X1, X2, X3,",
+          "Symbol": "",
+          "Min.": "0.25, 0.4, 0.45,",
+          "Typ.": "0.25, 0.28, 0.4",
+          "Max.": "",
+          "Unit": "",
+          "Notes": "2"
+        },
+        {
+          "Parameter": "Receiver",
+          "Symbol": "Receiver",
+          "Min.": "Receiver",
+          "Typ.": "Receiver",
+          "Max.": "Receiver",
+          "Unit": "Receiver",
+          "Notes": "Receiver"
+        },
+        {
+          "Parameter": "Signaling Speed per Lane",
+          "Symbol": "BRAVE",
+          "Min.": "",
+          "Typ.": "25.78",
+          "Max.": "",
+          "Unit": "Gbps",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Data Rate Variation",
+          "Symbol": "",
+          "Min.": "-100",
+          "Typ.": "",
+          "Max.": "+100",
+          "Unit": "ppm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Damage threshold per lane",
+          "Symbol": "Rxdmg",
+          "Min.": "5.5",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Lane_0 Center Wavelength",
+          "Symbol": "λCO",
+          "Min.": "1294.53",
+          "Typ.": "1295.56",
+          "Max.": "1296.59",
+          "Unit": "nm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Lane_1 Center Wavelength",
+          "Symbol": "λc1",
+          "Min.": "1299.02",
+          "Typ.": "1300.05",
+          "Max.": "1301.09",
+          "Unit": "nm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Lane_2 Center Wavelength",
+          "Symbol": "λC2",
+          "Min.": "1303.54",
+          "Typ.": "1304.58",
+          "Max.": "1305.63",
+          "Unit": "nm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Lane_3 Center Wavelength",
+          "Symbol": "λc3",
+          "Min.": "1308.09",
+          "Typ.": "1309.14",
+          "Max.": "1310.19",
+          "Unit": "nm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Average Receive Power per Lane",
+          "Symbol": "Rxpow",
+          "Min.": "-10.6",
+          "Typ.": "",
+          "Max.": "4.5",
+          "Unit": "dBm",
+          "Notes": "3"
+        },
+        {
+          "Parameter": "Receive Power (OMA) per Lane",
+          "Symbol": "RxOMA",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "4.5",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Receive Sensitivity in OMA per Lane",
+          "Symbol": "Rxsens",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "-8.6",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Optical Return Loss ",
+          "Symbol": "ORL",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "-26",
+          "Unit": "dB",
+          "Notes": ""
+        },
+        {
+          "Parameter": "LOS Assert",
+          "Symbol": "LOSA",
+          "Min.": "-25",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "LOS De-Assert ",
+          "Symbol": "LOSD",
+          "Min.": "",
+          "Typ.": "",
+          "Max.": "-12",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "LOS Hysteresis",
+          "Symbol": "",
+          "Min.": "0.5",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dB",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Conditions of stressed receiver sensitivity test ",
+          "Symbol": "Conditions of stressed receiver sensitivity test ",
+          "Min.": "Conditions of stressed receiver sensitivity test ",
+          "Typ.": "Conditions of stressed receiver sensitivity test ",
+          "Max.": "Conditions of stressed receiver sensitivity test ",
+          "Unit": "Conditions of stressed receiver sensitivity test ",
+          "Notes": "Conditions of stressed receiver sensitivity test "
+        },
+        {
+          "Parameter": "Vertical eye closure penalty ",
+          "Symbol": "VECP",
+          "Min.": "1.8",
+          "Typ.": "1.8",
+          "Max.": "1.8",
+          "Unit": "dB",
+          "Notes": "5"
+        },
+        {
+          "Parameter": "Stressed eye J2 Jitter",
+          "Symbol": "J2",
+          "Min.": "0.3",
+          "Typ.": "0.3",
+          "Max.": "0.3",
+          "Unit": "UI",
+          "Notes": "5"
+        },
+        {
+          "Parameter": "Stressed eye J9 Jitter ",
+          "Symbol": "J9",
+          "Min.": "0.47",
+          "Typ.": "0.47",
+          "Max.": "0.47",
+          "Unit": "UI",
+          "Notes": "5"
+        },
+        {
+          "Parameter": "LOS Hysteresis",
+          "Symbol": "",
+          "Min.": "0.5",
+          "Typ.": "",
+          "Max.": "",
+          "Unit": "dB",
+          "Notes": "5"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_table_5",
+      "title": "Table 5",
+      "page": 5,
+      "headers": [
+        "Pin",
+        "Logic",
+        "Symbol",
+        "Name/Descriptions",
+        "Ref."
+      ],
+      "rows": [
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "1",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Transmitter inverted data input",
+          "Pin": "2",
+          "Logic": "CML-I",
+          "Symbol": "Tx2-"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Transmitter non-inverted data input",
+          "Pin": "3",
+          "Logic": "CML-I",
+          "Symbol": "Tx2+"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "4",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Transmitter inverted data input",
+          "Pin": "5",
+          "Logic": "CML-I",
+          "Symbol": "Tx4-"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Transmitter non-inverted data input",
+          "Pin": "6",
+          "Logic": "CML-I",
+          "Symbol": "Tx4+"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "7",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "2",
+          "Name/Descriptions": "| Module Select",
+          "Pin": "8",
+          "Logic": "LVTTL-I",
+          "Symbol": "MODSEIL"
+        },
+        {
+          "Ref.": "2",
+          "Name/Descriptions": "Module Reset",
+          "Pin": "9",
+          "Logic": "LVTTL-I",
+          "Symbol": "ResetL"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "+3.3v Receiver Power Supply",
+          "Pin": "10",
+          "Logic": "",
+          "Symbol": "VCCRx"
+        },
+        {
+          "Ref.": "2",
+          "Name/Descriptions": "2-wire Serial interface clock",
+          "Pin": "11",
+          "Logic": "LVCMOS-|",
+          "Symbol": "SCL"
+        },
+        {
+          "Ref.": "2",
+          "Name/Descriptions": "2-wire Serial interface data",
+          "Pin": "12",
+          "Logic": "LVCMOS-I/O",
+          "Symbol": "| SDA"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "13",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver non-inverted data output",
+          "Pin": "14",
+          "Logic": "CML-O",
+          "Symbol": "RX3+"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver inverted data output",
+          "Pin": "15",
+          "Logic": "CML-O",
+          "Symbol": "RX3-"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "16",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver non-inverted data output",
+          "Pin": "17",
+          "Logic": "CML-O",
+          "Symbol": "RX1+"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver inverted data output",
+          "Pin": "18",
+          "Logic": "CML-O",
+          "Symbol": "RX1-"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "19",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "20",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver inverted data output",
+          "Pin": "21",
+          "Logic": "CML-O",
+          "Symbol": "RX2-"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver non-inverted data output",
+          "Pin": "22",
+          "Logic": "CML-O",
+          "Symbol": "RX2+"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "23",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver inverted data output",
+          "Pin": "24",
+          "Logic": "CML-O",
+          "Symbol": "RX4-"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Receiver non-inverted data output",
+          "Pin": "25",
+          "Logic": "CML-O",
+          "Symbol": "RX4+"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "26",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "| Module Present, internal pulled down to GND",
+          "Pin": "27",
+          "Logic": "LVTTL-O",
+          "Symbol": "ModPrsL"
+        },
+        {
+          "Ref.": "2",
+          "Name/Descriptions": "Interrupt output, should be pulled up on host board",
+          "Pin": "28",
+          "Logic": "LVTTL-O",
+          "Symbol": "Intl"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "+3.3v Transmitter Power Supply",
+          "Pin": "29",
+          "Logic": "",
+          "Symbol": "VCCTx"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "+3.3v Power Supply",
+          "Pin": "30",
+          "Logic": "",
+          "Symbol": "vcc1"
+        },
+        {
+          "Ref.": "2",
+          "Name/Descriptions": "Low Power Mode",
+          "Pin": "31",
+          "Logic": "LVTTL-I",
+          "Symbol": "LPMode |"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "32",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Transmitter non-inverted data input",
+          "Pin": "33",
+          "Logic": "CML-I",
+          "Symbol": "Tx3+"
+        },
+        {
+          "Ref.": "",
+          "Name/Descriptions": "Transmitter inverted data input",
+          "Pin": "34",
+          "Logic": "CML-I",
+          "Symbol": "Tx3-"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "35",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "35",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "35",
+          "Logic": "",
+          "Symbol": "GND"
+        },
+        {
+          "Ref.": "1",
+          "Name/Descriptions": "Module Ground",
+          "Pin": "35",
+          "Logic": "",
+          "Symbol": "GND"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06_parameter",
+      "title": "**Parameter**",
+      "headers": [
+        "**Parameter**",
+        "**Symbol**",
+        "**Min.**",
+        "**Typ.**",
+        "**Max.**",
+        "**Unit**",
+        "**Notes**"
+      ],
+      "rows": [
+        {
+          "**Parameter**": "**Output Rise/Fall Time**",
+          "**Symbol**": "tr/tf",
+          "**Min.**": "12",
+          "**Typ.**": "",
+          "**Max.**": "",
+          "**Unit**": "ps",
+          "**Notes**": "20%~80%"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "pymupdf4llm"
+    },
+    {
+      "table_id": "07_parameter",
+      "title": "**Parameter**",
+      "headers": [
+        "**Parameter**",
+        "**Symbol**",
+        "**Min.**",
+        "**Typ.**",
+        "**Max.**",
+        "**Unit**",
+        "**Notes**"
+      ],
+      "rows": [
+        {
+          "**Parameter**": "**Average Launch Power each Lane**",
+          "**Symbol**": "Peach",
+          "**Min.**": "-4.3",
+          "**Typ.**": "",
+          "**Max.**": "4.5",
+          "**Unit**": "dBm",
+          "**Notes**": "1"
+        },
+        {
+          "**Parameter**": "**Transmitter eye mask definitions: X1, X2, X3,**<br>**Y1, Y2, Y3**",
+          "**Symbol**": "",
+          "**Min.**": "0.25, 0.4, 0.45, 0.25, 0.28, 0.4",
+          "**Typ.**": "",
+          "**Max.**": "",
+          "**Unit**": "",
+          "**Notes**": "2"
+        },
+        {
+          "**Parameter**": "**Average Receive Power per Lane**",
+          "**Symbol**": "Rxpow",
+          "**Min.**": "-10.6",
+          "**Typ.**": "",
+          "**Max.**": "4.5",
+          "**Unit**": "dBm",
+          "**Notes**": "3"
+        },
+        {
+          "**Parameter**": "**Stressed Receiver Sensitivity (OMA) per Lane**",
+          "**Symbol**": "RXSRS",
+          "**Min.**": "",
+          "**Typ.**": "",
+          "**Max.**": "-6.8",
+          "**Unit**": "dBm",
+          "**Notes**": "4"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "pymupdf4llm"
+    },
+    {
+      "table_id": "08_pin",
+      "title": "**Pin**",
+      "headers": [
+        "**Pin**",
+        "**Logic**",
+        "**Symbol**",
+        "**Name/Descriptions**",
+        "**Ref.**"
+      ],
+      "rows": [
+        {
+          "**Pin**": "**1**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**4**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**7**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**8**",
+          "**Logic**": "LVTTL-I",
+          "**Symbol**": "MODSEIL",
+          "**Name/Descriptions**": "Module Select",
+          "**Ref.**": "2"
+        },
+        {
+          "**Pin**": "**9**",
+          "**Logic**": "LVTTL-I",
+          "**Symbol**": "ResetL",
+          "**Name/Descriptions**": "Module Reset",
+          "**Ref.**": "2"
+        },
+        {
+          "**Pin**": "**11**",
+          "**Logic**": "LVCMOS-I",
+          "**Symbol**": "SCL",
+          "**Name/Descriptions**": "2-wire Serial interface clock",
+          "**Ref.**": "2"
+        },
+        {
+          "**Pin**": "**12**",
+          "**Logic**": "LVCMOS-I/O",
+          "**Symbol**": "SDA",
+          "**Name/Descriptions**": "2-wire Serial interface data",
+          "**Ref.**": "2"
+        },
+        {
+          "**Pin**": "**13**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**16**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**19**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**20**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**23**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**26**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**28**",
+          "**Logic**": "LVTTL-O",
+          "**Symbol**": "IntL",
+          "**Name/Descriptions**": "Interrupt output, should be pulled up on host board",
+          "**Ref.**": "2"
+        },
+        {
+          "**Pin**": "**31**",
+          "**Logic**": "LVTTL-I",
+          "**Symbol**": "LPMode",
+          "**Name/Descriptions**": "Low Power Mode",
+          "**Ref.**": "2"
+        },
+        {
+          "**Pin**": "**32**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**35**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        },
+        {
+          "**Pin**": "**38**",
+          "**Logic**": "",
+          "**Symbol**": "GND",
+          "**Name/Descriptions**": "Module Ground",
+          "**Ref.**": "1"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "pymupdf4llm"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "QSFP-100G-LR4-ARISTA-C"
+    ],
+    "total_tables": 8,
+    "total_footnotes": 5,
+    "modulation_block": false
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

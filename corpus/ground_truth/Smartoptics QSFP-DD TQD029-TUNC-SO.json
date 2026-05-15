@@ -1,0 +1,931 @@
+{
+  "source": "Smartoptics QSFP-DD TQD029-TUNC-SO.pdf",
+  "page_count": 5,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01",
+      "title": "OVERVIEW",
+      "page": 1,
+      "headers": [
+        "Host framing",
+        "Network Frame",
+        "Payload",
+        "Modulation",
+        "Line Symbol Baud Rate",
+        "Channel spacing",
+        "Media code\")",
+        "MSA format",
+        "NTWK Mode description"
+      ],
+      "rows": [
+        {
+          "Host framing": "1x 400GAUI-8 \n2x 200GAUI-4 \n4x 100GAUI-2",
+          "Network Frame": "FlexO-4(e)",
+          "Payload": "400G",
+          "Modulation": "DP-QPSK",
+          "Line Symbol Baud Rate": "118.2GBd",
+          "Channel spacing": "150GHz",
+          "Media code\")": "0x64.",
+          "MSA format": "FLEXO-4e-DO-QPSK",
+          "NTWK Mode description": "OpenROADM 400G QPSK"
+        },
+        {
+          "Host framing": "1x 400GAUI-8 \n2x 200GAUI-4 \n4x 100GAUI-2",
+          "Network Frame": "FlexO-4(e)",
+          "Payload": "400G",
+          "Modulation": "PCS-66",
+          "Line Symbol Baud Rate": "65.7GBd",
+          "Channel spacing": "75GHz",
+          "Media code\")": "OxCO",
+          "MSA format": "FlexO-4e-MPCS066-0S 2)",
+          "NTWK Mode description": "400G PCS-66"
+        },
+        {
+          "Host framing": "1x 400GAUI-8 \n2x 200GAUI-4 \n4x 100GAUI-2",
+          "Network Frame": "FlexO-4(e)",
+          "Payload": "400G",
+          "Modulation": "PCS-75",
+          "Line Symbol Baud Rate": "75.0GBd",
+          "Channel spacing": "87.5GHz",
+          "Media code\")": "OxC2",
+          "MSA format": "FlexO-4e-MPCS075-OS 2)",
+          "NTWK Mode description": "400G PCS-75"
+        },
+        {
+          "Host framing": "1x 400GAUI-8 \n2x 200GAUI-4 \n4x 100GAUI-2",
+          "Network Frame": "FlexO-4(e)",
+          "Payload": "400G",
+          "Modulation": "PCS-87",
+          "Line Symbol Baud Rate": "87.4GBd",
+          "Channel spacing": "100GHz",
+          "Media code\")": "OxC9",
+          "MSA format": "FlexO-4e-MPCS087-0S 2)",
+          "NTWK Mode description": "400G PCS-87"
+        },
+        {
+          "Host framing": "1x 400GAUI-8 \n2x 200GAUI-4 \n4x 100GAUI-2",
+          "Network Frame": "FlexO-4(e)",
+          "Payload": "400G",
+          "Modulation": "PCS-98",
+          "Line Symbol Baud Rate": "97.9GBd",
+          "Channel spacing": "112.5GHz",
+          "Media code\")": "OxD8",
+          "MSA format": "FlexO-4e-MPCS098-0S 2)",
+          "NTWK Mode description": "400G PCS-98"
+        },
+        {
+          "Host framing": "4xFOIC1.2",
+          "Network Frame": "FlexO-4",
+          "Payload": "400G",
+          "Modulation": "PCS-101",
+          "Line Symbol Baud Rate": "100.8GBd",
+          "Channel spacing": "125GHz",
+          "Media code\")": "OxDC",
+          "MSA format": "FlexO-4-MPCS101-OS 2)",
+          "NTWK Mode description": "400G PCS-101 (OTN)"
+        },
+        {
+          "Host framing": "4xFOIC1.2",
+          "Network Frame": "FlexO-4",
+          "Payload": "400G",
+          "Modulation": "PCS-79",
+          "Line Symbol Baud Rate": "78.9GBd",
+          "Channel spacing": "87.5GHz",
+          "Media code\")": "OxC4",
+          "MSA format": "FlexO-4-MPCS079-OS 2)",
+          "NTWK Mode description": "400G PCS-79 (OTN)"
+        },
+        {
+          "Host framing": "4xFOIC1.2",
+          "Network Frame": "FlexO-4",
+          "Payload": "400G",
+          "Modulation": "PCS-69",
+          "Line Symbol Baud Rate": "69.1GBd",
+          "Channel spacing": "75GHz",
+          "Media code\")": "OxC1",
+          "MSA format": "FlexO-4-MPCS069-OS 2)",
+          "NTWK Mode description": "400G PCS-69 (OTN)"
+        },
+        {
+          "Host framing": "4xFOIC1.2",
+          "Network Frame": "FlexO-4",
+          "Payload": "400G",
+          "Modulation": "PCS-87",
+          "Line Symbol Baud Rate": "87.3GBd",
+          "Channel spacing": "100GHz",
+          "Media code\")": "OxCA",
+          "MSA format": "FlexO-4-MPCS087-OS 2)",
+          "NTWK Mode description": "400G PCS-87 (OTN)"
+        },
+        {
+          "Host framing": "1x 400GAUI-8\n2x 200GAUI-4\n4x 100GAUI-2",
+          "Network Frame": "OpenZR400",
+          "Payload": "400G",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "Channel spacing": "75GHz",
+          "Media code\")": "OxC6",
+          "MSA format": "OpenZR+, MSA, Enhanced",
+          "NTWK Mode description": "OpenZR+ 400G 16QAM (Enhanced mode)"
+        },
+        {
+          "Host framing": "1x 400GAUI-8\n2x 200GAUI-4\n4x 100GAUI-2",
+          "Network Frame": "OpenZR400",
+          "Payload": "400G",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "Channel spacing": "75GHz",
+          "Media code\")": "0x46",
+          "MSA format": "ZR400-OFEC-16QAM",
+          "NTWK Mode description": "OpenZR+ 400G 16QAM"
+        },
+        {
+          "Host framing": "1x 400GAUI-8\n2x 200GAUI-4\n4x 100GAUI-2",
+          "Network Frame": "OpenZR400",
+          "Payload": "400G",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "Channel spacing": "75GHz",
+          "Media code\")": "0x36",
+          "MSA format": "ZR400-OFEC-16QAM-HB",
+          "NTWK Mode description": "OpenZR+ 400G 16QAM-HE"
+        }
+      ],
+      "footnotes": {
+        "1": "The media code is defined through the reference code tables listed in SFF-8024.",
+        "2": "Non-MSA compliant code."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02",
+      "title": "GENERIC",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Value": "DWDM QSFP-DD type 2a"
+        },
+        {
+          "Parameter": "Transmission media",
+          "Value": "SM (2x LC)"
+        },
+        {
+          "Parameter": "Nominal wavelengths",
+          "Value": "191.25 - 196.1THz (tunable) 6.25GHz Grid"
+        },
+        {
+          "Parameter": "Interface standards",
+          "Value": "400G OpenZR+/OpenROADM"
+        },
+        {
+          "Parameter": "Operating temperature",
+          "Value": "+15°C to +75°C 1)"
+        },
+        {
+          "Parameter": "Storage temperature",
+          "Value": "-40°C to +85°C"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "Total received power"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "Coherent channel power"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "OSNR, eSNR, PDL, dispersion, DGD"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "Case temperature"
+        }
+      ],
+      "footnotes": {
+        "1": "The module will turn up from cold start at ambient temperature as low as -5C and will reach specifications after self-heating up to min temperature",
+        "2": "The module transmit power can be provisioned up to the maximum available TX power. If the TX power is not provisioned by the host, the module TX power will default to the maximum available power. The provisional Tx power range of the module is 10dB"
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03",
+      "title": "GENERIC",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter": "MSA",
+          "Value": "QSFP-DD MSA's, CMIS5.3"
+        },
+        {
+          "Parameter": "Misc",
+          "Value": "Sync-E support, LLDP, RMON"
+        },
+        {
+          "Parameter": "Power consumption, EOL",
+          "Value": "See Section below."
+        },
+        {
+          "Parameter": "Tx Power",
+          "Value": "Min 1dBm 2)"
+        },
+        {
+          "Parameter": "Tx In-band OSNR",
+          "Value": "37dB"
+        },
+        {
+          "Parameter": "Tx Out-Of-Band OSNR",
+          "Value": "TBD"
+        },
+        {
+          "Parameter": "Receiver turn-up",
+          "Value": "Max 30ms from warm start"
+        },
+        {
+          "Parameter": "Receiver turn-up",
+          "Value": "Max 125s from cold start"
+        },
+        {
+          "Parameter": "Absolute max conditions",
+          "Value": "Rx signal input power: +1dBm"
+        },
+        {
+          "Parameter": "Absolute max conditions",
+          "Value": "Rx total input power: 15dBm"
+        }
+      ],
+      "footnotes": {
+        "1": "The module will turn up from cold start at ambient temperature as low as -5C and will reach specifications after self-heating up to min temperature.",
+        "2": "The module transmit power can be provisioned up to the maximum available TX power. If the TX power is not provisioned by the host, the module TX power will default to the maximum available power. The provisional Tx power range of the module is 10dB."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04",
+      "title": "OPTICAL SPECIFICATION – NTWK/MEDIA CODES",
+      "page": 3,
+      "headers": [
+        "Media code",
+        "Line rate",
+        "Network frame",
+        "Modulation",
+        "Tx Power 1)",
+        "RX Sens @ OSNR> 36dB 2)",
+        "Rx @ OSNR 2)",
+        "Rx OSNR @~1dB penalty 2)",
+        "Default CDC range [ps/nm]",
+        "Maximum CDC search range"
+      ],
+      "rows": [
+        {
+          "Media code": "0x64",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "DP-QPSK",
+          "Rx OSNR @~1dB penalty 2)": "18.7dB@ -18dBm",
+          "Maximum CDC search range": "58 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-27.0dBm",
+          "Default CDC range [ps/nm]": "58 000",
+          "Rx @ OSNR 2)": "17.9dB@ -12dBm"
+        },
+        {
+          "Media code": "OxCO",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "PCS-66",
+          "Rx OSNR @~1dB penalty 2)": "22.0dB@ -18dBm",
+          "Maximum CDC search range": "150 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-24.5dBm",
+          "Default CDC range [ps/nm]": "42 000",
+          "Rx @ OSNR 2)": "21.2dB@ -12dBm"
+        },
+        {
+          "Media code": "OxC2",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "PCS-75",
+          "Rx OSNR @~1dB penalty 2)": "21.4dB@ -18dBm",
+          "Maximum CDC search range": "125 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-25.5dBm",
+          "Default CDC range [ps/nm]": "37 000",
+          "Rx @ OSNR 2)": "20.6dB@ -12dBm"
+        },
+        {
+          "Media code": "OxC9",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "PCS-87",
+          "Rx OSNR @~1dB penalty 2)": "20.3dB@ -18dBm",
+          "Maximum CDC search range": "100 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-25.5dBm",
+          "Default CDC range [ps/nm]": "52 000",
+          "Rx @ OSNR 2)": "19.5dB@ -12dBm"
+        },
+        {
+          "Media code": "OxD8",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "PCS-98",
+          "Rx OSNR @~1dB penalty 2)": "20.0dB@ -18dBm",
+          "Maximum CDC search range": "70 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-26.0dBm",
+          "Default CDC range [ps/nm]": "35 000",
+          "Rx @ OSNR 2)": "19.2dB@ -12dBm"
+        },
+        {
+          "Media code": "OxDC",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4",
+          "Modulation": "PCS-101",
+          "Rx OSNR @~1dB penalty 2)": "20.4dB@ -20dBm",
+          "Maximum CDC search range": "68 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-26.0dBm",
+          "Default CDC range [ps/nm]": "34 000",
+          "Rx @ OSNR 2)": "19.7dB@ -14dBm"
+        },
+        {
+          "Media code": "OxC4",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4",
+          "Modulation": "PCS-79",
+          "Rx OSNR @~1dB penalty 2)": "21.2dB@ -20dBm",
+          "Maximum CDC search range": "100 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-25.0dBm",
+          "Default CDC range [ps/nm]": "58 000",
+          "Rx @ OSNR 2)": "20.5dB@ -14dBm"
+        },
+        {
+          "Media code": "OxC1",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4",
+          "Modulation": "PCS-69",
+          "Rx OSNR @~1dB penalty 2)": "22.2dB@ -20dBm",
+          "Maximum CDC search range": "150 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-24.0dBm",
+          "Default CDC range [ps/nm]": "80 000",
+          "Rx @ OSNR 2)": "21.5dB@ -14dBm"
+        },
+        {
+          "Media code": "OxCA",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4",
+          "Modulation": "PCS-87",
+          "Rx OSNR @~1dB penalty 2)": "20.8dB@ -20dBm",
+          "Maximum CDC search range": "100 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-25.5dBm",
+          "Default CDC range [ps/nm]": "52 000",
+          "Rx @ OSNR 2)": "20.1dB@ -14dBm"
+        },
+        {
+          "Media code": "OxC6",
+          "Line rate": "400G",
+          "Network frame": "OpenZR400",
+          "Modulation": "DP-16QAM",
+          "Rx OSNR @~1dB penalty 2)": "23.6dB@ -18dBm",
+          "Maximum CDC search range": "175 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-22.5dBm",
+          "Default CDC range [ps/nm]": "23 000",
+          "Rx @ OSNR 2)": "22.9dB@ -12dBm"
+        },
+        {
+          "Media code": "0x46",
+          "Line rate": "400G",
+          "Network frame": "OpenZR400",
+          "Modulation": "DP-16QAM",
+          "Rx OSNR @~1dB penalty 2)": "23.8dB@ -18dBm",
+          "Maximum CDC search range": "175 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-22.5dBm",
+          "Default CDC range [ps/nm]": "23 000",
+          "Rx @ OSNR 2)": "23.1dB@ -12dBm"
+        },
+        {
+          "Media code": "0x36",
+          "Line rate": "400G",
+          "Network frame": "OpenZR400",
+          "Modulation": "DP-16QAM",
+          "Rx OSNR @~1dB penalty 2)": "23.8dB@ -18dBm",
+          "Maximum CDC search range": "175 000",
+          "Tx Power 1)": "1dBm",
+          "RX Sens @ OSNR> 36dB 2)": "-22.5dBm",
+          "Default CDC range [ps/nm]": "23 000",
+          "Rx @ OSNR 2)": "23.1dB@ -12dBm"
+        }
+      ],
+      "footnotes": {
+        "1": "Minimum Tx power without attenuation. The module Tx power can be attenuated with 10dB from the maximum available Tx power. If the Tx power is not provisioned by the host, the module Tx power will default to the maximum available power.",
+        "3": "maximum provisionable CD search range. Increasing the search range will increase the power consumption of the transceiver."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05",
+      "title": "ELECTICAL CHARACTERISTICS",
+      "page": 3,
+      "headers": [
+        "Media code",
+        "Line rate",
+        "Network frame",
+        "Modulation",
+        "Worst case power consumption",
+        "If non-Muxponder mode 1)",
+        "Additional Max CD range 2)"
+      ],
+      "rows": [
+        {
+          "Media code": "0x64",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "DP-QPSK",
+          "Worst case power consumption": "24.0W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "OxCO",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "PCS-66",
+          "Worst case power consumption": "23.5W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "OxC2",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "PCS-75",
+          "Worst case power consumption": "24.0W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "OxC9",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "PCS-87",
+          "Worst case power consumption": "24.0W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "OxD8",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "PCS-98",
+          "Worst case power consumption": "25.0W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "OxDC",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4",
+          "Modulation": "PCS-101",
+          "Worst case power consumption": "24.5W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "OxC4",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4",
+          "Modulation": "PCS-79",
+          "Worst case power consumption": "24.0W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "OxC1",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4",
+          "Modulation": "PCS-69",
+          "Worst case power consumption": "23.5W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "OxCA",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4",
+          "Modulation": "PCS-87",
+          "Worst case power consumption": "24.5W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "OxC6",
+          "Line rate": "400G",
+          "Network frame": "OpenZR400",
+          "Modulation": "DP-16QAM",
+          "Worst case power consumption": "22.5W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "0x46",
+          "Line rate": "400G",
+          "Network frame": "OpenZR400",
+          "Modulation": "DP-16QAM",
+          "Worst case power consumption": "22.5W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        },
+        {
+          "Media code": "0x36",
+          "Line rate": "400G",
+          "Network frame": "OpenZR400",
+          "Modulation": "DP-16QAM",
+          "Worst case power consumption": "22.5W",
+          "If non-Muxponder mode 1)": "TBD",
+          "Additional Max CD range 2)": "TBD"
+        }
+      ],
+      "footnotes": {
+        "1": "The power consumption figures are listed with the transceiver multiplexing the host streams. If the transceiver is running a 400GBASE-R stream, the transceiver shall remove the power consumption according to the numbers listed in the table..",
+        "2": "The power consumption figures are listed with the default chromatic dispersion compensation range. For maximum dispersion compensation, the transceiver shall add the power consumption figures according to the numbers listed in the table."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06",
+      "title": "APPLICATION SELECT TABLE - NORMALIZED APPLICATION DESCRIPTORS",
+      "page": 4,
+      "headers": [
+        "NAD",
+        "ADP code",
+        "Host code",
+        "Host MSA code",
+        "Mediacode",
+        "Media MSA description"
+      ],
+      "rows": [
+        {
+          "NAD": "NAD_1:Bank_0",
+          "ADP code": "1",
+          "Host code": "ox11",
+          "Host MSA code": "400GAUI-8 C2M (Annex 120E)",
+          "Mediacode": "0x64",
+          "Media MSA description": "FLEXO-4e-DO-QPSK"
+        },
+        {
+          "NAD": "NAD_2:Bank_0",
+          "ADP code": "2",
+          "Host code": "OxOF",
+          "Host MSA code": "200GAUI-4 C2M (Annex 120E)",
+          "Mediacode": "x64",
+          "Media MSA description": "FLEXO-4e-DO-QPSK"
+        },
+        {
+          "NAD": "NAD_3: Bank_0",
+          "ADP code": "3",
+          "Host code": "ox0D",
+          "Host MSA code": "400GAUI-2 C2M (Annex 135G)",
+          "Mediacode": "x64",
+          "Media MSA description": "FLEXO-4e-DO-QPSK"
+        },
+        {
+          "NAD": "NAD_4:Bank_0",
+          "ADP code": "4",
+          "Host code": "ox11",
+          "Host MSA code": "400GAUI-8 C2M (Annex 120E)",
+          "Mediacode": "0oxco",
+          "Media MSA description": "FlexO-4e-MPCS066-OS"
+        },
+        {
+          "NAD": "NAD_5:Bank_0",
+          "ADP code": "5",
+          "Host code": "OxOF",
+          "Host MSA code": "200GAUI-4 C2M (Annex 120E)",
+          "Mediacode": "oxco",
+          "Media MSA description": "FlexO-4e-MPCS066-OS"
+        },
+        {
+          "NAD": "NAD_6:Bank_0",
+          "ADP code": "6",
+          "Host code": "ox0D",
+          "Host MSA code": "400GAUI-2 C2M (Annex 135G)",
+          "Mediacode": "oxco",
+          "Media MSA description": "FlexO-4e-MPCS066-OS"
+        },
+        {
+          "NAD": "NAD_7:Bank_0",
+          "ADP code": "7",
+          "Host code": "ox11",
+          "Host MSA code": "400GAUI-8 C2M (Annex 120E)",
+          "Mediacode": "0xc2",
+          "Media MSA description": "FlexO-4e-MPCS075-OS"
+        },
+        {
+          "NAD": "NAD_8:Bank_0",
+          "ADP code": "8",
+          "Host code": "OxOF",
+          "Host MSA code": "200GAUI-4 C2M (Annex 120E)",
+          "Mediacode": "oxC2",
+          "Media MSA description": "FlexO-4e-MPCS075-OS"
+        },
+        {
+          "NAD": "NAD_9:Bank_0",
+          "ADP code": "9",
+          "Host code": "ox0D",
+          "Host MSA code": "400GAUI-2 C2M (Annex 135G)",
+          "Mediacode": "oxC2",
+          "Media MSA description": "FlexO-4e-MPCS075-OS"
+        },
+        {
+          "NAD": "NAD_10:Bank_0",
+          "ADP code": "10",
+          "Host code": "ox11",
+          "Host MSA code": "400GAUI-8 C2M (Annex 120E)",
+          "Mediacode": "oxc9",
+          "Media MSA description": "FlexO-4e-MPCS087-OS"
+        },
+        {
+          "NAD": "NAD_11:Bank_0",
+          "ADP code": "1\"",
+          "Host code": "OxOF",
+          "Host MSA code": "200GAUI-4 C2M (Annex 120E)",
+          "Mediacode": "oxcg",
+          "Media MSA description": "FlexO-4e-MPCS087-0S"
+        },
+        {
+          "NAD": "NAD_12:Bank_0",
+          "ADP code": "12",
+          "Host code": "ox0D",
+          "Host MSA code": "400GAUI-2 C2M (Annex 135G)",
+          "Mediacode": "oxcg",
+          "Media MSA description": "FlexO-4e-MPCS087-0S"
+        },
+        {
+          "NAD": "NAD_13:Bank_0",
+          "ADP code": "13",
+          "Host code": "ox11",
+          "Host MSA code": "400GAUI-8 C2M (Annex 120E)",
+          "Mediacode": "oxD8",
+          "Media MSA description": "FlexO-4e-MPCS098-OS"
+        },
+        {
+          "NAD": "NAD_14:Bank_0",
+          "ADP code": "14",
+          "Host code": "OxOF",
+          "Host MSA code": "200GAUI-4 C2M (Annex 120E)",
+          "Mediacode": "oxD8",
+          "Media MSA description": "FlexO-4e-MPCS098-OS"
+        },
+        {
+          "NAD": "NAD_15:Bank_0",
+          "ADP code": "15",
+          "Host code": "ox0D",
+          "Host MSA code": "400GAUI-2 C2M (Annex 135G)",
+          "Mediacode": "oxD8",
+          "Media MSA description": "FlexO-4e-MPCS098-OS"
+        },
+        {
+          "NAD": "NAD_1:Bank_1",
+          "ADP code": "16",
+          "Host code": "ox11",
+          "Host MSA code": "400GAUI-8 C2M (Annex 120E)",
+          "Mediacode": "oxce",
+          "Media MSA description": "OpenZR+, MSA, Enhanced"
+        },
+        {
+          "NAD": "NAD_2:Bank_1",
+          "ADP code": "17",
+          "Host code": "OxOF",
+          "Host MSA code": "200GAUI-4 C2M (Annex 120E)",
+          "Mediacode": "oxce",
+          "Media MSA description": "OpenZR+, MSA, Enhanced"
+        },
+        {
+          "NAD": "NAD_3: Bank_1",
+          "ADP code": "18",
+          "Host code": "ox0D",
+          "Host MSA code": "400GAUI-2 C2M (Annex 135G)",
+          "Mediacode": "oxce",
+          "Media MSA description": "OpenZR+, MSA, Enhanced"
+        },
+        {
+          "NAD": "NAD_4:Bank_1",
+          "ADP code": "19",
+          "Host code": "ox11",
+          "Host MSA code": "400GAUI-8 C2M (Annex 120E)",
+          "Mediacode": "0x46",
+          "Media MSA description": "ZR400-OFEC-16QAM"
+        },
+        {
+          "NAD": "NAD_5:Bank_1",
+          "ADP code": "20",
+          "Host code": "OxOF",
+          "Host MSA code": "200GAUI-4 C2M (Annex 120E)",
+          "Mediacode": "0x46",
+          "Media MSA description": "ZR400-OFEC-16QAM"
+        },
+        {
+          "NAD": "NAD_6:Bank_1",
+          "ADP code": "21",
+          "Host code": "ox0D",
+          "Host MSA code": "400GAUI-2 C2M (Annex 135G)",
+          "Mediacode": "0x46",
+          "Media MSA description": "ZR400-OF EC-16QAM"
+        },
+        {
+          "NAD": "NAD_7:Bank_1",
+          "ADP code": "22",
+          "Host code": "ox11",
+          "Host MSA code": "400GAUI-8 C2M (Annex 120E)",
+          "Mediacode": "0x36",
+          "Media MSA description": "ZR400-OFEC-16QAM-HB"
+        },
+        {
+          "NAD": "NAD_8:Bank_1",
+          "ADP code": "23",
+          "Host code": "OxOF",
+          "Host MSA code": "200GAUI-4 C2M (Annex 120E)",
+          "Mediacode": "0x36",
+          "Media MSA description": "ZR400-OFEC-16QAM-HB"
+        },
+        {
+          "NAD": "NAD_9:Bank_1",
+          "ADP code": "24",
+          "Host code": "ox0D",
+          "Host MSA code": "400GAUI-2 C2M (Annex 135G)",
+          "Mediacode": "0x36",
+          "Media MSA description": "ZR400-OFEC-16QAM-HB"
+        },
+        {
+          "NAD": "NAD_10:Bank_1",
+          "ADP code": "25",
+          "Host code": "0x3C",
+          "Host MSA code": "FOIC1.2-MFl (ITU-T G.709.5/Y.1331 G.Sup58)",
+          "Mediacode": "OxDC",
+          "Media MSA description": "FlexO-4-MPCS101-O0S"
+        },
+        {
+          "NAD": "NAD_11:Bank_1",
+          "ADP code": "26",
+          "Host code": "0x3C",
+          "Host MSA code": "FOIC1.2-MFI (ITU-T G.709.5/Y.1331 G.Sup58)",
+          "Mediacode": "OxC4",
+          "Media MSA description": "FlexO-4-MPCS079-OS"
+        },
+        {
+          "NAD": "NAD_12:Bank_1",
+          "ADP code": "27",
+          "Host code": "0x3C",
+          "Host MSA code": "FOIC1.2-MFI (ITU-T G.709.5/Y.1331 G.Sup58)",
+          "Mediacode": "OxC1",
+          "Media MSA description": "FlexO-4-MPCS069-O0S"
+        },
+        {
+          "NAD": "NAD_13:Bank_1",
+          "ADP code": "28",
+          "Host code": "0x3C",
+          "Host MSA code": "FOIC1.2-MFI (ITU-T G.709.5/Y.1331 G.Sup58)",
+          "Mediacode": "OxCA",
+          "Media MSA description": "FlexO-4-MPCS087-O0S"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "08",
+      "title": "GENERAL DEFINITIONS",
+      "page": 5,
+      "headers": [
+        "Parameter",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Description": "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber."
+        },
+        {
+          "Parameter": "Transmission Media",
+          "Description": "Type of fiber, e.g. Multimode (MM) or Singlemode (SM). Number of and connector type within brackets (e.g. 2x LC, 1x MPO)."
+        },
+        {
+          "Parameter": "Typical reach",
+          "Description": "Nominal distance performance based on typical fiber dispersion, fiber loss and power budget properties, i.e. w/o dispersion compensation and optical amplification. Actual distance is dependent on actual optical path loss and dispersion properties."
+        },
+        {
+          "Parameter": "Bit rate range",
+          "Description": "Supported bit rate range in Gigabit or Megabit per second (Gbps or Mbps)."
+        },
+        {
+          "Parameter": "Protocols",
+          "Description": "Protocols within supported bit rate range."
+        },
+        {
+          "Parameter": "Nominal wavelength",
+          "Description": "Typical wavelength(s) from transmitter."
+        },
+        {
+          "Parameter": "Interface standards",
+          "Description": "Referenced interface standards or MSA's, e.g. IEEE 802.3 standard for 10GbE services or 100G 4WDM-10 etc."
+        },
+        {
+          "Parameter": "Power budget",
+          "Description": "Min and max power budget between Transmitter and Receiver w/o optical path penalties. "
+        },
+        {
+          "Parameter": "Dispersion tolerance/penalty",
+          "Description": "Maximum amount of tolerated dispersion and required reduction of power budget to maintain stipulated Bit Error Rate (BER) and at a given bit rate. "
+        },
+        {
+          "Parameter": "Temperature range",
+          "Description": "Max operating case temperature range. Standard temperature range (C-temp): 0°C to +70°C (32°F to +158°F) Extended temperature range (E-temp): typically -20°C to +75°C (-4°F to +167°F) Industrial temperature range (I-temp): -40°C to +85°C (-40°F to +185°F)"
+        },
+        {
+          "Parameter": "Power consumption",
+          "Description": "Worst case power consumption. Will vary over temperature."
+        },
+        {
+          "Parameter": "Transmitter Output power",
+          "Description": "Average output power. Provided in min and max values."
+        },
+        {
+          "Parameter": "Receiver minimum input power",
+          "Description": "Minimum average input power at specified BER, normally 1E-12. Note that some protocols require FEC to achieve sufficient BER."
+        },
+        {
+          "Parameter": "Receiver max input power",
+          "Description": "Maximum average input power giving a BER, normally 1E-12."
+        },
+        {
+          "Parameter": "DDM",
+          "Description": "Digital Diagnostic Monitoring functionality as defined in e.g. SFF-8472 MSA."
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "07",
+      "title": "Ordering Information",
+      "headers": [
+        "Ordering code",
+        "Item Name"
+      ],
+      "rows": [
+        {
+          "Ordering code": "TQD029-TUNC-SO",
+          "Item Name": "QSFP-DD 400G ULH Coh-T SM C5.3"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "marker"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "TQD029-TUNC-SO",
+      "OVERVIEW",
+      "TECHNICAL DATA",
+      "GENERIC",
+      "OPTICAL SPECIFICATION – NTWK/MEDIA CODES",
+      "ELECTICAL CHARACTERISTICS",
+      "APPLICATION SELECT TABLE - NORMALIZED APPLICATION DESCRIPTORS",
+      "ORDERING INFORMATION",
+      "GENERAL DEFINITIONS"
+    ],
+    "total_tables": 9,
+    "total_footnotes": 8,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

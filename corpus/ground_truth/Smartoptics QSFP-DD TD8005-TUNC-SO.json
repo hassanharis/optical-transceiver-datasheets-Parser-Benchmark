@@ -1,0 +1,466 @@
+{
+  "source": "Smartoptics QSFP-DD TD8005-TUNC-SO.pdf",
+  "page_count": 4,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Table 1",
+      "page": 1,
+      "headers": [
+        "Host framing",
+        "Network Ren)",
+        "Payload",
+        "4 Modulation",
+        "Line Symbol Bataleaia",
+        "Channel spacing",
+        "Media code\")",
+        "MSA format",
+        "NTWK Mode description"
+      ],
+      "rows": [
+        {
+          "Host framing": "1x 800GAUI-8 2x 400GAUI-4 4x 200GAUI-2 8x 100GAUI-1",
+          "Network Ren)": "800ZR",
+          "Payload": "800G",
+          "4 Modulation": "DP-16QAM",
+          "Line Symbol Bataleaia": "—_118.2GBd",
+          "Channel spacing": "150GHz",
+          "Media code\")": "Ox6E",
+          "MSA format": "800ZR Power class A",
+          "NTWK Mode description": "OIF 800ZR"
+        },
+        {
+          "Host framing": "4x 200GAUI-2 8x 100GAUI-1",
+          "Network Ren)": "FlexO-6(e)",
+          "Payload": "6006",
+          "4 Modulation": "PCS-118",
+          "Line Symbol Bataleaia": "118.7GBd",
+          "Channel spacing": "150GHz",
+          "Media code\")": "Ox6A.",
+          "MSA format": "FLEXO-6e-DPO-16QAM / FOIC6e-DPO",
+          "NTWK Mode description": "OpenROADM 600G 118Gbd"
+        },
+        {
+          "Host framing": "4x 200GAUI-2 8x 100GAUI-1",
+          "Network Ren)": "FlexO-6(e)",
+          "Payload": "6006",
+          "4 Modulation": "PCS-118",
+          "Line Symbol Bataleaia": "118.5GBd",
+          "Channel spacing": "150GHz",
+          "Media code\")": "OxF2",
+          "MSA format": "600G-PCS-118 7)",
+          "NTWK Mode description": "600G PCS-118Gbd"
+        },
+        {
+          "Host framing": "1x 400GAUI-8 2x 400GAUI-4",
+          "Network Ren)": "",
+          "Payload": "",
+          "4 Modulation": "",
+          "Line Symbol Bataleaia": "",
+          "Channel spacing": "",
+          "Media code\")": "",
+          "MSA format": "",
+          "NTWK Mode description": ""
+        },
+        {
+          "Host framing": "2x 200GAUI-4 4x 200GAUI-2 4x 100GAUI-2 8x 100GAUI-1",
+          "Network Ren)": "FlexO-4(e)",
+          "Payload": "4006",
+          "4 Modulation": "DP-QPSK",
+          "Line Symbol Bataleaia": "—118.2GBd",
+          "Channel spacing": "150GHz",
+          "Media code\")": "0x64.",
+          "MSA format": "FLEXO-4e-DO-QPSK / FOIC4e.4-DO",
+          "NTWK Mode description": "OpenROADM 400G QPSK"
+        },
+        {
+          "Host framing": "1x 400GAUI-8 2x 400GAUI-4 2x 200GAUI-4 4x 200GAUI-2 4x 100GAUI-2 8x 100GAUI-1",
+          "Network Ren)": "OpenZR400",
+          "Payload": "4006",
+          "4 Modulation": "DP-16QAM",
+          "Line Symbol Bataleaia": "_60.1GBd",
+          "Channel spacing": "75GHz",
+          "Media code\")": "0x36",
+          "MSA format": "ZR400-OFEC-16QAM-HB",
+          "NTWK Mode description": "OpenZR+ 400G 16QAM-HB"
+        }
+      ],
+      "footnotes": {
+        "1": "The media code is defined through the reference code tables listed in SFF-8024. 2) Non-MSA compliant code."
+      },
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_generic",
+      "title": "GENERIC",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Value",
+        "Parameter 2",
+        "Value 2"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Value": "DWDM QSFP-DD800 type 2a",
+          "Parameter 2": "MSA",
+          "Value 2": "OSFP800 MSA's, CMIS5.3"
+        },
+        {
+          "Parameter": "Transmission media",
+          "Value": "SM (2x LC)",
+          "Parameter 2": "Misc",
+          "Value 2": "Sync-E support, LLDP, RMON"
+        },
+        {
+          "Parameter": "Nominal wavelengths",
+          "Value": "191.25 - 196.1THz (tunable) 6.25GHz Grid",
+          "Parameter 2": "Power consumption, EOL",
+          "Value 2": "See Section below."
+        },
+        {
+          "Parameter": "Interface standards",
+          "Value": "400-800G 800ZR/OpenZR+/OpenOADM",
+          "Parameter 2": "Tx Power",
+          "Value 2": "Min -2dBm ?)"
+        },
+        {
+          "Parameter": "Operating temperature",
+          "Value": "+15°C to +75°C 1)",
+          "Parameter 2": "Tx In-band OSNR",
+          "Value 2": "37dB"
+        },
+        {
+          "Parameter": "Storage temperature",
+          "Value": "-40°C to +85°C",
+          "Parameter 2": "Tx Out-Of-Band OSNR",
+          "Value 2": "TDB"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "Total received power",
+          "Parameter 2": "Receiver turn-up",
+          "Value 2": "Max 30ms from warm start"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "Coherent channel power",
+          "Parameter 2": "Receiver turn-up",
+          "Value 2": "Max 125s from cold start"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "OSNR, eSNR, PDL, dispersion, DGD",
+          "Parameter 2": "Absolute max conditions",
+          "Value 2": "Rx signal input power: +1dBm"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "Case temperature",
+          "Parameter 2": "Absolute max conditions",
+          "Value 2": "Rx total input power: +15dBm"
+        }
+      ],
+      "footnotes": {
+        "1": "The module will turn up from cold start at ambient temperature as low as -5C and will reach specifications after self-heating up to min temperature.",
+        "2": "The module transmit power can be provisioned up to the maximum available TX power. If the TX power is not provisioned by the host, the module TX power will default to the maximum available power. The provisional Tx power range of the module is 10dB."
+      },
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_optical_specification_ntwk_media_codes",
+      "title": "OPTICAL SPECIFICATION – NTWK/MEDIA CODES",
+      "page": 3,
+      "headers": [
+        "Media code",
+        "Line rate",
+        "Network frame",
+        "Modulation",
+        "™ Power )",
+        "Rx sens @ OSNR > 36dB",
+        "Rx @ OSNR ®",
+        "Rx OSNR @~1dB penalty 2)",
+        "Default CDC range [ps/nm]",
+        "Maximum CDC search range"
+      ],
+      "rows": [
+        {
+          "Media code": "Ox6E",
+          "Line rate": "800G",
+          "Network frame": "800ZR",
+          "Modulation": "DP-16QAM",
+          "™ Power )": "-2dBm",
+          "Rx sens @ OSNR > 36dB": "-18.5dBm",
+          "Rx @ OSNR ®": "26.4dB@ -9dBm",
+          "Rx OSNR @~1dB penalty 2)": "27.4dB@ -13dBm",
+          "Default CDC range [ps/nm]": "3000",
+          "Maximum CDC search range": "58 000"
+        },
+        {
+          "Media code": "Ox6A.",
+          "Line rate": "600G",
+          "Network frame": "FlexO-6(e)",
+          "Modulation": "PCS-118",
+          "™ Power )": "-2dBm",
+          "Rx sens @ OSNR > 36dB": "-23.5dBm",
+          "Rx @ OSNR ®": "22.8dB@ -9dBm",
+          "Rx OSNR @~1dB penalty 2)": "23.8dB@ -14dBm",
+          "Default CDC range [ps/nm]": "29 000",
+          "Maximum CDC search range": "58 000"
+        },
+        {
+          "Media code": "OxF2",
+          "Line rate": "600G",
+          "Network frame": "FlexO-6(e)",
+          "Modulation": "PCS-118",
+          "™ Power )": "-2dBm",
+          "Rx sens @ OSNR > 36dB": "-23.5dBm",
+          "Rx @ OSNR ®": "21.6dB@ -9dBm",
+          "Rx OSNR @~1dB penalty 2)": "22.6dB@ -14dBm",
+          "Default CDC range [ps/nm]": "29 000",
+          "Maximum CDC search range": "58 000"
+        },
+        {
+          "Media code": "0x64.",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "DP-QPSK",
+          "™ Power )": "-2dBm",
+          "Rx sens @ OSNR > 36dB": "-27.0dBm",
+          "Rx @ OSNR ®": "17.9dB@ -12dBm",
+          "Rx OSNR @~1dB penalty 2)": "18.9dB@ -18dBm",
+          "Default CDC range [ps/nm]": "58 000",
+          "Maximum CDC search range": "58 000"
+        },
+        {
+          "Media code": "0x36",
+          "Line rate": "400G",
+          "Network frame": "OpenZR400",
+          "Modulation": "DP-16QAM",
+          "™ Power )": "-2dBm",
+          "Rx sens @ OSNR > 36dB": "-22.5dBm",
+          "Rx @ OSNR ®": "23.1dB@ -12dBm",
+          "Rx OSNR @~1dB penalty 2)": "24.1dB@ -18dBm",
+          "Default CDC range [ps/nm]": "23 000",
+          "Maximum CDC search range": "175 000"
+        }
+      ],
+      "footnotes": {
+        "1": "Minimum Tx power without attenuation. The module Tx power can be attenuated with 10dB from the maximum available Tx power. If the Tx power is not",
+        "3": "maximum provisionable CD search range. Increasing the search range will increase the power consumption of the transceiver."
+      },
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_electical_characteristics",
+      "title": "ELECTICAL CHARACTERISTICS",
+      "page": 3,
+      "headers": [
+        "Media code",
+        "Line rate",
+        "Network frame",
+        "Modulation",
+        "Worst case power consumption",
+        "Ifnon-Muxponder mode”",
+        "Additional Max CD range?)"
+      ],
+      "rows": [
+        {
+          "Media code": "Ox6E",
+          "Line rate": "800G",
+          "Network frame": "800ZR",
+          "Modulation": "DP-16QAM",
+          "Worst case power consumption": "28.0W",
+          "Ifnon-Muxponder mode”": "TBD",
+          "Additional Max CD range?)": "TBD"
+        },
+        {
+          "Media code": "Ox6A",
+          "Line rate": "600G",
+          "Network frame": "FlexO-6(e)",
+          "Modulation": "PCS-118",
+          "Worst case power consumption": "28.0W",
+          "Ifnon-Muxponder mode”": "TBD",
+          "Additional Max CD range?)": "TBD"
+        },
+        {
+          "Media code": "OxF2",
+          "Line rate": "600G",
+          "Network frame": "FlexO-6(e)",
+          "Modulation": "PCS-118",
+          "Worst case power consumption": "28.0W",
+          "Ifnon-Muxponder mode”": "TBD",
+          "Additional Max CD range?)": "TBD"
+        },
+        {
+          "Media code": "0x64",
+          "Line rate": "400G",
+          "Network frame": "FlexO-4(e)",
+          "Modulation": "DP-QPSK",
+          "Worst case power consumption": "25.0W",
+          "Ifnon-Muxponder mode”": "TBD",
+          "Additional Max CD range?)": "TBD"
+        },
+        {
+          "Media code": "0x36",
+          "Line rate": "400G",
+          "Network frame": "OpenZR400",
+          "Modulation": "DP-16QAM",
+          "Worst case power consumption": "22.5W",
+          "Ifnon-Muxponder mode”": "TBD",
+          "Additional Max CD range?)": "TBD"
+        }
+      ],
+      "footnotes": {
+        "1": "The power consumption figures are listed with the transceiver multiplexing the host streams. If the transceiver is running a 400GBASE-R stream, the transceiver shall remove the power consumption according to the numbers listed in the table..",
+        "2": "The power consumption figures are listed with the default chromatic dispersion compensation range. For maximum dispersion compensation, the transceiver shall add the power consumption figures according to the numbers listed in the table."
+      },
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_general_definitions",
+      "title": "GENERAL DEFINITIONS",
+      "page": 4,
+      "headers": [
+        "Parameter",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Description": "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber."
+        },
+        {
+          "Parameter": "Transmission Media",
+          "Description": "Type of fiber, e.g. Multimode (MM) or Singlemode (SM). Number of and connector type within brackets (e.g. 2x LC, 1x MPO)."
+        },
+        {
+          "Parameter": "Typical reach",
+          "Description": "Nominal distance performance based on typical fiber dispersion, fiber loss and power budget properties, i.e. w/o dispersion compensation and optical amplification. Actual distance is dependent on actual optical path loss and dispersion properties."
+        },
+        {
+          "Parameter": "Bit rate range",
+          "Description": "Supported bit rate range in Gigabit or Megabit per second (Gbps or Mbps)."
+        },
+        {
+          "Parameter": "Protocols",
+          "Description": "Protocols within supported bit rate range."
+        },
+        {
+          "Parameter": "Nominal wavelength",
+          "Description": "Typical wavelength(s) from transmitter."
+        },
+        {
+          "Parameter": "Interface standards",
+          "Description": "Referenced interface standards or MSA's, e.g. IEEE 802.3 standard for 10GbE services or 100G 4WDM-10 etc."
+        },
+        {
+          "Parameter": "Power budget",
+          "Description": "Min and max power budget between Transmitter and Receiver w/o optical path penalties."
+        },
+        {
+          "Parameter": "Dispersion tolerance/penalty",
+          "Description": "Maximum amount of tolerated dispersion and required reduction of power budget to maintain stipulated Bit Error Rate (BER) and at a given bit rate."
+        },
+        {
+          "Parameter": "Temperature range",
+          "Description": "Max operating case temperature range. Standard temperature range (C-temp): 0°C to +70°C (32°F to +158°F) Extended temperature range (E-temp): typically -20°C to +75°C (-4°F to +167°F) Industrial temperature range (I-temp): -40°C to +85°C (-40°F to +185°F)"
+        },
+        {
+          "Parameter": "Power consumption",
+          "Description": "Worst case power consumption. Will vary over temperature."
+        },
+        {
+          "Parameter": "Transmitter Output power",
+          "Description": "Average output power. Provided in min and max values."
+        },
+        {
+          "Parameter": "Receiver minimum input power",
+          "Description": "Minimum average input power at specified BER, normally 1E-'?. Note that some protocols require FEC to achieve sufficient BER."
+        },
+        {
+          "Parameter": "Receiver max input power",
+          "Description": "Maximum average input power giving a BER, normally 1E-1?."
+        },
+        {
+          "Parameter": "DDM",
+          "Description": "Digital Diagnostic Monitoring functionality as defined in e.g. SFF-8472 MSA."
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06_coherent_channel_power",
+      "title": "Coherent channel power",
+      "headers": [
+        "Coherent channel power",
+        "Column 2",
+        "Max 125s from cold start",
+        "Column 4"
+      ],
+      "rows": [
+        {
+          "Coherent channel power": "OSNR, eSNR, PDL, dispersion, DGD",
+          "Column 2": "",
+          "Max 125s from cold start": "Rx signal input power: +1dBm",
+          "Column 4": ""
+        },
+        {
+          "Coherent channel power": "Case temperature",
+          "Column 2": "",
+          "Max 125s from cold start": "Rx total input power: +15dBm",
+          "Column 4": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "marker"
+    },
+    {
+      "table_id": "07_ordering_code",
+      "title": "Ordering code",
+      "headers": [
+        "Ordering code",
+        "Item Name"
+      ],
+      "rows": [
+        {
+          "Ordering code": "TD8005-TUNC-SO",
+          "Item Name": "QSFP-DD800 800G OIF 800ZR HP CMIS5.3"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "marker"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "TD8005-TUNC-SO",
+      "OVERVIEW",
+      "TECHNICAL DATA",
+      "GENERIC",
+      "OPTICAL SPECIFICATION – NTWK/MEDIA CODES",
+      "ELECTICAL CHARACTERISTICS",
+      "ORDERING INFORMATION",
+      "GENERAL DEFINITIONS"
+    ],
+    "total_tables": 7,
+    "total_footnotes": 7,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

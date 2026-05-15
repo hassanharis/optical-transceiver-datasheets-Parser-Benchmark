@@ -1,0 +1,491 @@
+{
+  "source": "Arpers FN-TRAN-GC-COM Copper Small Form Pluggable.pdf",
+  "page_count": 6,
+  "tier": 3,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Table 1",
+      "page": 2,
+      "headers": [
+        "Pin",
+        "Signal Name",
+        "Description",
+        "Plug Seq.",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Pin": "1",
+          "Signal Name": "VEET",
+          "Description": "Transmitter Ground",
+          "Plug Seq.": "1",
+          "Notes": ""
+        },
+        {
+          "Pin": "2",
+          "Signal Name": "TX FAULT",
+          "Description": "Transmitter Fault Indication",
+          "Plug Seq.": "3",
+          "Notes": "Note1"
+        },
+        {
+          "Pin": "3",
+          "Signal Name": "TX DISABLE",
+          "Description": "Transmitter Disable",
+          "Plug Seq.": "3",
+          "Notes": "Note2"
+        },
+        {
+          "Pin": "4",
+          "Signal Name": "MOD_DEF(2)",
+          "Description": "SDA Serial Data Signal",
+          "Plug Seq.": "3",
+          "Notes": "Note3"
+        },
+        {
+          "Pin": "5",
+          "Signal Name": "MOD_DEF(1)",
+          "Description": "SCL Serial Clock Signal",
+          "Plug Seq.": "3",
+          "Notes": "Note3"
+        },
+        {
+          "Pin": "6",
+          "Signal Name": "| MOD_DEF(0)",
+          "Description": "TTL Low",
+          "Plug Seq.": "3",
+          "Notes": "Note3"
+        },
+        {
+          "Pin": "7",
+          "Signal Name": "Rate Select",
+          "Description": "Not Connected",
+          "Plug Seq.": "3",
+          "Notes": ""
+        },
+        {
+          "Pin": "8",
+          "Signal Name": "LOS",
+          "Description": "Loss of Signal",
+          "Plug Seq.": "3",
+          "Notes": "Note 4"
+        },
+        {
+          "Pin": "9",
+          "Signal Name": "VEER",
+          "Description": "Receiver ground",
+          "Plug Seq.": "1",
+          "Notes": ""
+        },
+        {
+          "Pin": "10",
+          "Signal Name": "VEER",
+          "Description": "Receiver ground",
+          "Plug Seq.": "1",
+          "Notes": ""
+        },
+        {
+          "Pin": "11",
+          "Signal Name": "VEER",
+          "Description": "Receiver ground",
+          "Plug Seq.": "1",
+          "Notes": ""
+        },
+        {
+          "Pin": "12",
+          "Signal Name": "RX-",
+          "Description": "Inv. Received Data Out",
+          "Plug Seq.": "3",
+          "Notes": "Note 5"
+        },
+        {
+          "Pin": "13",
+          "Signal Name": "RX+",
+          "Description": "Received Data Out",
+          "Plug Seq.": "3",
+          "Notes": "Note 5"
+        },
+        {
+          "Pin": "14",
+          "Signal Name": "VEER",
+          "Description": "Receiver ground",
+          "Plug Seq.": "1",
+          "Notes": ""
+        },
+        {
+          "Pin": "15",
+          "Signal Name": "VCCR",
+          "Description": "Receiver Power Supply",
+          "Plug Seq.": "2",
+          "Notes": ""
+        },
+        {
+          "Pin": "16",
+          "Signal Name": "Vcct",
+          "Description": "Transmitter Power Supply",
+          "Plug Seq.": "2",
+          "Notes": ""
+        },
+        {
+          "Pin": "17",
+          "Signal Name": "Veet",
+          "Description": "Transmitter Ground",
+          "Plug Seq.": "1",
+          "Notes": ""
+        },
+        {
+          "Pin": "18",
+          "Signal Name": "TX+",
+          "Description": "Transmit Data In",
+          "Plug Seq.": "3",
+          "Notes": "Note 6"
+        },
+        {
+          "Pin": "19",
+          "Signal Name": "TX-",
+          "Description": "Inv. Transmit Data In",
+          "Plug Seq.": "3",
+          "Notes": "Note 6"
+        },
+        {
+          "Pin": "20",
+          "Signal Name": "Veet",
+          "Description": "Transmitter Ground",
+          "Plug Seq.": "1",
+          "Notes": ""
+        }
+      ],
+      "footnotes": {
+        "1": "TX Fault is is not supported and is always connected to ground.",
+        "2": "TX Disable is not supported.",
+        "3": "Mod-Def 0, 1, 2. These are the module definition pins. They should be pulled up with a 4.7K to 10K resistor on the host board. The pull-up voltage shall be VccT or VccR",
+        "4": "RX_LOS (Loss of Signal): LVTTL compatible with a maximum voltage of Host_Vcc. RX_LOS can enabled or disabled (Refer to Ordering information),RX_LOS is not used and is always tied to ground via 100-ohm resistor",
+        "5": "RD-/+: These are the differential receiver outputs. They are AC coupled 100 differential lines which should be terminated with 100 (differential) at the user SERDES."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "+3.3V Volt Electrical Power Interface ",
+      "page": 3,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min",
+        "Typ",
+        "Max",
+        "Units",
+        "Notes/Conditions"
+      ],
+      "rows": [
+        {
+          "Parameter": "Supply Current",
+          "Symbol": "Is",
+          "Min": "",
+          "Typ": "320",
+          "Max": "375",
+          "Units": "mA",
+          "Notes/Conditions": "1.2W max power over full range of voltage and temperature. See caution note below"
+        },
+        {
+          "Parameter": "Input Voltage",
+          "Symbol": "Vcc",
+          "Min": "3.13",
+          "Typ": "3.3",
+          "Max": "3.47",
+          "Units": "V",
+          "Notes/Conditions": "Referenced to GND"
+        },
+        {
+          "Parameter": "Maximum Voltage",
+          "Symbol": "Vmax",
+          "Min": "",
+          "Typ": "",
+          "Max": "4",
+          "Units": "V",
+          "Notes/Conditions": ""
+        },
+        {
+          "Parameter": "Surge Current",
+          "Symbol": "Isurge",
+          "Min": "",
+          "Typ": "",
+          "Max": "30",
+          "Units": "mA",
+          "Notes/Conditions": "Hot plug above steady state current. See caution note below"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_table_3",
+      "title": "Low-Speed Signals, Electronic Characteristics ",
+      "page": 4,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min",
+        "Max",
+        "Units",
+        "Notes/Conditions"
+      ],
+      "rows": [
+        {
+          "Parameter": "SFP Output LOW",
+          "Symbol": "VOL",
+          "Min": "0",
+          "Max": "0.5",
+          "Units": "V",
+          "Notes/Conditions": "4.7k to 10k pull-up to host_Vcc, — measured at host side of connector"
+        },
+        {
+          "Parameter": "SFP Output HIGH",
+          "Symbol": "VOH",
+          "Min": "host_Vcc -0.5",
+          "Max": "host_Vcc +0.3",
+          "Units": "V",
+          "Notes/Conditions": "4.7k to 10k pull-up to host_Vcc, measured at host side of connector"
+        },
+        {
+          "Parameter": "SFP Input LOW",
+          "Symbol": "VIL",
+          "Min": "0",
+          "Max": "0.8",
+          "Units": "V",
+          "Notes/Conditions": "4.7k to 10k pull-up to Vcc, measured at SFP side of connector"
+        },
+        {
+          "Parameter": "SFP Input HIGH",
+          "Symbol": "VIH",
+          "Min": "2",
+          "Max": "Vcc + 0.3",
+          "Units": "V",
+          "Notes/Conditions": "4.7k to 10k pull- Vcc, d to 10k pull-up to Vcc, measure at SFP side of connector"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_table_4",
+      "title": "High-Speed Electrical Interface Transmission Line-SFP",
+      "page": 4,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Typ",
+        "Max",
+        "_ Units",
+        "Notes/Conditions"
+      ],
+      "rows": [
+        {
+          "Parameter": "Line Frequency",
+          "Symbol": "fL",
+          "Typ": "125",
+          "Max": "",
+          "_ Units": "MHz",
+          "Notes/Conditions": "5-level encoding, per IEEE 802.3"
+        },
+        {
+          "Parameter": "Tx Output Impedance",
+          "Symbol": "Zout,TX",
+          "Typ": "100",
+          "Max": "",
+          "_ Units": "Ohm",
+          "Notes/Conditions": "Differential, for all Frequencies between 1MHz and 125MHz"
+        },
+        {
+          "Parameter": "Rx Input Impedance",
+          "Symbol": "Zin,RX",
+          "Typ": "100",
+          "Max": "",
+          "_ Units": "Ohm",
+          "Notes/Conditions": "Differential, for all Frequencies between 1MHz and 125MHz"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_table_5",
+      "title": "High-Speed Electrical Interface, Host-SFP",
+      "page": 4,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min",
+        "Typ",
+        "Max",
+        "Units",
+        "Notes/Conditions"
+      ],
+      "rows": [
+        {
+          "Parameter": "Single ended data input . swing",
+          "Symbol": "Vinsing",
+          "Min": "250",
+          "Typ": "",
+          "Max": "1200",
+          "Units": "mV",
+          "Notes/Conditions": "Single ended"
+        },
+        {
+          "Parameter": "Single ended data output swing",
+          "Symbol": "Voutsing |",
+          "Min": "350",
+          "Typ": "",
+          "Max": "800",
+          "Units": "mV",
+          "Notes/Conditions": "Single ended"
+        },
+        {
+          "Parameter": "Rise/Fall Time",
+          "Symbol": "Tr, Tf",
+          "Min": "",
+          "Typ": "175",
+          "Max": "",
+          "Units": "psec",
+          "Notes/Conditions": "20%-80%"
+        },
+        {
+          "Parameter": "Tx Input Impedance",
+          "Symbol": "Zin",
+          "Min": "",
+          "Typ": "50",
+          "Max": "",
+          "Units": "Ohm",
+          "Notes/Conditions": "Single ended"
+        },
+        {
+          "Parameter": "Rx Input Impedance",
+          "Symbol": "Zout",
+          "Min": "",
+          "Typ": "50",
+          "Max": "",
+          "Units": "Ohm",
+          "Notes/Conditions": "Single ended"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06_table_6",
+      "title": "General Specifications",
+      "page": 5,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min Typ",
+        "Max",
+        "Units",
+        "Notes/Conditions"
+      ],
+      "rows": [
+        {
+          "Parameter": "Data Rate",
+          "Symbol": "BR",
+          "Min Typ": "10",
+          "Max": "1,000",
+          "Units": "Mb/sec",
+          "Notes/Conditions": "IEEE 802.3 compatible. See Notes 2 through 4 below"
+        },
+        {
+          "Parameter": "Cable Length",
+          "Symbol": "L",
+          "Min Typ": "",
+          "Max": "100",
+          "Units": "m",
+          "Notes/Conditions": "Category 5 UTP. BER <10-12"
+        }
+      ],
+      "footnotes": {
+        "1": "Clock tolerance is +/- 50 ppm.",
+        "2": "By default, the FN-TRAN-GC-COM",
+        "3": "Automatic crossover detection is enabled. External crossover cable is not required."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "07_table_7",
+      "title": "Environmental Specifications ",
+      "page": 5,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min",
+        "Typ",
+        "Max",
+        "Units",
+        "Notes/Conditions"
+      ],
+      "rows": [
+        {
+          "Parameter": "Operating Temperature",
+          "Symbol": "Top",
+          "Min": "0",
+          "Typ": "",
+          "Max": "70",
+          "Units": "°C",
+          "Notes/Conditions": "Case temperature"
+        },
+        {
+          "Parameter": "Storage Temperature",
+          "Symbol": "Tsto",
+          "Min": "-40",
+          "Typ": "",
+          "Max": "85",
+          "Units": "°C",
+          "Notes/Conditions": "Ambient temperature"
+        }
+      ],
+      "footnotes": {
+        "1": "Small Form Factor Pluggable (SFP) Transceiver Multi-Source Agreement (MSA). 2. IEEE Std 802.3, 2002 Edition. IEEE Standards Department, 2002.",
+        "3": "“AT24C01A/02/04/08/16 2-Wire Serial CMOS E2PROM”, Atmel Corporation."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "8_table_8",
+      "title": "Ordering information  ",
+      "page": 6,
+      "headers": [
+        "Part number",
+        "Operating Case temperature"
+      ],
+      "rows": [
+        {
+          "Part number": "FN-TRAN-GC-COM",
+          "Operating Case temperature": "1000Mbps only, SERDES interface, Copper SFP with spring latch"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "FN-TRAN-GC-COM"
+    ],
+    "total_tables": 14,
+    "total_footnotes": 10,
+    "modulation_block": false
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

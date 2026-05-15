@@ -1,0 +1,20 @@
+{
+  "source": "Nokia_Coherent_Module_6_(CHM6)_The_Industry's_Best_performing_800G_Xponder_datasheet_Data_Sheet_EN.pdf",
+  "page_count": 6,
+  "tier": 2,
+  "tables": [],
+  "structure": {
+    "section_order": [
+      "NOX<IA"
+    ],
+    "total_tables": 0,
+    "total_footnotes": 0,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "unstructured_hires",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "source": "so-xfp-er-dxxxx.pdf",
+  "page_count": 2,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_technical_data",
+      "title": "TECHNICAL DATA",
+      "page": 1,
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Value": "DWDM 100GHz XFP"
+        },
+        {
+          "Parameter": "Transmission media",
+          "Value": "SM (2x LC)"
+        },
+        {
+          "Parameter": "Typical reach",
+          "Value": "40km"
+        },
+        {
+          "Parameter": "Nominal wavelength",
+          "Value": "191.90 - 196.00THz (42ch)"
+        },
+        {
+          "Parameter": "Bit rate support",
+          "Value": "9.95Gbps to 11.1Gbps"
+        },
+        {
+          "Parameter": "Interface standards",
+          "Value": "10GBASE-ER, 10GBASE-EW"
+        },
+        {
+          "Parameter": "Interface standards",
+          "Value": "1200-SM-LL-L (10G FC)"
+        },
+        {
+          "Parameter": "Interface standards",
+          "Value": "OC-192 IR-2, IR-3"
+        },
+        {
+          "Parameter": "Interface standards",
+          "Value": "STM S-64.2b, S-64.3b"
+        },
+        {
+          "Parameter": "Protocol support",
+          "Value": "10GbE-LAN, 10GbE-WAN"
+        },
+        {
+          "Parameter": "Protocol support",
+          "Value": "OTU2, OTU2e"
+        },
+        {
+          "Parameter": "Protocol support",
+          "Value": "STM-64/0C192"
+        },
+        {
+          "Parameter": "Protocol support",
+          "Value": "10G FC"
+        },
+        {
+          "Parameter": "Protocol support",
+          "Value": "CPRI Opt, 8"
+        },
+        {
+          "Parameter": "Power budget",
+          "Value": "0-14dB"
+        },
+        {
+          "Parameter": "Dispersion tolerance",
+          "Value": "800ps/nm"
+        },
+        {
+          "Parameter": "Dispersion penalty",
+          "Value": "Max 2dB"
+        },
+        {
+          "Parameter": "Power consumption",
+          "Value": "<2W"
+        },
+        {
+          "Parameter": "Operating temperature",
+          "Value": "0°C to +70°C"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_technical_data",
+      "title": "TECHNICAL DATA",
+      "page": 1,
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter": "Transmitter data:",
+          "Value": "Transmitter data:"
+        },
+        {
+          "Parameter": "Output power",
+          "Value": "Min: -1.0dB 1)"
+        },
+        {
+          "Parameter": "Output power",
+          "Value": "Max: +4.0dBm 1)"
+        },
+        {
+          "Parameter": "Transmit wavelength",
+          "Value": "191.90 - 196.00THz, 100GHz (G.694.1)"
+        },
+        {
+          "Parameter": "Receiver data:",
+          "Value": "Receiver data:"
+        },
+        {
+          "Parameter": "Minimum input power",
+          "Value": "-15.0dBm 1)2)"
+        },
+        {
+          "Parameter": "Overload (max power)",
+          "Value": "+0.5dBm 1)2)"
+        },
+        {
+          "Parameter": "Wavelength range",
+          "Value": "1270nm — 1600nm"
+        },
+        {
+          "Parameter": "LOS assert",
+          "Value": "Min -29dBm"
+        },
+        {
+          "Parameter": "LOS de-assert",
+          "Value": "Max -17dBm"
+        },
+        {
+          "Parameter": "LOS Hysteresis",
+          "Value": "Min 1dB"
+        },
+        {
+          "Parameter": "DDM",
+          "Value": "Yes"
+        },
+        {
+          "Parameter": "MSA compliance",
+          "Value": "INF-8077i, XFP-MSA"
+        }
+      ],
+      "footnotes": {
+        "1": "Average power.",
+        "2": "@ 10.7Gbps, BER 1x10-12, PRBS 231-1."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_ordering_information",
+      "title": "ORDERING INFORMATION",
+      "page": 2,
+      "headers": [
+        "Part number",
+        "Freq. THz",
+        " nm"
+      ],
+      "rows": [
+        {
+          "Part number": "SO-XFP-ER-D9190",
+          "Freq. THz": "191.90",
+          " nm": "1562.23"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9200",
+          "Freq. THz": "192.00",
+          " nm": "1561.42"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9210",
+          "Freq. THz": "192.10",
+          " nm": "1560.61"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9220",
+          "Freq. THz": "192.20",
+          " nm": "1559.79"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9230",
+          "Freq. THz": "192.30",
+          " nm": "1558.98"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9240",
+          "Freq. THz": "192.40",
+          " nm": "1558.17"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9250",
+          "Freq. THz": "192.50",
+          " nm": "1557.36"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9260",
+          "Freq. THz": "192.60",
+          " nm": "1556.55"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9270",
+          "Freq. THz": "192.70",
+          " nm": "1555.75"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9280",
+          "Freq. THz": "192.80",
+          " nm": "1554.94"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9290",
+          "Freq. THz": "192.90",
+          " nm": "1554.13"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9300",
+          "Freq. THz": "193.00",
+          " nm": "1553.33"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9310",
+          "Freq. THz": "193.10",
+          " nm": "1552.52"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9320",
+          "Freq. THz": "193.20",
+          " nm": "1551.72"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9330",
+          "Freq. THz": "193.30",
+          " nm": "1550.92"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9340",
+          "Freq. THz": "193.40",
+          " nm": "1550.12"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9350",
+          "Freq. THz": "193.50",
+          " nm": "1549.32"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9360",
+          "Freq. THz": "193.60",
+          " nm": "1548.51"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9370",
+          "Freq. THz": "193.70",
+          " nm": "1547.72"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9380",
+          "Freq. THz": "193.80",
+          " nm": "1546.92"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9390",
+          "Freq. THz": "193.90",
+          " nm": "1546.12"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9400",
+          "Freq. THz": "194.00",
+          " nm": "1545.32"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_ordering_information",
+      "title": "ORDERING INFORMATION",
+      "page": 2,
+      "headers": [
+        "Part number",
+        "Freq. THz",
+        " nm"
+      ],
+      "rows": [
+        {
+          "Part number": "SO-XFP-ER-D9410",
+          "Freq. THz": "194.10",
+          " nm": "1544.53"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9420",
+          "Freq. THz": "194.20",
+          " nm": "1543.73"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9430",
+          "Freq. THz": "194.30",
+          " nm": "1542.94"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9440",
+          "Freq. THz": "194.40",
+          " nm": "1542.14"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9450",
+          "Freq. THz": "194.50",
+          " nm": "1541.35"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9460",
+          "Freq. THz": "194.60",
+          " nm": "1540.56"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9470",
+          "Freq. THz": "194.70",
+          " nm": "1539.77"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9480",
+          "Freq. THz": "194.80",
+          " nm": "1538.98"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9490",
+          "Freq. THz": "194.90",
+          " nm": "1538.19"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9500",
+          "Freq. THz": "195.00",
+          " nm": "1537.40"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9510",
+          "Freq. THz": "195.10",
+          " nm": "1536.61"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9520",
+          "Freq. THz": "195.20",
+          " nm": "1535.82"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9530",
+          "Freq. THz": "195.30",
+          " nm": "1535.04"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9540",
+          "Freq. THz": "195.40",
+          " nm": "1534.25"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9550",
+          "Freq. THz": "195.50",
+          " nm": "1533.47"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9560",
+          "Freq. THz": "195.60",
+          " nm": "1532.68"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9570",
+          "Freq. THz": "195.70",
+          " nm": "1531.90"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9580",
+          "Freq. THz": "195.80",
+          " nm": "1531.12"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9590",
+          "Freq. THz": "195.90",
+          " nm": "1530.33"
+        },
+        {
+          "Part number": "SO-XFP-ER-D9600",
+          "Freq. THz": "196.00",
+          " nm": "1529.55"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_general_definitions",
+      "title": "GENERAL DEFINITIONS",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Description": "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel gri DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors."
+        },
+        {
+          "Parameter": "Transmission Media",
+          "Description": "Type of fiber, e.g. Multimode (MM) or Singlemode (SM). Number of and connector type within brackets (e.g. 2x LC, 1x MPO)."
+        },
+        {
+          "Parameter": "Typical reach",
+          "Description": "Nominal distance performance based on typical fiber dispersion, fiber loss and power budget properties, i.e. w/o dispersion compensation and optical amplification. Actual distance is dependent on actual optical path loss and dispersion properties."
+        },
+        {
+          "Parameter": "Bit rate range",
+          "Description": "Supported bit rate range in Gigabit or Megabit per second (Gbps or Mbps)."
+        },
+        {
+          "Parameter": "Protocols",
+          "Description": "Protocols within supported bit rate range."
+        },
+        {
+          "Parameter": "Nominal wavelength",
+          "Description": "Typical wavelength(s) from transmitter."
+        },
+        {
+          "Parameter": "Interface standards",
+          "Description": "Referenced interface standards or MSA's, e.g. IEEE 802.3 standard for 10GbE services or 100G 4WDM-10 etc."
+        },
+        {
+          "Parameter": "Power budget Dispersion tolerance/penalty",
+          "Description": "Min and max power budget between Transmitter and Receiver w/o optical path penalties. Maximum amount of tolerated dispersion and required reduction of power budget to maintain stipulated Bit Error Rate (BER) and at"
+        },
+        {
+          "Parameter": "Temperature range",
+          "Description": "a given bit rate. Max operating case temperature range. Standard temperature range (C-temp): 0°C to +70°C (32°F to +158°F) Extended temperature range (E-temp): typically -20°C to +75°C (-4°F to +167°F) Industrial temperature range (I-temp): -40°C to +85°C (-40°F to +185°F)"
+        },
+        {
+          "Parameter": "Power consumption",
+          "Description": "Worst case power consumption. Will vary over temperature."
+        },
+        {
+          "Parameter": "Transmitter Output power",
+          "Description": "Average output power. Provided in min and max values."
+        },
+        {
+          "Parameter": "Receiver minimum input power",
+          "Description": "Minimum average input power at specified BER, normally 1E-'?. Note that some protocols require FEC to achieve sufficient BER."
+        },
+        {
+          "Parameter": "Receiver max input power",
+          "Description": "Maximum average input power giving a BER, normally 1E-1?."
+        },
+        {
+          "Parameter": "DDM",
+          "Description": "Digital Diagnostic Monitoring functionality as defined in e.g. SFF-8472 MSA."
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "OVERVIEW",
+      "TECHNICAL DATA",
+      "ORDERING INFORMATION",
+      "GENERAL DEFINITIONS"
+    ],
+    "total_tables": 5,
+    "total_footnotes": 2,
+    "modulation_block": false
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "unstructured_hires",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

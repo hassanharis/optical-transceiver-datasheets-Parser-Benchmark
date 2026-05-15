@@ -1,0 +1,256 @@
+{
+  "source": "ds_FXC_SFP_ZX_1G_CAN.pdf",
+  "page_count": 5,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Table 1",
+      "page": 1,
+      "headers": [
+        "ayuerowuw Data Rate",
+        "1 Gbps"
+      ],
+      "rows": [
+        {
+          "ayuerowuw Data Rate": "Form Factor",
+          "1 Gbps": "SFP"
+        },
+        {
+          "ayuerowuw Data Rate": "Connector",
+          "1 Gbps": "LC"
+        },
+        {
+          "ayuerowuw Data Rate": "Connector Mode",
+          "1 Gbps": "Duplex"
+        },
+        {
+          "ayuerowuw Data Rate": "Mode",
+          "1 Gbps": "Single Mc"
+        },
+        {
+          "ayuerowuw Data Rate": "Distance",
+          "1 Gbps": "80 km"
+        },
+        {
+          "ayuerowuw Data Rate": "Mfg Platform Compatibility",
+          "1 Gbps": "Ciena"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "Table 2",
+      "page": 1,
+      "headers": [
+        "Column 1",
+        "Column 2",
+        "Typical",
+        "Maximum"
+      ],
+      "rows": [
+        {
+          "Column 1": "Wattage",
+          "Column 2": "",
+          "Typical": "",
+          "Maximum": "1.04"
+        },
+        {
+          "Column 1": "Power Supply Voltage Vcc",
+          "Column 2": "3.15",
+          "Typical": "3.3",
+          "Maximum": "3.45"
+        },
+        {
+          "Column 1": "Power Supply Current Icc",
+          "Column 2": "",
+          "Typical": "",
+          "Maximum": "300"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_table_3",
+      "title": "Table 3",
+      "page": 1,
+      "headers": [
+        "Description",
+        "Column 2",
+        "Typical",
+        "Maximum",
+        "Column 5"
+      ],
+      "rows": [
+        {
+          "Description": "TX Center Wavelength",
+          "Column 2": "1500",
+          "Typical": "1550",
+          "Maximum": "1580",
+          "Column 5": "nm"
+        },
+        {
+          "Description": "TX Data Rate",
+          "Column 2": "",
+          "Typical": "1.25",
+          "Maximum": "",
+          "Column 5": "Gbps"
+        },
+        {
+          "Description": "TX Spectral Width",
+          "Column 2": "",
+          "Typical": "",
+          "Maximum": "1",
+          "Column 5": "nm"
+        },
+        {
+          "Description": "TX Average Output Power",
+          "Column 2": "i?)",
+          "Typical": "",
+          "Maximum": "5",
+          "Column 5": "dBm"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_fxc_sfp_zx_1g_can",
+      "title": "FXC-SFP-ZX-1G-CAN",
+      "page": 2,
+      "headers": [
+        "Center Wavelength",
+        "1260",
+        "nm"
+      ],
+      "rows": [
+        {
+          "Center Wavelength": "‘Receiver Sensitivity",
+          "1260": "-24",
+          "nm": "dBm"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_fxc_sfp_zx_1g_can",
+      "title": "FXC-SFP-ZX-1G-CAN",
+      "page": 2,
+      "headers": [
+        "Temperature",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Temperature": "Operating Range",
+          "Column 2": "0 to +70 deg C"
+        },
+        {
+          "Temperature": "Storage Range",
+          "Column 2": "-40 to +85 deg"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06_20",
+      "title": "20",
+      "headers": [
+        "20",
+        "VeeT",
+        "1",
+        "VeeT 2"
+      ],
+      "rows": [
+        {
+          "20": "19",
+          "VeeT": "TxFault",
+          "1": "2",
+          "VeeT 2": ""
+        },
+        {
+          "20": "18",
+          "VeeT": "Tx Disable",
+          "1": "3",
+          "VeeT 2": ""
+        },
+        {
+          "20": "17",
+          "VeeT": "MOD-DEF(2)",
+          "1": "4",
+          "VeeT 2": ""
+        },
+        {
+          "20": "16",
+          "VeeT": "MOD-DEF(1)",
+          "1": "5",
+          "VeeT 2": ""
+        },
+        {
+          "20": "15",
+          "VeeT": "MOD-DEF(0)",
+          "1": "6",
+          "VeeT 2": ""
+        },
+        {
+          "20": "14",
+          "VeeT": "Rate Select",
+          "1": "7",
+          "VeeT 2": ""
+        },
+        {
+          "20": "13",
+          "VeeT": "LOS",
+          "1": "8",
+          "VeeT 2": ""
+        },
+        {
+          "20": "12",
+          "VeeT": "VeeR",
+          "1": "9",
+          "VeeT 2": ""
+        },
+        {
+          "20": "11",
+          "VeeT": "VeeR",
+          "1": "10",
+          "VeeT 2": ""
+        },
+        {
+          "20": "",
+          "VeeT": "Bottom of Board (as viewed<br>thru top of board)",
+          "1": "",
+          "VeeT 2": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "marker"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "GLOBAL CONNECTIVITY SOLUTIONS",
+      "FXC-SFP-ZX-1G-CAN"
+    ],
+    "total_tables": 6,
+    "total_footnotes": 0,
+    "modulation_block": false
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

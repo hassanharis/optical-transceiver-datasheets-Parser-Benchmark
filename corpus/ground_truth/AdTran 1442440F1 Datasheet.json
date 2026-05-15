@@ -1,0 +1,540 @@
+{
+  "source": "AdTran 1442440F1 Datasheet.pdf",
+  "page_count": 3,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Table 1",
+      "page": 1,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Column 1": "Part Number:",
+          "Column 2": "1442440F1"
+        },
+        {
+          "Column 1": "Form Factor:",
+          "Column 2": "SFP+"
+        },
+        {
+          "Column 1": "TX Wavelength:",
+          "Column 2": "1550nm"
+        },
+        {
+          "Column 1": "Reach:",
+          "Column 2": "40km"
+        },
+        {
+          "Column 1": "Cable Type:",
+          "Column 2": "SMF"
+        },
+        {
+          "Column 1": "Rate Category:",
+          "Column 2": "10GBase"
+        },
+        {
+          "Column 1": "Interface Type:",
+          "Column 2": "ER"
+        },
+        {
+          "Column 1": "DDM:",
+          "Column 2": "Yes"
+        },
+        {
+          "Column 1": "Connector Type:",
+          "Column 2": "Dual-LC"
+        },
+        {
+          "Column 1": "Power Budget:",
+          "Column 2": "11.10 dB"
+        },
+        {
+          "Column 1": "TX Power Min/Max:",
+          "Column 2": "-3.00 to 3.00"
+        },
+        {
+          "Column 1": "RX Power Min/Max;",
+          "Column 2": "-14.10 to -1.0"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "Table 2",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min.",
+        "Typ",
+        "Max.",
+        "Unit",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Parameter": "CML Inputs(Differential)",
+          "Symbol": "Vin",
+          "Min.": "150",
+          "Typ": "",
+          "Max.": "1200",
+          "Unit": "mV p-p",
+          "Notes": "AC coupled inputs"
+        },
+        {
+          "Parameter": "Supply Current",
+          "Symbol": "ICC",
+          "Min.": "",
+          "Typ": "",
+          "Max.": "300",
+          "Unit": "mA",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Input Impedance (Differential)",
+          "Symbol": "Zin",
+          "Min.": "85",
+          "Typ": "100",
+          "Max.": "115",
+          "Unit": "ohm",
+          "Notes": "Rin > 100 kohm @ DC"
+        },
+        {
+          "Parameter": "Tx_Disable Input Voltage - Low",
+          "Symbol": "VIL",
+          "Min.": "0",
+          "Typ": "",
+          "Max.": "0.8",
+          "Unit": "V",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Tx_Disable Input Voltage - High",
+          "Symbol": "VIH",
+          "Min.": "2.0",
+          "Typ": "",
+          "Max.": "3.45",
+          "Unit": "V",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Tx_Fault Output Voltage - Low",
+          "Symbol": "VOL",
+          "Min.": "0",
+          "Typ": "",
+          "Max.": "0.5",
+          "Unit": "V",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Tx_Fault Output Voltage - High",
+          "Symbol": "VOH",
+          "Min.": "2.0",
+          "Typ": "",
+          "Max.": "Vcc+0.3",
+          "Unit": "V",
+          "Notes": ""
+        },
+        {
+          "Parameter": "CML Outputs (Differential)",
+          "Symbol": "Vout",
+          "Min.": "350",
+          "Typ": "",
+          "Max.": "700",
+          "Unit": "mV pp",
+          "Notes": "AC coupled outputs"
+        },
+        {
+          "Parameter": "Output Impedance (Differential)",
+          "Symbol": "Zout",
+          "Min.": "85",
+          "Typ": "100",
+          "Max.": "115",
+          "Unit": "ohms",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Rx_LOS Output Voltage- Low",
+          "Symbol": "VOL",
+          "Min.": "0",
+          "Typ": "",
+          "Max.": "0.5",
+          "Unit": "V",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Rx_LOS Output Voltage- High",
+          "Symbol": "VOH",
+          "Min.": "2.5",
+          "Typ": "",
+          "Max.": "",
+          "Unit": "V",
+          "Notes": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_table_3",
+      "title": "Table 3",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Parameter 2",
+        "Symbol",
+        "Min",
+        "Typ",
+        "Max",
+        "Unit"
+      ],
+      "rows": [
+        {
+          "Parameter": "Data Rate",
+          "Parameter 2": "",
+          "Symbol": "",
+          "Min": "-",
+          "Typ": "10.3",
+          "Max": "-",
+          "Unit": "Gb/s"
+        },
+        {
+          "Parameter": "gum Core Diameter SMF",
+          "Parameter 2": "",
+          "Symbol": "",
+          "Min": "",
+          "Typ": "10",
+          "Max": "",
+          "Unit": "Km"
+        },
+        {
+          "Parameter": "Centre wavelength",
+          "Parameter 2": "",
+          "Symbol": "λc",
+          "Min": "1530",
+          "Typ": "1550",
+          "Max": "1565",
+          "Unit": "nm"
+        },
+        {
+          "Parameter": "Output Spectral Width(-20dB)",
+          "Parameter 2": "",
+          "Symbol": "△λ",
+          "Min": "-",
+          "Typ": "-",
+          "Max": "1",
+          "Unit": "nm"
+        },
+        {
+          "Parameter": "Average Output Power",
+          "Parameter 2": "",
+          "Symbol": "Pout",
+          "Min": "-3",
+          "Typ": "-",
+          "Max": "3",
+          "Unit": "dBm"
+        },
+        {
+          "Parameter": "Extinction Ratio",
+          "Parameter 2": "",
+          "Symbol": "ER",
+          "Min": "6",
+          "Typ": "-",
+          "Max": "-",
+          "Unit": "dB"
+        },
+        {
+          "Parameter": "Average Power of OFF Transmitter",
+          "Parameter 2": "",
+          "Symbol": "",
+          "Min": "",
+          "Typ": "",
+          "Max": "-30",
+          "Unit": "dBm"
+        },
+        {
+          "Parameter": "Side Mode Suppression Ratio",
+          "Parameter 2": "",
+          "Symbol": "SMSR",
+          "Min": "30",
+          "Typ": "",
+          "Max": "",
+          "Unit": "dB"
+        },
+        {
+          "Parameter": "Input Differential Impedance",
+          "Parameter 2": "",
+          "Symbol": "Zin",
+          "Min": "90",
+          "Typ": "100",
+          "Max": "110",
+          "Unit": "Ω"
+        },
+        {
+          "Parameter": "TX Disable",
+          "Parameter 2": "Disable",
+          "Symbol": "",
+          "Min": "2.0",
+          "Typ": "",
+          "Max": "Vcc+0.3",
+          "Unit": "V"
+        },
+        {
+          "Parameter": "TX Disable",
+          "Parameter 2": "Enable",
+          "Symbol": "",
+          "Min": "0",
+          "Typ": "",
+          "Max": "0.8",
+          "Unit": "V"
+        },
+        {
+          "Parameter": "TX Fault",
+          "Parameter 2": "Fault",
+          "Symbol": "",
+          "Min": "2.0",
+          "Typ": "",
+          "Max": "Vcc+0.3",
+          "Unit": "V"
+        },
+        {
+          "Parameter": "TX Fault",
+          "Parameter 2": "Normal",
+          "Symbol": "",
+          "Min": "0",
+          "Typ": "",
+          "Max": "0.8",
+          "Unit": "V"
+        },
+        {
+          "Parameter": "TX Disable Assert Time ",
+          "Parameter 2": "t_off",
+          "Symbol": "",
+          "Min": "",
+          "Typ": "",
+          "Max": "10",
+          "Unit": "us"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_table_4",
+      "title": "Table 4",
+      "page": 3,
+      "headers": [
+        "RX Parameter",
+        "Parameter 2",
+        "Symbol",
+        "Min",
+        "Typ",
+        "Max",
+        "Unit"
+      ],
+      "rows": [
+        {
+          "RX Parameter": "Center Wavelength",
+          "Unit": "nm",
+          "Parameter 2": "",
+          "Symbol": "λc",
+          "Min": "1530",
+          "Typ": "",
+          "Max": "1565"
+        },
+        {
+          "RX Parameter": "Receive Sensitivity",
+          "Unit": "dBm",
+          "Parameter 2": "",
+          "Symbol": "Pin",
+          "Min": "-",
+          "Typ": "-",
+          "Max": "-141"
+        },
+        {
+          "RX Parameter": "Maximum Input Power",
+          "Unit": "dBm",
+          "Parameter 2": "",
+          "Symbol": "Pmax",
+          "Min": "-1.0",
+          "Typ": "0",
+          "Max": "-"
+        },
+        {
+          "RX Parameter": "Signal Detect Threshold-Assertion:",
+          "Unit": "dBm",
+          "Parameter 2": "",
+          "Symbol": "SDHIGH",
+          "Min": ".",
+          "Typ": ".",
+          "Max": "-16"
+        },
+        {
+          "RX Parameter": "Signal Detect Threshold-Deassertion:",
+          "Unit": "dBm",
+          "Parameter 2": "",
+          "Symbol": "SDLow",
+          "Min": "-25",
+          "Typ": "-",
+          "Max": "-"
+        },
+        {
+          "RX Parameter": "Output Differential Impedance",
+          "Unit": "Ω",
+          "Parameter 2": "",
+          "Symbol": "Pin",
+          "Min": "90",
+          "Typ": "100",
+          "Max": "110"
+        },
+        {
+          "RX Parameter": "Receiver Overload",
+          "Unit": "dBm",
+          "Parameter 2": "",
+          "Symbol": "Pmax",
+          "Min": "0.5",
+          "Typ": "",
+          "Max": ""
+        },
+        {
+          "RX Parameter": "Optical Return Loss",
+          "Unit": "dB",
+          "Parameter 2": "",
+          "Symbol": "ORL",
+          "Min": "",
+          "Typ": "",
+          "Max": "-16"
+        },
+        {
+          "RX Parameter": "LOS",
+          "Unit": "V",
+          "Parameter 2": "High",
+          "Symbol": "2.0",
+          "Min": "",
+          "Typ": "",
+          "Max": "Vcc+0.3"
+        },
+        {
+          "RX Parameter": "LOS",
+          "Unit": "V",
+          "Parameter 2": "Low",
+          "Symbol": "0",
+          "Min": "",
+          "Typ": "",
+          "Max": "0.8"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_table_5",
+      "title": "Table 5",
+      "page": 3,
+      "headers": [
+        "Parameter",
+        "Symbol",
+        "Min",
+        "Max",
+        "Unit"
+      ],
+      "rows": [
+        {
+          "Symbol": "Tst",
+          "Min": "-40",
+          "Max": "+85",
+          "Unit": "°C",
+          "Parameter": "Storage Temperature"
+        },
+        {
+          "Symbol": "Tip",
+          "Min": "0",
+          "Max": "+70",
+          "Unit": "°C",
+          "Parameter": "Operating Temperature (Com)"
+        },
+        {
+          "Symbol": "Tip",
+          "Min": "-40",
+          "Max": "+85",
+          "Unit": "°C",
+          "Parameter": "Operating Temperature (Indsutrial)"
+        },
+        {
+          "Symbol": "Tec",
+          "Min": "0",
+          "Max": "5",
+          "Unit": "V",
+          "Parameter": "Input Voltage"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06_table_6",
+      "title": "Table 6",
+      "page": 3,
+      "headers": [
+        "Supply Voltage",
+        "Symbol",
+        "Min",
+        "Typ",
+        "Max",
+        "Unit"
+      ],
+      "rows": [
+        {
+          "Supply Voltage": "Supply Voltage",
+          "Symbol": "Vcc",
+          "Min": "+3.15",
+          "Typ": "3.3",
+          "Max": "+3.45",
+          "Unit": "V"
+        },
+        {
+          "Supply Voltage": "Operating Temperature",
+          "Symbol": "Top",
+          "Min": "0",
+          "Typ": "-",
+          "Max": "+70",
+          "Unit": "°C"
+        },
+        {
+          "Supply Voltage": "Operating Temperature",
+          "Symbol": "Top",
+          "Min": "-40",
+          "Typ": "-",
+          "Max": "+85",
+          "Unit": "°C"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    }
+  ],
+  "structure": {
+    "section_order": [],
+    "total_tables": 6,
+    "total_footnotes": 0,
+    "modulation_block": false
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "unstructured_hires",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

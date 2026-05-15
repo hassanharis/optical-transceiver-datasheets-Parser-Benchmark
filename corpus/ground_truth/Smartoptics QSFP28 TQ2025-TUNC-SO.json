@@ -1,0 +1,356 @@
+{
+  "source": "Smartoptics QSFP28 TQ2025-TUNC-SO.pdf",
+  "page_count": 2,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_technical_data",
+      "title": "TECHNICAL DATA",
+      "page": 1,
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Value": "DWDM QSFP28 100GBASE-ZR"
+        },
+        {
+          "Parameter": "Transmission media",
+          "Value": "SM (2x LC)"
+        },
+        {
+          "Parameter": "Typical reach, unamplified",
+          "Value": "80km 1)"
+        },
+        {
+          "Parameter": "Typical reach, amplified",
+          "Value": "120km 2)"
+        },
+        {
+          "Parameter": "Typical reach, amplified",
+          "Value": "300km  3)"
+        },
+        {
+          "Parameter": "Nominal wavelength",
+          "Value": "191.35 — 196.10 THz (96ch)"
+        },
+        {
+          "Parameter": "Bit rate support",
+          "Value": "103.12Gbps"
+        },
+        {
+          "Parameter": "Protocol support",
+          "Value": "100GbE/OTU4"
+        },
+        {
+          "Parameter": "Dispersion tolerance",
+          "Value": "+2400ps/nm; +6000ps/nm 3)"
+        },
+        {
+          "Parameter": "Power budget",
+          "Value": "0-22dB"
+        },
+        {
+          "Parameter": "Power consumption",
+          "Value": "<5.5W"
+        },
+        {
+          "Parameter": "Operating temperature",
+          "Value": "0°C to +70°C (TQ2025-TUNC-SO)"
+        },
+        {
+          "Parameter": "Storage temperature",
+          "Value": "-40°C to +85°C"
+        }
+      ],
+      "footnotes": {
+        "1": "Limited by power budget",
+        "2": "Limited by dispersion compensation",
+        "3": "Extended mode, set through the host when the transceiver is in Low Power mode. The Extended mode will increase the power consumption of the module by 0.2W.",
+        "4": "Average power",
+        "5": "Receiver Sensitivity at unamplified configurations; OSNR >35dB/0.1nm",
+        "6": "100G DQPSK SC-FEC"
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_technical_data",
+      "title": "TECHNICAL DATA",
+      "page": 1,
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter": "Transmitter data:",
+          "Value": "Transmitter data:"
+        },
+        {
+          "Parameter": "Output power per lane",
+          "Value": "Min: -8.0dBm 4)"
+        },
+        {
+          "Parameter": "Output power per lane",
+          "Value": "Max: -4.0dBm 4)"
+        },
+        {
+          "Parameter": "Transmit wavelength",
+          "Value": "191.35 — 196.10 THz"
+        },
+        {
+          "Parameter": "Receiver data:",
+          "Value": "Receiver data:"
+        },
+        {
+          "Parameter": "Minimum input power, unamplified",
+          "Value": "-30.0dBm 4) 5) 6)"
+        },
+        {
+          "Parameter": "Minimum input power, unamplified",
+          "Value": "-24.0dBm 4)5)7)"
+        },
+        {
+          "Parameter": "Minimum input power, amplified",
+          "Value": "~18dBm 4)"
+        },
+        {
+          "Parameter": "Minimum input power, amplified",
+          "Value": "-22dBm 4)8)"
+        },
+        {
+          "Parameter": "Overload (max power)",
+          "Value": "3.0dBm 4)"
+        },
+        {
+          "Parameter": "OSNR Tolerance",
+          "Value": "16.5 dB/O.1nm 6)"
+        },
+        {
+          "Parameter": "OSNR Tolerance",
+          "Value": "21.5 dB/0.1nm 7)"
+        },
+        {
+          "Parameter": "Rx power monitor range",
+          "Value": "Signal power: -21dBm to +3dBm."
+        },
+        {
+          "Parameter": "Rx power monitor range",
+          "Value": "Total power: -21dBm to +6dBm"
+        },
+        {
+          "Parameter": "Wavelength range",
+          "Value": "191.35 — 196.10 THz"
+        },
+        {
+          "Parameter": "Misc",
+          "Value": "Remote Diagnostic Monitoring"
+        },
+        {
+          "Parameter": "Misc",
+          "Value": "Flextune™"
+        },
+        {
+          "Parameter": "MSA compliance ",
+          "Value": "SFF-8665, -8661, -8679"
+        },
+        {
+          "Parameter": "MSA compliance",
+          "Value": "CMIS5.2 / OIF C-CMIS-01.2"
+        },
+        {
+          "Parameter": "Media FEC SC-FEC",
+          "Value": "Latency [µs]"
+        },
+        {
+          "Parameter": "SC-FEC",
+          "Value": "17"
+        },
+        {
+          "Parameter": "RC-FEC",
+          "Value": "3"
+        }
+      ],
+      "footnotes": {
+        "7": "100G DQPSK RS-FEC",
+        "8": "Extended range; Rx signal input power range over which performance can be"
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_application_modes",
+      "title": "APPLICATION MODES",
+      "page": 2,
+      "headers": [
+        "Host framing",
+        "Network Frame",
+        "Media code 1)",
+        "FEC",
+        "MSA format"
+      ],
+      "rows": [
+        {
+          "Host framing": "CAUI-4 w/o FEC \nCAUI-4 with FEC",
+          "Network Frame": "100GBASE-R",
+          "FEC": "SC-FEC",
+          "MSA format": "100GBASE-ZR (Clause 154)",
+          "Media code 1)": "68"
+        },
+        {
+          "Host framing": "CAUI-4 w/o FEC \nCAUI-4 with FEC OTL4.4",
+          "Network Frame": "OTU4",
+          "FEC": "SC-FEC",
+          "MSA format": "OTU4 Long reach",
+          "Media code 1)": "192"
+        },
+        {
+          "Host framing": "CAUI-4 w/o FEC \nCAUI-4 with FEC OTL4.4",
+          "Network Frame": "OTU4",
+          "FEC": "RS(255,239)",
+          "MSA format": "OTU4 Short reach",
+          "Media code 1)": "192"
+        }
+      ],
+      "footnotes": {
+        "1": "The media code is defined through the reference code tables listed in SFF-8024."
+      },
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_general_definitions",
+      "title": "GENERAL DEFINITIONS",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Description": "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors."
+        },
+        {
+          "Parameter": "Transmission Media",
+          "Description": "Type of fiber, e.g. Multimode (MM) or Singlemode (SM). Number of and connector type within brackets (e.g. 2x LC, 1x MPO)."
+        },
+        {
+          "Parameter": "Typical reach",
+          "Description": "Nominal distance performance based on typical fiber dispersion, fiber loss and power budget properties, i.e. w/o dispersion compensation and optical amplification. Actual distance is dependent on actual optical path loss and dispersion properties."
+        },
+        {
+          "Parameter": "Bit rate range",
+          "Description": "Supported bit rate range in Gigabit or Megabit per second (Gbps or Mbps)."
+        },
+        {
+          "Parameter": "Protocols",
+          "Description": "Protocols within supported bit rate range."
+        },
+        {
+          "Parameter": "Nominal wavelength",
+          "Description": "Typical wavelength(s) from transmitter."
+        },
+        {
+          "Parameter": "Interface standards",
+          "Description": "Referenced interface standards or MSA's, e.g. IEEE 802.3 standard for 10GbE services or 100G 4WDM-10 etc."
+        },
+        {
+          "Parameter": "Power budget",
+          "Description": "Min and max power budget between Transmitter and Receiver w/o optical path penalties."
+        },
+        {
+          "Parameter": "Dispersion tolerance/penalty",
+          "Description": "Maximum amount of tolerated dispersion and required reduction of power budget to maintain stipulated Bit Error Rate (BER) and at"
+        },
+        {
+          "Parameter": "Temperature range",
+          "Description": "a given bit rate. Max operating case temperature range. Standard temperature range (C-temp): 0°C to +70°C (32°F to +158°F) Extended temperature range (E-temp): typically -20°C to +75°C (-4°F to +167°F) Industrial temperature range (I-temp): -40°C to +85°C (-40°F to +185°F)"
+        },
+        {
+          "Parameter": "Power consumption",
+          "Description": "Worst case power consumption. Will vary over temperature."
+        },
+        {
+          "Parameter": "Transmitter Output power",
+          "Description": "Average output power. Provided in min and max values."
+        },
+        {
+          "Parameter": "Receiver minimum input power",
+          "Description": "Minimum average input power at specified BER, normally 1E-12. Note that some protocols require FEC to achieve sufficient BER."
+        },
+        {
+          "Parameter": "Receiver max input power",
+          "Description": "Maximum average input power giving a BER, normally 1E-12."
+        },
+        {
+          "Parameter": "DDM",
+          "Description": "Digital Diagnostic Monitoring functionality as defined in e.g. SFF-8472 MSA."
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "5",
+      "title": "5",
+      "headers": [
+        "Media FEC",
+        "Latency [µs]"
+      ],
+      "rows": [
+        {
+          "Media FEC": "SC-FEC",
+          "Latency [µs]": "17"
+        },
+        {
+          "Media FEC": "RS-FEC",
+          "Latency [µs]": "3"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "marker"
+    },
+    {
+      "table_id": "06_ordering_code",
+      "title": "Ordering code",
+      "headers": [
+        "Ordering code",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Ordering code": "TQ2025-TUNC-SO",
+          "Description": "QSFP28, 100GBASE-ZR/OTU4 Coh 50GHz Tunable 80km, 22dB, CMIS5.2 LC"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "marker"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "QSFP28 100G COHERENT DWDM CMIS",
+      "TQ2025-TUNC-SO",
+      "TECHNICAL DATA",
+      "APPLICATION MODES",
+      "ORDERING INFORMATION",
+      "GENERAL DEFINITIONS"
+    ],
+    "total_tables": 6,
+    "total_footnotes": 9,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

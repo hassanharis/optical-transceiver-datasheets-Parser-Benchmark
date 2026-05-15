@@ -1,0 +1,195 @@
+{
+  "source": "Cisco CFP2-DCO.pdf",
+  "page_count": 8,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Digital CFP2 Modules with TOF ",
+      "page": 4,
+      "headers": [
+        "Product ID",
+        "Product Description"
+      ],
+      "rows": [
+        {
+          "Product ID": "CFP2-WDM-DETS-1HL=",
+          "Product Description": "200G, 100G, WDM Digital CFP2 pluggable Licensed for 100G only - TOF"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "Digital CFP2 Modules without TOF ",
+      "page": 5,
+      "headers": [
+        "Product ID",
+        "Product Description"
+      ],
+      "rows": [
+        {
+          "Product ID": "CFP2-WDM-DS-1HL=",
+          "Product Description": "200G, 100G, WDM Digital CFP2 pluggable Licensed 100G only - NON TOF version"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_table_3",
+      "title": "Transmitter specifications ",
+      "page": 5,
+      "headers": [
+        "Product ID",
+        "Transmit Power Range (dBm)",
+        "Output out-of-band OSNR (dB @0.1nm)",
+        "| Output in-band /OSNR (dB @0.1nm) __|",
+        "Optical output return loss (dB)"
+      ],
+      "rows": [
+        {
+          "Product ID": "CFP2-WDM-DETS-1HL=",
+          "Transmit Power Range (dBm)": "-10 to +1",
+          "Output out-of-band OSNR (dB @0.1nm)": "45",
+          "| Output in-band /OSNR (dB @0.1nm) __|": "100G QPSK: 37 \n200G 16QAM: 34.3 \n200G 8QAM: 32.3",
+          "Optical output return loss (dB)": "27"
+        },
+        {
+          "Product ID": "CFP2-WDM-DS-1HL=",
+          "Transmit Power Range (dBm)": "-5 to +1\n-10 to -5",
+          "Output out-of-band OSNR (dB @0.1nm)": "25\n20",
+          "| Output in-band /OSNR (dB @0.1nm) __|": "100G QPSK: 37\n200G 16QAM: 34.3\n200G 8QAM: 32.3",
+          "Optical output return loss (dB)": "27"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_table_4",
+      "title": "Receiver specifications",
+      "page": 6,
+      "headers": [
+        "Column 1",
+        "Receiver Power Range (dBm) - Single Channel",
+        "Maximum Optical input power (dBm)",
+        "Back to back OSNR (dB @0.1nm)",
+        "Chromatic Dispersion Tolerance (dB)"
+      ],
+      "rows": [
+        {
+          "Column 1": "CFP2-WDM-DETS-1HL= \nCFP2-WDM-DS-1HL=",
+          "Receiver Power Range (dBm) - Single Channel": "100G QPSK\nWithout OSNR penalty: - 18 to 0\nWith 0.3dB OSNR penalty -22 to +1\nDifferential with 7% FEC , 15% SD-FEC and SC-FEC: -29 to0\n100G QPSK Non- Differential with SD-FEC: - 30 to 0",
+          "Maximum Optical input power (dBm)": "13",
+          "Back to back OSNR (dB @0.1nm)": "100G QPSK\nSD-FEC (diff): 13.5 \nSD-FEC (non-diff): 12.3\nStaircase-FEC: 14.5",
+          "Chromatic Dispersion Tolerance (dB)": "100G QPSK: 0.5 \n|CD|<= 40000ps/nm"
+        },
+        {
+          "Column 1": "CFP2-WDM-DETS-1HL= \nCFP2-WDM-DS-1HL=",
+          "Receiver Power Range (dBm) - Single Channel": "200G 16QAM\nWithout OSNR penalty: - 13 to 0\nWith 0.5dB OSNR penalty: -18 to 0\nWith 1dB OSNR penalty: - 21 to0",
+          "Maximum Optical input power (dBm)": "13",
+          "Back to back OSNR (dB @0.1nm)": "200G 16QAM \nSD-FEC Non-Diff: 21.5",
+          "Chromatic Dispersion Tolerance (dB)": "200G 16QAM:0.5 \n|CD|<= 16000ps/nm"
+        },
+        {
+          "Column 1": "CFP2-WDM-DETS-1HL= \nCFP2-WDM-DS-1HL=",
+          "Receiver Power Range (dBm) - Single Channel": "200G 8QAM\nWithout OSNR penalty: - 21 to 0\nWith SD-FEC: -24 to 0",
+          "Maximum Optical input power (dBm)": "13",
+          "Back to back OSNR (dB @0.1nm)": "200G 8QAM \n15% SD-FEC Non-Diff: 20",
+          "Chromatic Dispersion Tolerance (dB)": "200G 8QAM: 0.5\n|CD|<= 20000ps/nm"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_table_5",
+      "title": "Digital CFP2 Modules",
+      "page": 7,
+      "headers": [
+        "Product ID",
+        "Column 2",
+        "Column 3",
+        "Column 4",
+        "Column 5"
+      ],
+      "rows": [
+        {
+          "Product ID": "CFP2-WDM-DETS-1HL=",
+          "Column 2": "100G QPSK: 17\n200G 16QAM: 19.5\n200G 8QAM: 20.5",
+          "Column 3": "LC-LC",
+          "Column 4": "LC",
+          "Column 5": "0 to +70"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06_table_6",
+      "title": "Digital CFP2 Modules 100G/200G ",
+      "page": 7,
+      "headers": [
+        "Product ID",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Product ID": "CFP2-WDM-DETS-1HL=",
+          "Column 2": "200G, 100G, WDM Digital CFP2 pluggable Licensed for 100G only - TOF"
+        },
+        {
+          "Product ID": "CFP2-WDM-DS-1HL=",
+          "Column 2": "200G, 100G, WDM Digital CFP2 pluggable Licensed 100G only - NON TOF version"
+        },
+        {
+          "Product ID": "CFP2-LIC-UPG-200G",
+          "Column 2": "License for WDM Digital CFP2 enabling 200G - physical "
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "07_table_7",
+      "title": "Sustainability topic",
+      "headers": [
+        "Sustainability topic",
+        "Reference"
+      ],
+      "rows": [
+        {
+          "Sustainability topic": "Information on product material content laws and regulations",
+          "Reference": "Materials"
+        },
+        {
+          "Sustainability topic": "Information on electronic waste laws and regulations, including products, batteries, and packaging",
+          "Reference": "WEEE compliance"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "marker"
+    }
+  ],
+  "structure": {
+    "section_order": [],
+    "total_tables": 8,
+    "total_footnotes": 0,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

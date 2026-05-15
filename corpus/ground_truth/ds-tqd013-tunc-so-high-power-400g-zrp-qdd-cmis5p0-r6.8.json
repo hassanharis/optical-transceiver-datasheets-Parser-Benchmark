@@ -1,0 +1,669 @@
+{
+  "source": "ds-tqd013-tunc-so-high-power-400g-zrp-qdd-cmis5p0-r6.8.pdf",
+  "page_count": 4,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_overview",
+      "title": "OVERVIEW",
+      "page": 1,
+      "headers": [
+        "CMIS Application Code",
+        "Host format",
+        "Electrical interface",
+        "Payload",
+        "FEC",
+        "Modulation",
+        "Line Symbol Baud Rate",
+        "MSA format"
+      ],
+      "rows": [
+        {
+          "CMIS Application Code": "1",
+          "Host format": "400GBASE-R",
+          "Electrical interface": "1x 400GAUI-8 (8x 50G)",
+          "Payload": "400G",
+          "FEC": "CFEC",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "59.8GBd",
+          "MSA format": "OIF 400ZR, app code 0x01"
+        },
+        {
+          "CMIS Application Code": "2",
+          "Host format": "400GBASE-R",
+          "Electrical interface": "1x 400GAUI-8 (8x 50G)",
+          "Payload": "400G",
+          "FEC": "CFEC",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "59.8GBd",
+          "MSA format": "OIF 400ZR, app code 0x02"
+        },
+        {
+          "CMIS Application Code": "3",
+          "Host format": "400GBASE-R",
+          "Electrical interface": "1x 400GAUI-8 (8x 50G)",
+          "Payload": "400G",
+          "FEC": "oFEC",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "MSA format": "OpenZR+ MSA"
+        },
+        {
+          "CMIS Application Code": "",
+          "Host format": "2 x 200GBASE-R",
+          "Electrical interface": "2x 200GAUI-4 (2x 200G)",
+          "Payload": "400G",
+          "FEC": "oFEC",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "MSA format": "OpenZR+ MSA"
+        },
+        {
+          "CMIS Application Code": "",
+          "Host format": "4x 100GBASE-R",
+          "Electrical interface": "4x 100GAUI-2 (2x 50G)",
+          "Payload": "400G",
+          "FEC": "oFEC",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "MSA format": "OpenZR+ MSA"
+        },
+        {
+          "CMIS Application Code": "",
+          "Host format": "400GBASE-R",
+          "Electrical interface": "1x 400GAUI-8 (8x 50G)",
+          "Payload": "400G",
+          "FEC": "oFEC",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "MSA format": "OpenZR+ MSA, Enhanced"
+        },
+        {
+          "CMIS Application Code": "",
+          "Host format": "2 x 200GBASE-R",
+          "Electrical interface": "2x 200GAUI-4 (2x 200G)",
+          "Payload": "400G",
+          "FEC": "oFEC",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "MSA format": "OpenZR+ MSA, Enhanced"
+        },
+        {
+          "CMIS Application Code": "",
+          "Host format": "4x 100GBASE-R",
+          "Electrical interface": "4x 100GAUI-2 (2x 50G)",
+          "Payload": "400G",
+          "FEC": "oFEC",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "MSA format": "OpenZR+ MSA, Enhanced"
+        },
+        {
+          "CMIS Application Code": "",
+          "Host format": "2 x 100GBASE-R",
+          "Electrical interface": "2x 100GAUI-2 (2x 50G)",
+          "Payload": "200G",
+          "FEC": "oFEC",
+          "Modulation": "DP-QPSK",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "MSA format": "OpenZR+ MSA"
+        },
+        {
+          "CMIS Application Code": "",
+          "Host format": "1 x 100GBASE-R",
+          "Electrical interface": "1x 100GAUI-2 (2x 50G)",
+          "Payload": "100G",
+          "FEC": "oFEC",
+          "Modulation": "DP-QPSK",
+          "Line Symbol Baud Rate": "30.1GBd",
+          "MSA format": "OpenZR+ MSA"
+        },
+        {
+          "CMIS Application Code": "",
+          "Host format": "3 x 100GBASE-R",
+          "Electrical interface": "3x 100GAUI-2 (2x 50G)",
+          "Payload": "300G",
+          "FEC": "oFEC",
+          "Modulation": "DP-8QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "MSA format": "OpenZR+ MSA"
+        },
+        {
+          "CMIS Application Code": "12",
+          "Host format": "3 x 100GBASE-R",
+          "Electrical interface": "3x 100GAUI-2 (2x 50G)",
+          "Payload": "300G",
+          "FEC": "oFEC",
+          "Modulation": "DP-8QAM",
+          "Line Symbol Baud Rate": "60.1GBd",
+          "MSA format": "OpenZR+ MSA, Enhanced"
+        },
+        {
+          "CMIS Application Code": "13",
+          "Host format": "4x 100GBASE-R",
+          "Electrical interface": "4x 100GAUI-2 (2x 50G)",
+          "Payload": "400G",
+          "FEC": "CFEC",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "59.8GBd",
+          "MSA format": "OIF400ZR app code 0x01"
+        },
+        {
+          "CMIS Application Code": "14",
+          "Host format": "2 x 100GBASE-R",
+          "Electrical interface": "2x 100GAUI-2 (2x50G)",
+          "Payload": "200G",
+          "FEC": "oFEC",
+          "Modulation": "DP-16QAM",
+          "Line Symbol Baud Rate": "30.1GBd",
+          "MSA format": "OpenZR+ MSA, Enhanced"
+        },
+        {
+          "CMIS Application Code": "15",
+          "Host format": "100GBASE-R",
+          "Electrical interface": "1x CAUI-4 w/o FEC",
+          "Payload": "100G",
+          "FEC": "oFEC",
+          "Modulation": "DP-QPSK",
+          "Line Symbol Baud Rate": "30.1GBd",
+          "MSA format": "OpenZR+ MSA"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_generic",
+      "title": "GENERIC",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Value": "DWDM QSFP-DD type 2a"
+        },
+        {
+          "Parameter": "Transmission media",
+          "Value": "SM (2x LC)"
+        },
+        {
+          "Parameter": "Nominal wavelengths",
+          "Value": "191.3 - 196.1THz (tunable) 6.25GHz Grid"
+        },
+        {
+          "Parameter": "Interface standards",
+          "Value": "OIF 400ZR / OpenZR+"
+        },
+        {
+          "Parameter": "Operating temperature",
+          "Value": "+15°C to +75°C 1)"
+        },
+        {
+          "Parameter": "Storage temperature",
+          "Value": "-40°C to +85°C"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "Total received power"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "Coherent channel power"
+        },
+        {
+          "Parameter": "DDM functions",
+          "Value": "OSNR, eSNR, PDL, dispersion, DGD"
+        }
+      ],
+      "footnotes": {
+        "1": "The module will turn up from cold start at ambient temperature as low as -5C and will reach specifications after self-heating up to min temperature.",
+        "2": "Increasing the CD range with 2x of default range will increase the power consumption by 0.6W."
+      },
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_generic",
+      "title": "GENERIC",
+      "page": 2,
+      "headers": [
+        "Parameter MSA",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter MSA": "Parameter MSA",
+          "Value": "QSFP-DD MSA's, CMIS5.0"
+        },
+        {
+          "Parameter MSA": "Misc",
+          "Value": "Sync-E support, LLDP, RMON"
+        },
+        {
+          "Parameter MSA": "Power consumption, EOL",
+          "Value": "23.1W @400G"
+        },
+        {
+          "Parameter MSA": "@ Default CD Range?)",
+          "Value": "23.4W @300G"
+        },
+        {
+          "Parameter MSA": "@ Default CD Range?)",
+          "Value": "21.9W @200G"
+        },
+        {
+          "Parameter MSA": "@ Default CD Range?)",
+          "Value": "18.0W @100G"
+        },
+        {
+          "Parameter MSA": "Tx Power",
+          "Value": "Min 1dBm 9)"
+        },
+        {
+          "Parameter MSA": "Tx In-band OSNR",
+          "Value": "Min 38dB/0.1nm"
+        },
+        {
+          "Parameter MSA": "Tx Out-Of-Band OSNR",
+          "Value": "Min 42dB/0.1nm"
+        },
+        {
+          "Parameter MSA": "Rx_LOS Assert",
+          "Value": "-28.0dBm *)"
+        },
+        {
+          "Parameter MSA": "Receiver turn-up",
+          "Value": "Max 30ms from warm start"
+        },
+        {
+          "Parameter MSA": "Receiver turn-up",
+          "Value": "Max 120s from cold start"
+        },
+        {
+          "Parameter MSA": "Absolute max conditions",
+          "Value": "Rx signal input power: +13dBm"
+        }
+      ],
+      "footnotes": {
+        "3": "The module transmit power can be provisioned up to the maximum available TX power. If the TX power is not provisioned by the host, the module TX power will default to the maximum available power. The provisional Tx power range of the module is 10dB.",
+        "4": "Set to comply with 400G modes. Can be changed on individual modules to fully support other modes."
+      },
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_optical_specification_application_codes",
+      "title": "OPTICAL SPECIFICATION - APPLICATION CODES",
+      "page": 3,
+      "headers": [
+        "pl",
+        "Line rate",
+        "Host format",
+        "‘Tx Power\" )",
+        "Rx sens @ OSNR > 36dB",
+        "Rx @ OSNR ?)",
+        "Rx OSNR @0.5dB penalty 2",
+        "Rx OSNR @1dB penalty 2)",
+        "Default CDC range",
+        "Maximum CDG search range"
+      ],
+      "rows": [
+        {
+          "pl": "AB",
+          "Line rate": "400G",
+          "Host format": "1x 400GAUI-8",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-20dBm",
+          "Rx @ OSNR ?)": "26dB@-12dBm",
+          "Rx OSNR @0.5dB penalty 2": "26.5dB@-14dBm",
+          "Rx OSNR @1dB penalty 2)": "27.0dB@-15dBm",
+          "Default CDC range": "4000 ps/nm",
+          "Maximum CDG search range": "4000 ps/nm"
+        },
+        {
+          "pl": "DH",
+          "Line rate": "400G",
+          "Host format": "1x 400GAUI-8",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-20dBm",
+          "Rx @ OSNR ?)": "26dB@-12dBm",
+          "Rx OSNR @0.5dB penalty 2": "26.5dB@-14dBm",
+          "Rx OSNR @1dB penalty 2)": "27.0dB@-15dBm",
+          "Default CDC range": "4000 ps/nm",
+          "Maximum CDG search range": "4000 ps/nm"
+        },
+        {
+          "pl": "FW",
+          "Line rate": "400G",
+          "Host format": "1x 400GAUI-8",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-21dBm",
+          "Rx @ OSNR ?)": "23.4dB@-12dBm",
+          "Rx OSNR @0.5dB penalty 2": "23.9dB@-14dBm",
+          "Rx OSNR @1dB penalty 2)": "24.4dB@-16dBm",
+          "Default CDC range": "13 000 ps/nm",
+          "Maximum CDG search range": "52 000 ps/nm"
+        },
+        {
+          "pl": "",
+          "Line rate": "400G",
+          "Host format": "2x 200GAUI-4",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-21dBm",
+          "Rx @ OSNR ?)": "23.4dB@-12dBm",
+          "Rx OSNR @0.5dB penalty 2": "23.9dB@-14dBm",
+          "Rx OSNR @1dB penalty 2)": "24.4dB@-16dBm",
+          "Default CDC range": "13 000 ps/nm",
+          "Maximum CDG search range": "52 000 ps/nm"
+        },
+        {
+          "pl": "HO",
+          "Line rate": "400G",
+          "Host format": "4x 100GAUI-2",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-21dBm",
+          "Rx @ OSNR ?)": "23.4dB@-12dBm",
+          "Rx OSNR @0.5dB penalty 2": "23.9dB@-14dBm",
+          "Rx OSNR @1dB penalty 2)": "24.4dB@-16dBm",
+          "Default CDC range": "13 000 ps/nm",
+          "Maximum CDG search range": "52 000 ps/nm"
+        },
+        {
+          "pl": "OD",
+          "Line rate": "400G",
+          "Host format": "1x 400GAUI-8",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-21dBm",
+          "Rx @ OSNR ?)": "23.1dB@-12dBm",
+          "Rx OSNR @0.5dB penalty 2": "23.6dB@-14dBm",
+          "Rx OSNR @1dB penalty 2)": "24.1dB@-16dBm",
+          "Default CDC range": "13 000 ps/nm",
+          "Maximum CDG search range": "52 000 ps/nm"
+        },
+        {
+          "pl": "N",
+          "Line rate": "400G",
+          "Host format": "2x 200GAUI-4",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-21dBm",
+          "Rx @ OSNR ?)": "23.1dB@-12dBm",
+          "Rx OSNR @0.5dB penalty 2": "23.6dB@-14dBm",
+          "Rx OSNR @1dB penalty 2)": "24.1dB@-16dBm",
+          "Default CDC range": "13 000 ps/nm",
+          "Maximum CDG search range": "52 000 ps/nm"
+        },
+        {
+          "pl": "M7",
+          "Line rate": "400G",
+          "Host format": "4x 100GAUI-2",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-21dBm",
+          "Rx @ OSNR ?)": "23.1dB@-12dBm",
+          "Rx OSNR @0.5dB penalty 2": "23.6dB@-14dBm",
+          "Rx OSNR @1dB penalty 2)": "24.1dB@-16dBm",
+          "Default CDC range": "13 000 ps/nm",
+          "Maximum CDG search range": "52 000 ps/nm"
+        },
+        {
+          "pl": "Oo",
+          "Line rate": "200G",
+          "Host format": "2x 100GAUI-2",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-29dBm",
+          "Rx @ OSNR ?)": "14.8dB@-18dBm",
+          "Rx OSNR @0.5dB penalty 2": "15.3dB@-20dBm",
+          "Rx OSNR @1dB penalty 2)": "15.8dB@-22dBm",
+          "Default CDC range": "50 000 ps/nm",
+          "Maximum CDG search range": "100 000 ps/nm"
+        },
+        {
+          "pl": "So",
+          "Line rate": "100G",
+          "Host format": "1x 100GAUI-2",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-32dBm",
+          "Rx @ OSNR ?)": "11.5dB@-20dBm",
+          "Rx OSNR @0.5dB penalty 2": "12.0dB@-23dBm",
+          "Rx OSNR @1dB penalty 2)": "12.5dB@-25dBm",
+          "Default CDC range": "80 000 ps/nm",
+          "Maximum CDG search range": "100 000 ps/nm"
+        },
+        {
+          "pl": "",
+          "Line rate": "300G",
+          "Host format": "3x 100GAUI-2",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-22dBm",
+          "Rx @ OSNR ?)": "20.3dB@-15dBm",
+          "Rx OSNR @0.5dB penalty 2": "20.8dB@-17dBm",
+          "Rx OSNR @1dB penalty 2)": "20.5dB@-19dBm",
+          "Default CDC range": "50 000 ps/nm",
+          "Maximum CDG search range": "100 000 ps/nm"
+        },
+        {
+          "pl": "",
+          "Line rate": "300G",
+          "Host format": "3x 100GAUI-2",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-23dBm",
+          "Rx @ OSNR ?)": "19.5dB@-15dBm",
+          "Rx OSNR @0.5dB penalty 2": "20.0dB@-17dBm",
+          "Rx OSNR @1dB penalty 2)": "21.3dB@-19dBm",
+          "Default CDC range": "50 000 ps/nm",
+          "Maximum CDG search range": "100 000 ps/nm"
+        },
+        {
+          "pl": "",
+          "Line rate": "400G",
+          "Host format": "4x 100GAUI-2",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-20dBm",
+          "Rx @ OSNR ?)": "26dB@-12dBm",
+          "Rx OSNR @0.5dB penalty 2": "26.5dB@-14dBm",
+          "Rx OSNR @1dB penalty 2)": "27.0dB@-15dBm",
+          "Default CDC range": "4000 ps/nm",
+          "Maximum CDG search range": "4000 ps/nm"
+        },
+        {
+          "pl": "",
+          "Line rate": "200G",
+          "Host format": "2x 100GAUI-2",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-24dBm",
+          "Rx @ OSNR ?)": "19.3dB@-15dBm",
+          "Rx OSNR @0.5dB penalty 2": "19.8dB@-18dBm",
+          "Rx OSNR @1dB penalty 2)": "20.3dB@-20dBm",
+          "Default CDC range": "21 000 ps/nm",
+          "Maximum CDG search range": "85 000 ps/nm"
+        },
+        {
+          "pl": "",
+          "Line rate": "100G",
+          "Host format": "1x CAUI-4 w/o FEC",
+          "‘Tx Power\" )": "1dBm",
+          "Rx sens @ OSNR > 36dB": "-32dBm",
+          "Rx @ OSNR ?)": "11.5dB@-20dBm",
+          "Rx OSNR @0.5dB penalty 2": "12.0dB@-23dBm",
+          "Rx OSNR @1dB penalty 2)": "12.5dB@-25dBm",
+          "Default CDC range": "80 000 ps/nm",
+          "Maximum CDG search range": "160 000 ps/nm"
+        }
+      ],
+      "footnotes": {
+        "1": "Minimum Tx power without attenuation. The module Tx power can be attenuated with 10dB from the maximum available Tx power. If the Tx power is not provisioned by the host, the module Tx power will default to the maximum available power.",
+        "3": "maximum provisionable CD search range. Increasing the search range will increase the power consumption of the transceiver."
+      },
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_table_5",
+      "title": "Table 5",
+      "page": 3,
+      "headers": [
+        "Column 1",
+        "OOSTNIVIFA TE",
+        "Latency: 400G CFEC:",
+        "8us"
+      ],
+      "rows": [
+        {
+          "Column 1": "Ordering code",
+          "OOSTNIVIFA TE": "Item Name",
+          "Latency: 400G CFEC:": "400G OFEC:",
+          "8us": "Sus"
+        },
+        {
+          "Column 1": "TQD013-TUNC-SO",
+          "OOSTNIVIFA TE": "QSFP-DD OpenZR+ HPow Coh-T SM CMIS5.0",
+          "Latency: 400G CFEC:": "e",
+          "8us": "6us Tus 44us"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06_general_definitions",
+      "title": "GENERAL DEFINITIONS",
+      "page": 4,
+      "headers": [
+        "Parameter",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Description": "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber."
+        },
+        {
+          "Parameter": "Transmission Media",
+          "Description": "Type of fiber, e.g. Multimode (MM) or Singlemode (SM). Number of and connector type within brackets (e.g. 2x LC, 1x MPO)."
+        },
+        {
+          "Parameter": "Typical reach",
+          "Description": "Nominal distance performance based on typical fiber dispersion, fiber loss and power budget properties, i.e. w/o dispersion compensation and optical amplification. Actual distance is dependent on actual optical path loss and dispersion properties."
+        },
+        {
+          "Parameter": "Bit rate range",
+          "Description": "Supported bit rate range in Gigabit or Megabit per second (Gbps or Mbps)."
+        },
+        {
+          "Parameter": "Protocols",
+          "Description": "Protocols within supported bit rate range."
+        },
+        {
+          "Parameter": "Nominal wavelength",
+          "Description": "Typical wavelength(s) from transmitter."
+        },
+        {
+          "Parameter": "Interface standards",
+          "Description": "Referenced interface standards or MSA's, e.g. IEEE 802.3 standard for 10GbE services or 100G 4WDM-10 etc."
+        },
+        {
+          "Parameter": "Power budget",
+          "Description": "Min and max power budget between Transmitter and Receiver w/o optical path penalties."
+        },
+        {
+          "Parameter": "Dispersion tolerance/penalty",
+          "Description": "Maximum amount of tolerated dispersion and required reduction of power budget to maintain stipulated Bit Error Rate (BER) and at"
+        },
+        {
+          "Parameter": "Temperature range",
+          "Description": "a given bit rate. Max operating case temperature range. Standard temperature range (C-temp): 0°C to +70°C (32°F to +158°F) Extended temperature range (E-temp): typically -20°C to +75°C (-4°F to +167°F) Industrial temperature range (I-temp): -40°C to +85°C (-40°F to +185°F)"
+        },
+        {
+          "Parameter": "Power consumption",
+          "Description": "Worst case power consumption. Will vary over temperature."
+        },
+        {
+          "Parameter": "Transmitter Output power",
+          "Description": "Average output power. Provided in min and max values."
+        },
+        {
+          "Parameter": "Receiver minimum input power",
+          "Description": "Minimum average input power at specified BER, normally 1E-'?. Note that some protocols require FEC to achieve sufficient BER."
+        },
+        {
+          "Parameter": "Receiver max input power",
+          "Description": "Maximum average input power giving a BER, normally 1E-1?."
+        },
+        {
+          "Parameter": "DDM",
+          "Description": "Digital Diagnostic Monitoring functionality as defined in e.g. SFF-8472 MSA."
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "07_oc_to_75oc_br_1",
+      "title": "OC to +75OC<br>1)",
+      "headers": [
+        "OC to +75OC<br>1)",
+        "Column 2",
+        "21.9W @200G"
+      ],
+      "rows": [
+        {
+          "OC to +75OC<br>1)": "Coherent channel power",
+          "Column 2": "",
+          "21.9W @200G": "Min 38dB/0.1nm"
+        },
+        {
+          "OC to +75OC<br>1)": "OSNR, eSNR, PDL, dispersion, DGD",
+          "Column 2": "",
+          "21.9W @200G": "Min 42dB/0.1nm"
+        },
+        {
+          "OC to +75OC<br>1)": "Case temperature",
+          "Column 2": "",
+          "21.9W @200G": "-28.0dBm 4)"
+        },
+        {
+          "OC to +75OC<br>1)": "",
+          "Column 2": "",
+          "21.9W @200G": "Max 30ms from warm start"
+        },
+        {
+          "OC to +75OC<br>1)": "",
+          "Column 2": "",
+          "21.9W @200G": "Max 120s from cold start"
+        },
+        {
+          "OC to +75OC<br>1)": "",
+          "Column 2": "",
+          "21.9W @200G": "Rx total input power: +15dBm"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "marker"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "TQD013-TUNC-SO",
+      "OVERVIEW",
+      "TECHNICAL DATA",
+      "GENERIC",
+      "OPTICAL SPECIFICATION - APPLICATION CODES",
+      "GENERAL DEFINITIONS"
+    ],
+    "total_tables": 7,
+    "total_footnotes": 6,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

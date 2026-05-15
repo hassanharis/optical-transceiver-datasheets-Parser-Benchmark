@@ -1,0 +1,290 @@
+{
+  "source": "Smartoptics QSFP-DD SO-TQSFP-DD-4CC-ZR.pdf",
+  "page_count": 2,
+  "tier": 1,
+  "tables": [
+    {
+      "table_id": "01_technical_data",
+      "title": "TECHNICAL DATA",
+      "page": 1,
+      "headers": [
+        "Parameter Technology",
+        "Value",
+        "Parameter Transmitter data:",
+        "Value 2",
+        "Column 5",
+        "Column 6"
+      ],
+      "rows": [
+        {
+          "Parameter Technology": "Parameter Technology",
+          "Value": "DWDM QSFP-DD type 2",
+          "Parameter Transmitter data:": "",
+          "Value 2": "",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "Transmission media",
+          "Value": "SM (2x LC)",
+          "Parameter Transmitter data:": "Parameter Transmitter data:",
+          "Value 2": "Value",
+          "Column 5": "Output power",
+          "Column 6": "Min: -10.0dBm"
+        },
+        {
+          "Parameter Technology": "Typical reach",
+          "Value": "120km",
+          "Parameter Transmitter data:": "",
+          "Value 2": "Max: -6.0dBm",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "Nominal wavelengths",
+          "Value": "191.28 - 196.12THz (Tunable) 6.25GHz",
+          "Parameter Transmitter data:": "Transmit wavelengths",
+          "Value 2": "191.28 - 196.12THz",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "Interface standards",
+          "Value": "400GBASE-ZR",
+          "Parameter Transmitter data:": "",
+          "Value 2": "in 100 (75) GHz steps",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "Protocol support",
+          "Value": "400GbE",
+          "Parameter Transmitter data:": "",
+          "Value 2": "(G.694.1)",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "Protocol support",
+          "Value": "4x 100GbE",
+          "Parameter Transmitter data:": "Receiver data:",
+          "Value 2": "",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "Power consumption",
+          "Value": "< 20 W (Class 8)",
+          "Parameter Transmitter data:": "Minimum input power",
+          "Value 2": "-20.0dBm ?)",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "Operating temperature",
+          "Value": "0°C to +70°C",
+          "Parameter Transmitter data:": "",
+          "Value 2": "-12.0dBm ?)",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "Storage temperature",
+          "Value": "-40°C to +85°C",
+          "Parameter Transmitter data:": "Input sensitivity",
+          "Value 2": "-12.0dBm *)",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "Latency 8us",
+          "Value": "Latency 8us",
+          "Parameter Transmitter data:": "Overload (max power)",
+          "Value 2": "0 dBm?",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "1) Receiver sensitivity at unamplified configurations",
+          "Value": "1) Receiver sensitivity at unamplified configurations",
+          "Parameter Transmitter data:": "OSNR tolerance",
+          "Value 2": "Max: 26dB/0.1nm 4)",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "2) Signal power of the channel at the OSNR performance value",
+          "Value": "2) Signal power of the channel at the OSNR performance value",
+          "Parameter Transmitter data:": "CD tolerance",
+          "Value 2": "Min: 2400ps/nm",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "3) Input power needed to achieve post FEC BER",
+          "Value": "3) Input power needed to achieve post FEC BER",
+          "Parameter Transmitter data:": "Optical path OSNR penalty tolerance",
+          "Value 2": "Max: 0.5dB °",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "4) At CFEC threshold",
+          "Value": "4) At CFEC threshold",
+          "Parameter Transmitter data:": "PMD tolerance",
+          "Value 2": "Min: 10 ps 9",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "5) OSNR tolerance penalty over OSNR Tolerance due to reflections and dispersion",
+          "Value": "5) OSNR tolerance penalty over OSNR Tolerance due to reflections and dispersion",
+          "Parameter Transmitter data:": "Pre-FEC BER",
+          "Value 2": "1.25x10?",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "®) Tolerance to PMD with <0.5 dB penalty to OSNR sensitivity.",
+          "Value": "®) Tolerance to PMD with <0.5 dB penalty to OSNR sensitivity.",
+          "Parameter Transmitter data:": "Rx_LOS Assert",
+          "Value 2": "-28.0dBm”)",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "7) Set to comply with 400G modes. Can be changed on individual modules to fully support other modes.",
+          "Value": "7) Set to comply with 400G modes. Can be changed on individual modules to fully support other modes.",
+          "Parameter Transmitter data:": "DDM",
+          "Value 2": "Yes",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "Safety/regulatory compliance:",
+          "Value": "Safety/regulatory compliance:",
+          "Parameter Transmitter data:": "MSA compliance",
+          "Value 2": "QSFP-DD MSA",
+          "Column 5": "",
+          "Column 6": ""
+        },
+        {
+          "Parameter Technology": "TUV/UL/FDA (contact Smartoptics for latest certification information)",
+          "Value": "TUV/UL/FDA (contact Smartoptics for latest certification information)",
+          "Parameter Transmitter data:": "MSA compliance",
+          "Value 2": "CMIS4.0, OIF400ZR",
+          "Column 5": "",
+          "Column 6": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_general_definitions",
+      "title": "GENERAL DEFINITIONS",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Parameter": "Technology",
+          "Description": "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors."
+        },
+        {
+          "Parameter": "Transmission Media",
+          "Description": "Type of fiber, e.g. Multimode (MM) or Singlemode (SM). Number of and connector type within brackets (e.g. 2x LC, 1x MPO)."
+        },
+        {
+          "Parameter": "Typical reach",
+          "Description": "Nominal distance performance based on typical fiber dispersion, fiber loss and power budget properties, i.e. w/o dispersion compensation and optical amplification. Actual distance is dependent on actual optical path loss and dispersion properties."
+        },
+        {
+          "Parameter": "Bit rate range",
+          "Description": "Supported bit rate range in Gigabit or Megabit per second (Gbps or Mbps)."
+        },
+        {
+          "Parameter": "Protocols",
+          "Description": "Protocols within supported bit rate range."
+        },
+        {
+          "Parameter": "Nominal wavelength",
+          "Description": "Typical wavelength(s) from transmitter."
+        },
+        {
+          "Parameter": "Interface standards",
+          "Description": "Referenced interface standards or MSA's, e.g. IEEE 802.3 standard for 10GbE services or 100G 4WDM-10 etc."
+        },
+        {
+          "Parameter": "Power budget",
+          "Description": "Min and max power budget between Transmitter and Receiver w/o optical path penalties."
+        },
+        {
+          "Parameter": "Dispersion tolerance/penalty",
+          "Description": "Maximum amount of tolerated dispersion and required reduction of power budget to maintain stipulated Bit Error Rate (BER) and at a given bit rate."
+        },
+        {
+          "Parameter": "Temperature range",
+          "Description": "Max operating case temperature range. Standard temperature range (C-temp): 0°C to +70°C (32°F to +158°F) Extended temperature range (E-temp): typically -20°C to +75°C (-4°F to +167°F) Industrial temperature range (I-temp): -40°C to +85°C (-40°F to +185°F)"
+        },
+        {
+          "Parameter": "Power consumption",
+          "Description": "Worst case power consumption. Will vary over temperature."
+        },
+        {
+          "Parameter": "Transmitter Output power",
+          "Description": "Average output power. Provided in min and max values."
+        },
+        {
+          "Parameter": "Receiver minimum input power",
+          "Description": "Minimum average input power at specified BER, normally 1E-'?. Note that some protocols require FEC to achieve sufficient BER."
+        },
+        {
+          "Parameter": "Receiver max input power",
+          "Description": "Maximum average input power giving a BER, normally 1E-1?."
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_ordering_code",
+      "title": "Ordering code",
+      "headers": [
+        "Ordering code",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Ordering code": "SO-TQSFP-DD-4CC-ZR",
+          "Description": "QSFP-DD OIF 400GZR Ethernet Coh Tunable Flexgrid 120km LC"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "marker"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "SO-TQSFP-DD-4CC-ZR",
+      "OVERVIEW",
+      "TECHNICAL DATA",
+      "ORDERING INFORMATION",
+      "GENERAL DEFINITIONS"
+    ],
+    "total_tables": 3,
+    "total_footnotes": 0,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

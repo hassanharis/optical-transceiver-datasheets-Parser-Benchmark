@@ -1,0 +1,525 @@
+{
+  "source": "datasheet-c78-744377.pdf",
+  "page_count": 12,
+  "tier": 3,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Table 1",
+      "page": 2,
+      "headers": [
+        "roduct overview"
+      ],
+      "rows": [
+        {
+          "roduct overview": "eatures and benefits"
+        },
+        {
+          "roduct overview": "Multivendor interoperability"
+        },
+        {
+          "roduct overview": "Flexible modulation"
+        },
+        {
+          "roduct overview": "pecification"
+        },
+        {
+          "roduct overview": "Transmitter specifications"
+        },
+        {
+          "roduct overview": "Rx parameter specifications"
+        },
+        {
+          "roduct overview": "Rx Optical Polarization specifications"
+        },
+        {
+          "roduct overview": "Rx Multichannel Interaction specifications"
+        },
+        {
+          "roduct overview": "Physical"
+        },
+        {
+          "roduct overview": "dering information"
+        },
+        {
+          "roduct overview": "isco environmental sustainability"
+        },
+        {
+          "roduct overview": "isco Capital"
+        },
+        {
+          "roduct overview": "ocument history"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "Table 2",
+      "page": 6,
+      "headers": [
+        "Target Application",
+        "Edge DCI",
+        "Carrier Metro/LH",
+        "Regional DCI"
+      ],
+      "rows": [
+        {
+          "Target Application": "Client Traffic",
+          "Edge DCI": "A4O0GbE only",
+          "Carrier Metro/LH": "100-400GbE & OTN",
+          "Regional DCI": "100-400GbE Multirate"
+        },
+        {
+          "Target Application": "Reach",
+          "Edge DCI": "<120km",
+          "Carrier Metro/LH": ">120km*",
+          "Regional DCI": ">120km*"
+        },
+        {
+          "Target Application": "Form Factor",
+          "Edge DCI": "QSFP-DD/OSFP",
+          "Carrier Metro/LH": "CFP2 or other",
+          "Regional DCI": "QSFP-DD/OSFP"
+        },
+        {
+          "Target Application": "SD-FEC",
+          "Edge DCI": "CFEC",
+          "Carrier Metro/LH": "oFEC",
+          "Regional DCI": "oFEC"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_table_3",
+      "title": "Table 3",
+      "page": 7,
+      "headers": [
+        "Column 1",
+        "Max Transmit Power",
+        "Symbol Rate (+/-20ppm)",
+        "Modulation (Payload)",
+        "Column 5",
+        "OOB OSNR",
+        "OIB OSNR"
+      ],
+      "rows": [
+        {
+          "Column 1": "DD-400G-ZR-S",
+          "Max Transmit Power": "Without TX Shaping: -8.5 (Typ) -10 (Worst case)",
+          "Symbol Rate (+/-20ppm)": "59,843,750,000",
+          "Modulation (Payload)": "16-QAM (400G)",
+          "Column 5": "C-FEC",
+          "OOB OSNR": "30 dB",
+          "OIB OSNR": "34 dB"
+        },
+        {
+          "Column 1": "DD-400G-ZRP-S",
+          "Max Transmit Power": "Without TX Shaping: -8.0 (Typ) -10.0 (Worst case) With TX Shaping: -11.0 (Typ) -13.0 (Worst case)",
+          "Symbol Rate (+/-20ppm)": "60,138,546,798",
+          "Modulation (Payload)": "16-QAM (400G)",
+          "Column 5": "OFEC",
+          "OOB OSNR": "42 dB",
+          "OIB OSNR": "42 dB"
+        },
+        {
+          "Column 1": "DD-400G-ZRP-S",
+          "Max Transmit Power": "Without TX Shaping: -8.6 (Typ) -10.2 (Worst case) With TX Shaping: -10.4 (Typ) -11.9 (Worst case)",
+          "Symbol Rate (+/-20ppm)": "60,138,546,798",
+          "Modulation (Payload)": "8-QAM (300G)",
+          "Column 5": "OFEC",
+          "OOB OSNR": "42 dB",
+          "OIB OSNR": "42 dB"
+        },
+        {
+          "Column 1": "DD-400G-ZRP-S",
+          "Max Transmit Power": "Without TX Shaping: -6.2 (Typ) -7.7 (Worst case) With TX Shaping: -9.0 (Typ) -10.5 (Worst case)",
+          "Symbol Rate (+/-20ppm)": "60,138,546,798",
+          "Modulation (Payload)": "QPSK (200G)",
+          "Column 5": "OFEC",
+          "OOB OSNR": "42 dB",
+          "OIB OSNR": "42 dB"
+        },
+        {
+          "Column 1": "DD-400G-ZRP-S",
+          "Max Transmit Power": "TX shaping only: -9.0 (Typ) -11 (Worst case)",
+          "Symbol Rate (+/-20ppm)": "40,092,364,532",
+          "Modulation (Payload)": "8-QAM (200G)",
+          "Column 5": "OFEC",
+          "OOB OSNR": "42 dB",
+          "OIB OSNR": "42 dB"
+        },
+        {
+          "Column 1": "DD-400G-ZRP-S",
+          "Max Transmit Power": "TX shaping only: -8.0 (Typ) -10 (Worst case) Without TX shaping",
+          "Symbol Rate (+/-20ppm)": "30,069,273,399 30,069,273,399",
+          "Modulation (Payload)": "16-QAM (200G) QPSK (100G)",
+          "Column 5": "OFEC OFEC",
+          "OOB OSNR": "42 dB 42 dB",
+          "OIB OSNR": "42 dB 42 dB"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_table_4",
+      "title": "Table 4",
+      "page": 8,
+      "headers": [
+        "Product ID",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Product ID": "",
+          "Column 2": "-7.5 (Worst case)"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_table_5",
+      "title": "Table 5",
+      "page": 8,
+      "headers": [
+        "Modulation",
+        "|RX OSNR Sensitivity (dB)",
+        "RX Sensitivity Optimal",
+        "Extended Range RX Sensitivity (1dB OSNR Penalty)",
+        "RX Power Sensitivity (No ASE Noise)",
+        "Column 6",
+        "CD Robustness (ps/nm)"
+      ],
+      "rows": [
+        {
+          "Modulation": "16-QAM (400G)",
+          "|RX OSNR Sensitivity (dB)": "26",
+          "RX Sensitivity Optimal": "-12dBm",
+          "Extended Range RX Sensitivity (1dB OSNR Penalty)": "-15dBm",
+          "RX Power Sensitivity (No ASE Noise)": "-20dBm",
+          "Column 6": "13dBm",
+          "CD Robustness (ps/nm)": "+/-2400"
+        },
+        {
+          "Modulation": "16-QAM (400G)",
+          "|RX OSNR Sensitivity (dB)": "Without T™ Shaping: 23.7 With TX Shaping: 23.1",
+          "RX Sensitivity Optimal": "-12dBm",
+          "Extended Range RX Sensitivity (1dB OSNR Penalty)": "-16dBm",
+          "RX Power Sensitivity (No ASE Noise)": "Without TX Shaping: -20dBm With TX Shaping: -21dBm",
+          "Column 6": "13dBm",
+          "CD Robustness (ps/nm)": "Default: +/- 13,000 Configurable ur to: +/-52,000"
+        },
+        {
+          "Modulation": "8-QAM (300G)",
+          "|RX OSNR Sensitivity (dB)": "Without T™ Shaping: 20.8 With TX Shaping: 19.5",
+          "RX Sensitivity Optimal": "-15dBm",
+          "Extended Range RX Sensitivity (1dB OSNR Penalty)": "-19dBm",
+          "RX Power Sensitivity (No ASE Noise)": "Without TX Shaping: -22dBm With TX Shaping: -23dBm",
+          "Column 6": "13dBm",
+          "CD Robustness (ps/nm)": "Default: +/- 26,000 Configurable ur to: +/- 100,000"
+        },
+        {
+          "Modulation": "QPSK (200G)",
+          "|RX OSNR Sensitivity (dB)": "Without T™ Shaping: 15.3 With TX Shaping: 15.0",
+          "RX Sensitivity Optimal": "-18dBm",
+          "Extended Range RX Sensitivity (1dB OSNR Penalty)": "-22dBm",
+          "RX Power Sensitivity (No ASE Noise)": "-28dBm",
+          "Column 6": "13dBm",
+          "CD Robustness (ps/nm)": "Default: +/- 50,000 Configurable ur to: +/- 100,000"
+        },
+        {
+          "Modulation": "8-QAM (200G)",
+          "|RX OSNR Sensitivity (dB)": "17.4 (Only T™ shaping supported)",
+          "RX Sensitivity Optimal": "-16dBm",
+          "Extended Range RX Sensitivity (1dB OSNR Penalty)": "-20dBm",
+          "RX Power Sensitivity (No ASE Noise)": "-28dBm",
+          "Column 6": "13dBm",
+          "CD Robustness (ps/nm)": "Default: +/- 26,000 Configurable ur to: +/-100,000"
+        },
+        {
+          "Modulation": "16-QAM (200G)",
+          "|RX OSNR Sensitivity (dB)": "19.3 (Only T™ shaping supported)",
+          "RX Sensitivity Optimal": "-15dBm",
+          "Extended Range RX Sensitivity (1dB OSNR Penalty)": "-20dBm",
+          "RX Power Sensitivity (No ASE Noise)": "-24dBm",
+          "Column 6": "13dBm",
+          "CD Robustness (ps/nm)": "Default: +/- 21,000 Configurable ur to: +/- 85,000"
+        },
+        {
+          "Modulation": "QPSK (100G)",
+          "|RX OSNR Sensitivity (dB)": "11.8 (No Tx shaping)",
+          "RX Sensitivity Optimal": "-20dBm",
+          "Extended Range RX Sensitivity (1dB OSNR Penalty)": "-25dBm",
+          "RX Power Sensitivity (No ASE Noise)": "-28dBm",
+          "Column 6": "13dBm",
+          "CD Robustness (ps/nm)": "Default: +/- 80,000"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06_table_6",
+      "title": "Table 6",
+      "page": 9,
+      "headers": [
+        "Product ID",
+        "Column 2",
+        "Column 3",
+        "Column 4",
+        "Column 5",
+        "Column 6"
+      ],
+      "rows": [
+        {
+          "Product ID": "QDD-400G-ZR-S",
+          "Column 2": "16-QAM (400G)",
+          "Column 3": "50 rad/ms",
+          "Column 4": "50 rad/ms",
+          "Column 5": "50 rad/ms",
+          "Column 6": "33"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Column 2": "16-QAM (400G)",
+          "Column 3": "80 rad/ms",
+          "Column 4": "150 rad/ms",
+          "Column 5": "200 rad/ms",
+          "Column 6": "60"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Column 2": "8-QAM (300G)",
+          "Column 3": "120 rad/ms",
+          "Column 4": "200 rad/ms",
+          "Column 5": "300 rad/ms",
+          "Column 6": "60"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Column 2": "QPSK (200G)",
+          "Column 3": "800 rad/ms",
+          "Column 4": "1000 rad/ms",
+          "Column 5": "1400 rad/ms",
+          "Column 6": "60"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Column 2": "8-QAM (200G)",
+          "Column 3": "70 rad/ms",
+          "Column 4": "100 rad/ms",
+          "Column 5": "150 rad/ms",
+          "Column 6": "60"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Column 2": "16-QAM (200G)",
+          "Column 3": "50 rad/ms",
+          "Column 4": "100 rad/ms",
+          "Column 5": "150 rad/ms",
+          "Column 6": "60"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Column 2": "QPSK (100G)",
+          "Column 3": "400 rad/ms",
+          "Column 4": "500 rad/ms",
+          "Column 5": "800 rad/ms",
+          "Column 6": "80"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "07_table_7",
+      "title": "Table 7",
+      "page": 9,
+      "headers": [
+        "Product ID",
+        "Modulation (Payload)",
+        "Multichannel Xtalk tolerance by | 15 additional channels",
+        "Multichannel Xtalk OSNR penal induced by 2 adjacent channels"
+      ],
+      "rows": [
+        {
+          "Product ID": "QDD-400G-ZR-S",
+          "Modulation (Payload)": "16-QAM (400G)",
+          "Multichannel Xtalk tolerance by | 15 additional channels": "15db with OSNR oenalty < 1dB",
+          "Multichannel Xtalk OSNR penal induced by 2 adjacent channels": "0.5 dB ( adjacent chs at 75Ghz)"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Modulation (Payload)": "16-QAM (400G)",
+          "Multichannel Xtalk tolerance by | 15 additional channels": "15db with OSNR oenalty < 0.5dB_",
+          "Multichannel Xtalk OSNR penal induced by 2 adjacent channels": "0.5 dB ( adjacent chs at 75Ghz)"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Modulation (Payload)": "8-QAM (300G)",
+          "Multichannel Xtalk tolerance by | 15 additional channels": "15db with OSNR oenalty < 0.3dB",
+          "Multichannel Xtalk OSNR penal induced by 2 adjacent channels": "0.3 dB ( adjacent chs at 75Ghz)"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Modulation (Payload)": "QPSK (200G)",
+          "Multichannel Xtalk tolerance by | 15 additional channels": "15db with OSNR oenalty < 0.3dB",
+          "Multichannel Xtalk OSNR penal induced by 2 adjacent channels": "0.2 dB ( adjacent chs at 75Ghz)"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Modulation (Payload)": "8-QAM (200G)",
+          "Multichannel Xtalk tolerance by | 15 additional channels": "15db with OSNR oenalty < 0.3dB",
+          "Multichannel Xtalk OSNR penal induced by 2 adjacent channels": "0.7 dB ( adjacent chs at 50Ghz)"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Modulation (Payload)": "16-QAM (200G)",
+          "Multichannel Xtalk tolerance by | 15 additional channels": "15db with OSNR oenalty < 0.3dB",
+          "Multichannel Xtalk OSNR penal induced by 2 adjacent channels": "0.8 dB ( adjacent chs at 50Ghz)"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Modulation (Payload)": "QPSK (100G)",
+          "Multichannel Xtalk tolerance by | 15 additional channels": "17db with OSNR oenalty < 0.35dB_",
+          "Multichannel Xtalk OSNR penal induced by 2 adjacent channels": "0.6 dB ( adjacent chs at 37.5Ghz)"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "08_table_8",
+      "title": "Table 8",
+      "page": 10,
+      "headers": [
+        "Product ID",
+        "Temp Range",
+        "MTBF",
+        "Roundtrip Latency"
+      ],
+      "rows": [
+        {
+          "Product ID": "QDD-400G-ZR-S",
+          "Temp Range": "Operating Case Temperature range: 15 to +75°C Short term operating case",
+          "MTBF": "442,477 hrs",
+          "Roundtrip Latency": "400GE: 7.9 microsec 4x100GE: 8.2 microsec"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Temp Range": "temperature range +80°C. Note: a short term condition is present for a period of not more than 96 consecutive hours and a total of not more than 15 days in 1 year. This refers to a total of 360 hours in any given year, but no more than 15 occurrences during that 1-year period. Note: the module turn up from cold start at ambient temperature as low as -5°C and it will warm up with a case temperature higher than the ambient temperature, but it will meet optical performance specs only with case temperature within the range defined above.",
+          "MTBF": "442,477 hrs",
+          "Roundtrip Latency": "A00GE: 4.7 microsec 4x100GE: 5.2 microsec . 3x100GE: 6.0 microsec 2x100GE: 6.9 microsec"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "09_table_9",
+      "title": "Table 9",
+      "page": 10,
+      "headers": [
+        "Product ID",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Product ID": "QDD-400G-ZR-S",
+          "Column 2": "QSFP-DD transceiver module, coherent DCO, 400G-ZR"
+        },
+        {
+          "Product ID": "QDD-400G-ZRP-S",
+          "Column 2": "QSFP-DD transceiver module, coherent DCO, 400G-ZR:"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "10_table_10",
+      "title": "Table 10",
+      "page": 11,
+      "headers": [
+        "Text"
+      ],
+      "rows": [
+        {
+          "Text": "Reference"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "11_table_11",
+      "title": "Table 11",
+      "page": 12,
+      "headers": [
+        "New or Revised Topic",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "New or Revised Topic": "01",
+          "Column 2": "First Version"
+        },
+        {
+          "New or Revised Topic": "02",
+          "Column 2": "Provided additional Optical parameterlist"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "12_sustainability_topic",
+      "title": "Sustainability topic",
+      "headers": [
+        "Sustainability topic",
+        "Reference"
+      ],
+      "rows": [
+        {
+          "Sustainability topic": "Information on product material content laws and regulations",
+          "Reference": "Materials"
+        },
+        {
+          "Sustainability topic": "Information on electronic waste laws and regulations, including products, batteries, and packaging",
+          "Reference": "WEEE compliance"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "marker"
+    }
+  ],
+  "structure": {
+    "section_order": [],
+    "total_tables": 12,
+    "total_footnotes": 0,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

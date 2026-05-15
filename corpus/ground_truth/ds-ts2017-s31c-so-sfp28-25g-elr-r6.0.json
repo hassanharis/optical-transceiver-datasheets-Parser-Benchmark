@@ -1,0 +1,395 @@
+{
+  "source": "ds-ts2017-s31c-so-sfp28-25g-elr-r6.0.pdf",
+  "page_count": 2,
+  "tier": 2,
+  "tables": [
+    {
+      "table_id": "01_technical_data",
+      "title": "TECHNICAL DATA",
+      "page": 1,
+      "headers": [
+        "Parameter Technology",
+        "Value Grey SFP28",
+        "Column 3",
+        "Column 4"
+      ],
+      "rows": [
+        {
+          "Parameter Technology": "Parameter Technology",
+          "Value Grey SFP28": "Value Grey SFP28",
+          "Column 3": "Transmission media",
+          "Column 4": "SM (2x LC)"
+        },
+        {
+          "Parameter Technology": "Typical reach",
+          "Value Grey SFP28": "20km",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Nominal wavelength",
+          "Value Grey SFP28": "1x 1310nm",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Bit rate support",
+          "Value Grey SFP28": "24.33 / 25.78 Gbps 1)",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Bit rate support",
+          "Value Grey SFP28": "9.953 / 10.312 Gbps ?)",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Protocol support",
+          "Value Grey SFP28": "25GE \")",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Protocol support",
+          "Value Grey SFP28": "10GE LAN/WAN ?)",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Protocol support",
+          "Value Grey SFP28": "CPRI opt 10 ?",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Power budget",
+          "Value Grey SFP28": "0- 13.0dB",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Dispersion penalty",
+          "Value Grey SFP28": "Max 2.7dB",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Power consumption",
+          "Value Grey SFP28": "<1.2W",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Operating temperature",
+          "Value Grey SFP28": "-40°C to +85°C",
+          "Column 3": "",
+          "Column 4": ""
+        },
+        {
+          "Parameter Technology": "Storage temperature",
+          "Value Grey SFP28": "-40°C to +85°C",
+          "Column 3": "",
+          "Column 4": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_technical_data",
+      "title": "TECHNICAL DATA",
+      "page": 1,
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter": "Transmitter data: Output power, average",
+          "Value": ""
+        },
+        {
+          "Parameter": "Transmitter data: Output power, average",
+          "Value": "Min: -0.5dBm ®"
+        },
+        {
+          "Parameter": "Transmitter data: Output power, average",
+          "Value": "Max: +5.0dBm °"
+        },
+        {
+          "Parameter": "Output power, OMA",
+          "Value": "Min: -1.0dBm"
+        },
+        {
+          "Parameter": "Output power, OMA",
+          "Value": "Max: +5.0dBm"
+        },
+        {
+          "Parameter": "Transmit wavelength",
+          "Value": "1295 — 1325nm"
+        },
+        {
+          "Parameter": "Receiver data:",
+          "Value": ""
+        },
+        {
+          "Parameter": "Receiver sensitivity, OMA",
+          "Value": "-14.0dBm *)4)"
+        },
+        {
+          "Parameter": "Overload, average (max power)",
+          "Value": "+2.5dBm °)4)"
+        },
+        {
+          "Parameter": "Wavelength range",
+          "Value": "1260 — 1325nm"
+        },
+        {
+          "Parameter": "LOS De-assert",
+          "Value": "Max -16dBm"
+        },
+        {
+          "Parameter": "LOS Assert",
+          "Value": "Min -30dBm"
+        },
+        {
+          "Parameter": "LOS Hysteresis",
+          "Value": "Min 0.5dB"
+        },
+        {
+          "Parameter": "DDM",
+          "Value": "Yes"
+        },
+        {
+          "Parameter": "MSA compliance",
+          "Value": "SFF-8402"
+        }
+      ],
+      "footnotes": {
+        "1": "CDR engaged",
+        "2": "CDR disengaged",
+        "3": "Average power",
+        "4": "at 25.78 Gbps (25GE) and BER 5E-5"
+      },
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_cdr_rate_select_logic",
+      "title": "CDR RATE SELECT LOGIC",
+      "page": 2,
+      "headers": [
+        "Logic OR of RSO Pin and Bit 110.3 of A2H",
+        "Logic OR of RS1 Pin and Bit 118.3 of A2H",
+        "RX Data Rate",
+        "™ Data Rate",
+        "Status of RX CDR",
+        "Status of TX CDR"
+      ],
+      "rows": [
+        {
+          "Logic OR of RSO Pin and Bit 110.3 of A2H": "High / 1",
+          "Logic OR of RS1 Pin and Bit 118.3 of A2H": "High / 4",
+          "RX Data Rate": "24.33G/25.78G",
+          "™ Data Rate": "24.33G/25.78G",
+          "Status of RX CDR": "CDR Engaged",
+          "Status of TX CDR": "CDR Engaged"
+        },
+        {
+          "Logic OR of RSO Pin and Bit 110.3 of A2H": "Low/0",
+          "Logic OR of RS1 Pin and Bit 118.3 of A2H": "Low/0",
+          "RX Data Rate": "9.95G/10.31G",
+          "™ Data Rate": "9.95G/10.31G",
+          "Status of RX CDR": "CDR Bypassed",
+          "Status of TX CDR": "CDR Bypassed"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_general_definitions",
+      "title": "GENERAL DEFINITIONS",
+      "page": 2,
+      "headers": [
+        "Parameter Technology",
+        "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors."
+      ],
+      "rows": [
+        {
+          "Parameter Technology": "Transmission Media",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Type of fiber, e.g. Multimode (MM) or Singlemode (SM). Number of and connector type within brackets (e.g. 2x LC, 1x MPO)."
+        },
+        {
+          "Parameter Technology": "Typical reach",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Nominal distance performance based on typical fiber dispersion, fiber loss and power budget properties, i.e. w/o dispersion compensation and optical amplification. Actual distance is dependent on actual optical path loss and dispersion properties."
+        },
+        {
+          "Parameter Technology": "Bit rate range",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Supported bit rate range in Gigabit or Megabit per second (Gbps or Mbps)."
+        },
+        {
+          "Parameter Technology": "Protocols",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Protocols within supported bit rate range."
+        },
+        {
+          "Parameter Technology": "Nominal wavelength",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Typical wavelength(s) from transmitter."
+        },
+        {
+          "Parameter Technology": "Interface standards",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Referenced interface standards or MSA's, e.g. IEEE 802.3 standard for 10GbE services or 100G 4WDM-10 etc."
+        },
+        {
+          "Parameter Technology": "Power budget",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Min and max power budget between Transmitter and Receiver w/o optical path penalties. Maximum amount of tolerated dispersion and required reduction of power budget to maintain stipulated Bit Error Rate (BER) and at"
+        },
+        {
+          "Parameter Technology": "Dispersion tolerance/penalty Temperature range",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "a given bit rate. Max operating case temperature range. Standard temperature range (C-temp): 0°C to +70°C (32°F to +158°F) Extended temperature range (E-temp): typically -20°C to +75°C (-4°F to +167°F) Industrial temperature (I-temp): -40°C to +85°C (-40°F to +185°F)"
+        },
+        {
+          "Parameter Technology": "Power consumption",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "range Worst case power consumption. Will vary over temperature."
+        },
+        {
+          "Parameter Technology": "Transmitter Output power",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Average output power. Provided in min and max values."
+        },
+        {
+          "Parameter Technology": "Receiver minimum input power",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Minimum average input power at specified BER, normally 1E-'. Note that some protocols require FEC to achieve sufficient BER."
+        },
+        {
+          "Parameter Technology": "Receiver max input power",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Maximum average input power giving a BER, normally 1E-1?."
+        },
+        {
+          "Parameter Technology": "DDM",
+          "Description Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Digital Diagnostic Monitoring functionality as defined in e.g. SFF-8472 MSA."
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_ordering_number",
+      "title": "Ordering number",
+      "headers": [
+        "Ordering number",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Ordering number": "TS2017-S31C-SO",
+          "Description": "SFP28, 25G/10G Ethernet eLR, 1310nm, SM, 20km, 13.0dB, LC"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "marker"
+    },
+    {
+      "table_id": "06_parameter",
+      "title": "**Parameter**",
+      "headers": [
+        "**Parameter**",
+        "**Value**",
+        "Column 3",
+        "**Parameter** 2",
+        "**Value** 2"
+      ],
+      "rows": [
+        {
+          "**Parameter**": "Output power, average",
+          "**Value**": "Min: -0.5dBm3)",
+          "Column 3": "",
+          "**Parameter** 2": "",
+          "**Value** 2": ""
+        },
+        {
+          "**Parameter**": "",
+          "**Value**": "Max: +5.0dBm3)",
+          "Column 3": "",
+          "**Parameter** 2": "",
+          "**Value** 2": ""
+        },
+        {
+          "**Parameter**": "Output power, OMA",
+          "**Value**": "Min: -1.0dBm",
+          "Column 3": "",
+          "**Parameter** 2": "",
+          "**Value** 2": ""
+        },
+        {
+          "**Parameter**": "",
+          "**Value**": "Max: +5.0dBm",
+          "Column 3": "",
+          "**Parameter** 2": "",
+          "**Value** 2": ""
+        },
+        {
+          "**Parameter**": "Wavelength range",
+          "**Value**": "1260 – 1325nm",
+          "Column 3": "",
+          "**Parameter** 2": "",
+          "**Value** 2": ""
+        },
+        {
+          "**Parameter**": "LOS De-assert",
+          "**Value**": "Max -16dBm",
+          "Column 3": "",
+          "**Parameter** 2": "",
+          "**Value** 2": ""
+        },
+        {
+          "**Parameter**": "LOS Assert",
+          "**Value**": "Min -30dBm",
+          "Column 3": "",
+          "**Parameter** 2": "",
+          "**Value** 2": ""
+        },
+        {
+          "**Parameter**": "LOS Hysteresis",
+          "**Value**": "Min 0.5dB",
+          "Column 3": "",
+          "**Parameter** 2": "",
+          "**Value** 2": ""
+        },
+        {
+          "**Parameter**": "DDM",
+          "**Value**": "Yes",
+          "Column 3": "",
+          "**Parameter** 2": "",
+          "**Value** 2": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "pymupdf4llm"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "SFP28 25G-ELR 20KM",
+      "TS2017-S31C-SO",
+      "TECHNICAL DATA",
+      "ORDERING INFORMATION",
+      "CDR RATE SELECT LOGIC",
+      "GENERAL DEFINITIONS"
+    ],
+    "total_tables": 6,
+    "total_footnotes": 4,
+    "modulation_block": false
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

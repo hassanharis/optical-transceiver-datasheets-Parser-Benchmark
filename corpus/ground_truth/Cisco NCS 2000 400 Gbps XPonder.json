@@ -1,0 +1,724 @@
+{
+  "source": "Cisco NCS 2000 400 Gbps XPonder.pdf",
+  "page_count": 17,
+  "tier": 3,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Table 1",
+      "page": 2,
+      "headers": [
+        "-roduct overview"
+      ],
+      "rows": [
+        {
+          "-roduct overview": "Shallenge and Solution"
+        },
+        {
+          "-roduct overview": "3enefits"
+        },
+        {
+          "-roduct overview": "-roduct description"
+        },
+        {
+          "-roduct overview": "Network applications: Cisco NCS 2000 400 Gbps XPonder"
+        },
+        {
+          "-roduct overview": "-roduct specifications"
+        },
+        {
+          "-roduct overview": "Narranty"
+        },
+        {
+          "-roduct overview": "Sisco Services for Migrating Converged IP + Optical Solutions"
+        },
+        {
+          "-roduct overview": "Sisco Capital"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "Table 2",
+      "page": 12,
+      "headers": [
+        "Processor",
+        "TNC-E/TSC-E/TNC-S/TNCS-O/TNCS2/TNCS-20"
+      ],
+      "rows": [
+        {
+          "Processor": "Shelf assembly",
+          "TNC-E/TSC-E/TNC-S/TNCS-O/TNCS2/TNCS-20": "Cisco NCS2002, NCS2006, NCS2015"
+        },
+        {
+          "Processor": "System software",
+          "TNC-E/TSC-E/TNC-S/TNCS-O/TNCS2/TNCS-20": "Release 10.6.1 or later"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_table_3",
+      "title": "Table 3",
+      "page": 12,
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter": "Baud rate",
+          "Value": "31.3793 Gbaud +20 ppm (OTU4 with SD-FEC 15% OH) 34.1660 Gbaud +20 ppm (OTU4 with SD-FEC 25% OH)"
+        },
+        {
+          "Parameter": "Automatic laser shutdown and restart",
+          "Value": "ITU-T G.664 (06/99)"
+        },
+        {
+          "Parameter": "Nominal wavelengths (Atnom)",
+          "Value": "Full-tunable between 1528.77 and 1567.13 nm (C-Band)"
+        },
+        {
+          "Parameter": "Optical Transmitter",
+          "Value": "Optical Transmitter"
+        },
+        {
+          "Parameter": "Type",
+          "Value": "CP-QPSK modulation format CP-8QAM modulation format modulation format"
+        },
+        {
+          "Parameter": "",
+          "Value": "CP-16QAM"
+        },
+        {
+          "Parameter": "Optical Receiver",
+          "Value": ""
+        },
+        {
+          "Parameter": "Chromatic dispersion tolerance (DLRmax)",
+          "Value": "+/- 70,000, ps/nm with CP-QPSK formats +/- 25,000, ps/nm with 16-QAM"
+        },
+        {
+          "Parameter": "DGD Tolerance",
+          "Value": "100 ps"
+        },
+        {
+          "Parameter": "Polarization change rate",
+          "Value": "Polarization change rate"
+        },
+        {
+          "Parameter": "OSNR Penalty <0.5dB",
+          "Value": "OSNR Penalty <0.5dB"
+        },
+        {
+          "Parameter": "e¢ 100G QPSK",
+          "Value": "300krad/s"
+        },
+        {
+          "Parameter": "e¢ 150G 8QAM",
+          "Value": "100krad/s"
+        },
+        {
+          "Parameter": "e 200G 16QAM",
+          "Value": "100krad/s"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_table_4",
+      "title": "Table 4",
+      "page": 13,
+      "headers": [
+        "Column 1",
+        "_",
+        "so",
+        "ae ost-FEC BER |",
+        "Input Power Sensitivity”",
+        "a",
+        "B2B OSNR (0.1 nm RWI"
+      ],
+      "rows": [
+        {
+          "Column 1": "CP-QPSK",
+          "_": "SD-FEC (25% OH)",
+          "so": "<4E(-2)",
+          "ae ost-FEC BER |": "<10E (-15)",
+          "Input Power Sensitivity”": "0 to -14dBm",
+          "a": "",
+          "B2B OSNR (0.1 nm RWI": "11.3 dB"
+        },
+        {
+          "Column 1": "CP-QPSK",
+          "_": "SD-FEC (15% OH)",
+          "so": "<4E(-2)",
+          "ae ost-FEC BER |": "<10E (-15)",
+          "Input Power Sensitivity”": "0 to -14dBm",
+          "a": "",
+          "B2B OSNR (0.1 nm RWI": "11.8 dB"
+        },
+        {
+          "Column 1": "CP-8QAM",
+          "_": "SD-FEC (25% OH)",
+          "so": "<3E(-2)",
+          "ae ost-FEC BER |": "<10E (-15)",
+          "Input Power Sensitivity”": "0 to -14dBm",
+          "a": "",
+          "B2B OSNR (0.1 nm RWI": "16.1 dB"
+        },
+        {
+          "Column 1": "CP-8QAM",
+          "_": "SD-FEC (15% OH)",
+          "so": "<3E(-2)",
+          "ae ost-FEC BER |": "<10E (-15)",
+          "Input Power Sensitivity”": "0 to -14dBm",
+          "a": "",
+          "B2B OSNR (0.1 nm RWI": "16.6 dB"
+        },
+        {
+          "Column 1": "CP-16QAM",
+          "_": "SD-FEC (25% OH)",
+          "so": "<3E(-2)",
+          "ae ost-FEC BER |": "<10E (-15)",
+          "Input Power Sensitivity”": "0 to -14dBm",
+          "a": "",
+          "B2B OSNR (0.1 nm RWI": "19.6 dB"
+        },
+        {
+          "Column 1": "CP-16QAM",
+          "_": "SD-FEC (15% OH)",
+          "so": "<3E(-2)",
+          "ae ost-FEC BER |": "<10E (-15)",
+          "Input Power Sensitivity”": "0 to -14dBm",
+          "a": "",
+          "B2B OSNR (0.1 nm RWI": "20.3 dB"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_table_5",
+      "title": "Table 5",
+      "page": 13,
+      "headers": [
+        "ParameterName",
+        "ParameterName 2",
+        "Description",
+        "Column 4"
+      ],
+      "rows": [
+        {
+          "ParameterName": "OTUk SM",
+          "ParameterName 2": "ODUk PM",
+          "Description": "",
+          "Column 4": ""
+        },
+        {
+          "ParameterName": "BBE-SM",
+          "ParameterName 2": "BBE-PM",
+          "Description": "Description",
+          "Column 4": "Number of background block errors"
+        },
+        {
+          "ParameterName": "BBER-SM",
+          "ParameterName 2": "BBER-PM",
+          "Description": "Background block error ratio",
+          "Column 4": ""
+        },
+        {
+          "ParameterName": "ES-SM",
+          "ParameterName 2": "ES-PM",
+          "Description": "Number of errored seconds",
+          "Column 4": ""
+        },
+        {
+          "ParameterName": "ESR-SM",
+          "ParameterName 2": "ESR-PM",
+          "Description": "Errored seconds ratio",
+          "Column 4": ""
+        },
+        {
+          "ParameterName": "SES-SM",
+          "ParameterName 2": "SES-PM",
+          "Description": "Number of severely errored seconds",
+          "Column 4": ""
+        },
+        {
+          "ParameterName": "SESR-SM",
+          "ParameterName 2": "SESR-PM",
+          "Description": "Severely errored seconds ratio",
+          "Column 4": ""
+        },
+        {
+          "ParameterName": "UAS-SM",
+          "ParameterName 2": "UAS-PM",
+          "Description": "Number of unavailable seconds",
+          "Column 4": ""
+        },
+        {
+          "ParameterName": "FC-SM",
+          "ParameterName 2": "FC-PM",
+          "Description": "Number of failure counts",
+          "Column 4": ""
+        },
+        {
+          "ParameterName": "Bit errors",
+          "ParameterName 2": "",
+          "Description": "Number of corrected bit errors",
+          "Column 4": ""
+        },
+        {
+          "ParameterName": "Uncorrectable words",
+          "ParameterName 2": "Uncorrectable words",
+          "Description": "Number of uncorrectable words",
+          "Column 4": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06_table_6",
+      "title": "Table 6",
+      "page": 14,
+      "headers": [
+        "area",
+        "ParemeterName =",
+        "[Description"
+      ],
+      "rows": [
+        {
+          "area": "Trunk optical performance monitoring",
+          "ParemeterName =": "OPT",
+          "[Description": "Transmitter optical power"
+        },
+        {
+          "area": "Trunk optical performance monitoring",
+          "ParemeterName =": "LBC",
+          "[Description": "Transmitter laser bias current"
+        },
+        {
+          "area": "Trunk optical performance monitoring",
+          "ParemeterName =": "OPR",
+          "[Description": "Receiver optical power"
+        },
+        {
+          "area": "Trunk optical performance monitoring",
+          "ParemeterName =": "RCD",
+          "[Description": "Residual chromatic dispersion"
+        },
+        {
+          "area": "Trunk optical performance monitoring",
+          "ParemeterName =": "PMD",
+          "[Description": "Mean polarization mode dispersion"
+        },
+        {
+          "area": "Trunk optical performance monitoring",
+          "ParemeterName =": "OSNR",
+          "[Description": "Optical signal-to-noise ratio, calculated with 0.5 nm RBW"
+        },
+        {
+          "area": "Trunk optical performance monitoring",
+          "ParemeterName =": "SOPMD",
+          "[Description": "Second Order PMD (SOPMD) Estimation"
+        },
+        {
+          "area": "Trunk optical performance monitoring",
+          "ParemeterName =": "SOPCR",
+          "[Description": "Polarization Change Rate Estimation"
+        },
+        {
+          "area": "Trunk optical performance monitoring",
+          "ParemeterName =": "PDL",
+          "[Description": "Polarization Dependent Loss (PDL) Estimation"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "07_table_7",
+      "title": "Table 7",
+      "page": 14,
+      "headers": [
+        "Card LEDs",
+        "Card LEDs 2"
+      ],
+      "rows": [
+        {
+          "Card LEDs": "Failure (FAIL)",
+          "Card LEDs 2": "Red"
+        },
+        {
+          "Card LEDs": "Active/standby (ACT/STBY)",
+          "Card LEDs 2": "Green/yellow"
+        },
+        {
+          "Card LEDs": "Signal Fail (SF)",
+          "Card LEDs 2": "Yellow"
+        },
+        {
+          "Card LEDs": "Client port LEDs (per port)",
+          "Card LEDs 2": ""
+        },
+        {
+          "Card LEDs": "Active input signal",
+          "Card LEDs 2": "Green"
+        },
+        {
+          "Card LEDs": "DWDM port LEDs",
+          "Card LEDs 2": "DWDM port LEDs"
+        },
+        {
+          "Card LEDs": "Active input signal",
+          "Card LEDs 2": "Green"
+        },
+        {
+          "Card LEDs": "Output wavelength",
+          "Card LEDs 2": "Green"
+        },
+        {
+          "Card LEDs": "Power (including pluggable)",
+          "Card LEDs 2": "Power (including pluggable)"
+        },
+        {
+          "Card LEDs": "Typical",
+          "Card LEDs 2": "330 W"
+        },
+        {
+          "Card LEDs": "Maximum",
+          "Card LEDs 2": "385 W"
+        },
+        {
+          "Card LEDs": "Physical",
+          "Card LEDs 2": "Physical"
+        },
+        {
+          "Card LEDs": "Dimensions",
+          "Card LEDs 2": "Occupies 2 slot"
+        },
+        {
+          "Card LEDs": "Weight",
+          "Card LEDs 2": "6.8 Ib (3.1 kg)"
+        },
+        {
+          "Card LEDs": "Reliability and availability",
+          "Card LEDs 2": "Reliability and availability"
+        },
+        {
+          "Card LEDs": "Mean Time Between Failures (MTBF)",
+          "Card LEDs 2": "272,380 hrs"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "08_table_8",
+      "title": "Table 8",
+      "page": 15,
+      "headers": [
+        "Latency (end to end)",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Latency (end to end)": "100GE SD - FEC 15%",
+          "Column 2": "28 microseconds"
+        },
+        {
+          "Latency (end to end)": "Storage temperature",
+          "Column 2": "-40°C to 70°C (-40°F to 158°F)"
+        },
+        {
+          "Latency (end to end)": "Operating temperature",
+          "Column 2": "Operating temperature"
+        },
+        {
+          "Latency (end to end)": "Normal",
+          "Column 2": "0°C to 40°C (32°F to 104°F)"
+        },
+        {
+          "Latency (end to end)": "Short-term’",
+          "Column 2": "-5°C to 55°C (23°F to 131°F)"
+        },
+        {
+          "Latency (end to end)": "Relative humidity",
+          "Column 2": "Relative humidity"
+        },
+        {
+          "Latency (end to end)": "Normal",
+          "Column 2": "5% to 85%, noncondensing"
+        },
+        {
+          "Latency (end to end)": "Short-term!",
+          "Column 2": "5% to 90% but not to exceed 0.024 kg water/kg of dry air"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "09_table_9",
+      "title": "Table 9",
+      "page": 15,
+      "headers": [
+        "NCS2K-400G-XP=",
+        "400G CFP2 MR xponder"
+      ],
+      "rows": [
+        {
+          "NCS2K-400G-XP=": "NCS2K-400GXP-L-K9=",
+          "400G CFP2 MR xponder": "400G CFP2 MR XP licensed 100G client bandwidth + 1 port WDM"
+        },
+        {
+          "NCS2K-400G-XP=": "L-NCS2K-100G-LIC=",
+          "400G CFP2 MR xponder": "100G bandwidth client license"
+        },
+        {
+          "NCS2K-400G-XP=": "L-NCS2K-WDM-LIC=",
+          "400G CFP2 MR xponder": "WDM port license"
+        },
+        {
+          "NCS2K-400G-XP=": "L-NCS2K-8QAM=",
+          "400G CFP2 MR xponder": "WDM port license - upgrade to 8QAM (150G)"
+        },
+        {
+          "NCS2K-400G-XP=": "L-NCS2K-16QAM=",
+          "400G CFP2 MR xponder": "WDM port license - upgrade to 16QAM (200G)"
+        },
+        {
+          "NCS2K-400G-XP=": "ONS-CFP2-WDM=",
+          "400G CFP2 MR xponder": "100G QPSK/200G 16-QAM - WDM CFP2 pluggable"
+        },
+        {
+          "NCS2K-400G-XP=": "ONS-QSFP28-LR4=",
+          "400G CFP2 MR xponder": "100Gbps multirate QSFP28, LR"
+        },
+        {
+          "NCS2K-400G-XP=": "ONS-QSFP-4X10-MLR=",
+          "400G CFP2 MR xponder": "4x10Gbps multirate QSFP+, LR"
+        },
+        {
+          "NCS2K-400G-XP=": "QSFP-100G-FR-S",
+          "400G CFP2 MR xponder": "100GBASE FR QSFP Transceiver, 2km over SMF"
+        },
+        {
+          "NCS2K-400G-XP=": "QSFP-100G-LR4-S=",
+          "400G CFP2 MR xponder": "100GBASE LR4 QSFP transceiver, LC, 10km over SMF"
+        },
+        {
+          "NCS2K-400G-XP=": "QSFP-40G-LR4",
+          "400G CFP2 MR xponder": "40GBASE-LR4, 1310 nm, SMF"
+        },
+        {
+          "NCS2K-400G-XP=": "QSFP-100G-SR4-S=",
+          "400G CFP2 MR xponder": "100GBASE SR4 QSFP transceiver, MPO, 100m over OM4 MMF"
+        },
+        {
+          "NCS2K-400G-XP=": "QSFP-4X10G-LR-S=",
+          "400G CFP2 MR xponder": "QSFP 4x10G transceiver module, SM MPO, 10KM, enterprise class"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "10_table_10",
+      "title": "Table 10",
+      "page": 16,
+      "headers": [
+        "QSFP-40G-SR4=",
+        "40GBASE-SR4 QSFP Transceiver Module with MPO Connector"
+      ],
+      "rows": [
+        {
+          "QSFP-40G-SR4=": "ONS-QC-16GFC-LW=",
+          "40GBASE-SR4 QSFP Transceiver Module with MPO Connector": "4 X 16G/8G Fiber Channel QSFP+, SM, C Temp"
+        },
+        {
+          "QSFP-40G-SR4=": "ONS-QC-16GFC-SW=",
+          "40GBASE-SR4 QSFP Transceiver Module with MPO Connector": "4 X 16G Channel QSFP+, MM, C Temp"
+        },
+        {
+          "QSFP-40G-SR4=": "QSFP-40G-SR-BD",
+          "40GBASE-SR4 QSFP Transceiver Module with MPO Connector": "Cisco 40GBASE-SR Bi-Directional QSFP Module for Duplex MMF"
+        },
+        {
+          "QSFP-40G-SR4=": "QSFP-40/100-SRBD",
+          "40GBASE-SR4 QSFP Transceiver Module with MPO Connector": "100G and 40GBASE SR-BiDi QSFP Transceiver, LC, 100m OM4 MMF"
+        },
+        {
+          "QSFP-40G-SR4=": "NCS2K-MF-8X10G-FO",
+          "40GBASE-SR4 QSFP Transceiver Module with MPO Connector": "2x4x10G QSFP+ to 10G fan out"
+        },
+        {
+          "QSFP-40G-SR4=": "ONS-12MPO-MPO-2=",
+          "40GBASE-SR4 QSFP Transceiver Module with MPO Connector": "Multifiber patchcord - MPO to MPO 12 fibers - 2m"
+        },
+        {
+          "QSFP-40G-SR4=": "ONS-12MPO-MPO-4=",
+          "40GBASE-SR4 QSFP Transceiver Module with MPO Connector": "Multifiber patchcord - MPO to MPO 12 fibers - 4m"
+        },
+        {
+          "QSFP-40G-SR4=": "ONS-12MPO-MPO-6=",
+          "40GBASE-SR4 QSFP Transceiver Module with MPO Connector": "Multifiber patchcord - MPO to MPO 12 fibers - 6m"
+        },
+        {
+          "QSFP-40G-SR4=": "ONS-12MPO-MPO-8=",
+          "40GBASE-SR4 QSFP Transceiver Module with MPO Connector": "Multifiber patchcord - MPO to MPO 12 fibers - 8m"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "11_ansi_system",
+      "title": "ANSI System",
+      "headers": [
+        "ANSI System",
+        "ETSI System"
+      ],
+      "rows": [
+        {
+          "ANSI System": "Countries and Regions Supported",
+          "ETSI System": ""
+        },
+        {
+          "ANSI System": "● Canada<br>● United States<br>● Korea<br>● Japan<br>● European Union",
+          "ETSI System": "● European Union<br>● Africa<br>● CSI<br>● Australia<br>● New Zealand<br>● China<br>● Korea<br>● India<br>● Saudi Arabia<br>● South America"
+        },
+        {
+          "ANSI System": "EMC (Class A)",
+          "ETSI System": ""
+        },
+        {
+          "ANSI System": "● ICES-003, 2004<br>● GR-1089-CORE Issue 4, NEBS EMC and Safety, June 2006<br>● FCC 47CFR15, 2007",
+          "ETSI System": "● ETSI EN 300 386 V1.4.1 (2008-04) Telecommunication network<br>equipment EMC requirements (Note: EMC-1)<br>● CISPR22:2008 and EN55022:2006/A1:2007 Information<br>Technology Equipment (Emissions) (EMC-2)<br>● CISPR24: 1997/A1:2001/A2:2002 and<br>EN55024:1998/A1:2001/A2:2003: Information Technology<br>Equipment – Immunity characteristics – Limits and Methods of<br>Measurement (test levels)"
+        },
+        {
+          "ANSI System": "Safety",
+          "ETSI System": ""
+        },
+        {
+          "ANSI System": "● CSA C22.2 #60950-1 – Edition 7, March 2007<br>● UL 60950-1 – Edition 2, March 2007<br>● GR-1089-CORE Issue 4, NEBS EMC and Safety, June 2006",
+          "ETSI System": "● UL 60950-1 – Edition 2, March 2007<br>● IEC 60950-1 Information technology equipment Safety Part 1:<br>General requirements – Edition 2, 2005 and National Differences<br>as per CB Bulletin 112A<br>● IEC/EN 60950-1 (2006/10) with Amendment 11:2004 to EN<br>60950-1:2001, 1st Edition and National Differences as per CB<br>Bulletin 112A.<br>● EN 60950-1, Edition 2 (2006) Information technology equipment<br>– Safety – Part 1: General requirements<br>● CE Safety Directive: 2006/95/EC"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "marker"
+    },
+    {
+      "table_id": "12_ul_60950_1_edition_2_march_2007_iec_60825_1_2001_ed_1_2_incl_am1_am2_safety_of_laser_products_part_1_equipment_classification_requirements_and_users_guide_iec60825_2_ed_3_2004_safety_of_laser_products_part_2_safety_of_optical_fiber_communication_systems_a1_2006",
+      "title": "● UL 60950-1 - Edition 2, March 2007 ● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fiber communication systems + A1:2006",
+      "headers": [
+        "● UL 60950-1 - Edition 2, March 2007 ● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fiber communication systems + A1:2006",
+        "● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fibre communication systems + A1:2006 ● 21CFR1040 (2008/04) (Accession Letter and CDRH Report) Automatic Laser Shutdown and restart (ALS) according to ITU-T G.664 (03/06). Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007 ● Laser Products: Conformance with IEC 60825-1 and IEC 60601- 2-22; Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007"
+      ],
+      "rows": [
+        {
+          "● UL 60950-1 - Edition 2, March 2007 ● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fiber communication systems + A1:2006": "Environmental",
+          "● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fibre communication systems + A1:2006 ● 21CFR1040 (2008/04) (Accession Letter and CDRH Report) Automatic Laser Shutdown and restart (ALS) according to ITU-T G.664 (03/06). Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007 ● Laser Products: Conformance with IEC 60825-1 and IEC 60601- 2-22; Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007": ""
+        },
+        {
+          "● UL 60950-1 - Edition 2, March 2007 ● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fiber communication systems + A1:2006": "● GR-63-CORE Issue 3, Network Equipment Building Standards (NEBS) Physical Protection, March 2006",
+          "● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fibre communication systems + A1:2006 ● 21CFR1040 (2008/04) (Accession Letter and CDRH Report) Automatic Laser Shutdown and restart (ALS) according to ITU-T G.664 (03/06). Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007 ● Laser Products: Conformance with IEC 60825-1 and IEC 60601- 2-22; Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007": "● ETS 300-019-2-1 V2.1.2 (Storage, Class 1.1) ● ETS 300-019-2-2 V2.1.2 (1999-09): Transportation, Class 2.3 ● ETS 300-019-2-3 V2.2.2 (2003-04): Operational, Class 3.1E"
+        },
+        {
+          "● UL 60950-1 - Edition 2, March 2007 ● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fiber communication systems + A1:2006": "Optical",
+          "● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fibre communication systems + A1:2006 ● 21CFR1040 (2008/04) (Accession Letter and CDRH Report) Automatic Laser Shutdown and restart (ALS) according to ITU-T G.664 (03/06). Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007 ● Laser Products: Conformance with IEC 60825-1 and IEC 60601- 2-22; Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007": ""
+        },
+        {
+          "● UL 60950-1 - Edition 2, March 2007 ● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fiber communication systems + A1:2006": "● GR-253-CORE - Issue 04",
+          "● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fibre communication systems + A1:2006 ● 21CFR1040 (2008/04) (Accession Letter and CDRH Report) Automatic Laser Shutdown and restart (ALS) according to ITU-T G.664 (03/06). Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007 ● Laser Products: Conformance with IEC 60825-1 and IEC 60601- 2-22; Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007": "● ITU-T G.709"
+        },
+        {
+          "● UL 60950-1 - Edition 2, March 2007 ● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fiber communication systems + A1:2006": "● ITU-T G.691",
+          "● IEC 60825-1: 2001 Ed.1.2 (incl. am1+am2) Safety of laser products Part 1: Equipment classification, requirements and users guide ● IEC60825-2 Ed.3 (2004) Safety of laser products Part 2: Safety of optical fibre communication systems + A1:2006 ● 21CFR1040 (2008/04) (Accession Letter and CDRH Report) Automatic Laser Shutdown and restart (ALS) according to ITU-T G.664 (03/06). Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007 ● Laser Products: Conformance with IEC 60825-1 and IEC 60601- 2-22; Guidance for Industry and FDA Staff (Laser Notice No. 50), June 2007": "● ITU-T G.975"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "docling"
+    },
+    {
+      "table_id": "13_area",
+      "title": "**Area**",
+      "headers": [
+        "**Area**",
+        "**Parameter Name**",
+        "**Parameter Name** 2",
+        "**Description**"
+      ],
+      "rows": [
+        {
+          "**Area**": "**FEC**",
+          "**Parameter Name**": "",
+          "**Parameter Name** 2": "",
+          "**Description**": "Number of corrected bit errors"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "pymupdf4llm"
+    },
+    {
+      "table_id": "14_management",
+      "title": "**Management**",
+      "headers": [
+        "**Management**"
+      ],
+      "rows": [
+        {
+          "**Management**": "**Card LEDs**"
+        },
+        {
+          "**Management**": "**Client port LEDs (per port)**"
+        },
+        {
+          "**Management**": "**DWDM port LEDs**"
+        },
+        {
+          "**Management**": "**Power (including pluggable)**"
+        },
+        {
+          "**Management**": "**Physical**"
+        },
+        {
+          "**Management**": "**Reliability and availability**"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "pymupdf4llm"
+    }
+  ],
+  "structure": {
+    "section_order": [],
+    "total_tables": 14,
+    "total_footnotes": 0,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

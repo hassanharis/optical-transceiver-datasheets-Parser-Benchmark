@@ -1,0 +1,258 @@
+{
+  "source": "ds-tos001-s31c-so-osfp-rhs-400g-dr4.pdf",
+  "page_count": 2,
+  "tier": 1,
+  "tables": [
+    {
+      "table_id": "01_technical_data",
+      "title": "TECHNICAL DATA",
+      "page": 1,
+      "headers": [
+        "Technology",
+        "Grey, OSFP RHS"
+      ],
+      "rows": [
+        {
+          "Technology": "Transmission media",
+          "Grey, OSFP RHS": "SM (1x MPO12)"
+        },
+        {
+          "Technology": "Typical reach",
+          "Grey, OSFP RHS": "500m"
+        },
+        {
+          "Technology": "Nominal wavelengths",
+          "Grey, OSFP RHS": "4x 1311nm"
+        },
+        {
+          "Technology": "Interface standards",
+          "Grey, OSFP RHS": "400GBASE-DR4"
+        },
+        {
+          "Technology": "Electrical interfaces",
+          "Grey, OSFP RHS": "400GAUI-4 or 4x100GAUI-1"
+        },
+        {
+          "Technology": "Bit rate support",
+          "Grey, OSFP RHS": "425Gbps \")"
+        },
+        {
+          "Technology": "Bit rate support",
+          "Grey, OSFP RHS": "53.125Gbd 7)"
+        },
+        {
+          "Technology": "Protocol support",
+          "Grey, OSFP RHS": "400GbE"
+        },
+        {
+          "Technology": "Power budget",
+          "Grey, OSFP RHS": "0-3.6dB"
+        },
+        {
+          "Technology": "Power consumption",
+          "Grey, OSFP RHS": "<OW"
+        },
+        {
+          "Technology": "Operating temperature",
+          "Grey, OSFP RHS": "0°C to +70°C"
+        },
+        {
+          "Technology": "Storage temperature",
+          "Grey, OSFP RHS": "-40°C to +85°C."
+        }
+      ],
+      "footnotes": {
+        "1": "Aggregated line rate 400GbE",
+        "2": "Line baud rate per lane"
+      },
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_technical_data",
+      "title": "TECHNICAL DATA",
+      "page": 1,
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        {
+          "Parameter": "Transmitter data:",
+          "Value": "Transmitter data:"
+        },
+        {
+          "Parameter": "Output power, Average, per lane",
+          "Value": "Min: -2.9dBm"
+        },
+        {
+          "Parameter": "Output power, Average, per lane",
+          "Value": "Max: +4.0dBm"
+        },
+        {
+          "Parameter": "Output power, OMA, per lane",
+          "Value": "Min: -0.8dBm"
+        },
+        {
+          "Parameter": "Output power, OMA, per lane",
+          "Value": "Max: +4.2dBm"
+        },
+        {
+          "Parameter": "Transmit wavelength",
+          "Value": "1304.5 — 1317.5nm"
+        },
+        {
+          "Parameter": "Receiver data:",
+          "Value": "Receiver data:"
+        },
+        {
+          "Parameter": "Output power, Average, per lane",
+          "Value": "Min: -5.9dBm"
+        },
+        {
+          "Parameter": "Output power, Average, per lane",
+          "Value": "Max: +4.0dBm"
+        },
+        {
+          "Parameter": "Minimum input power, OMA per lane",
+          "Value": "-4.4dBm 9)"
+        },
+        {
+          "Parameter": "Overload (max power), OMA, per lane",
+          "Value": "+4.2dBm °)"
+        },
+        {
+          "Parameter": "Wavelength range",
+          "Value": "1304.5 — 1317.5nm"
+        },
+        {
+          "Parameter": "LOS Assert",
+          "Value": "Min -15dBm"
+        },
+        {
+          "Parameter": "LOS De-assert",
+          "Value": "Max -10dBm"
+        },
+        {
+          "Parameter": "LOS Hysteresis",
+          "Value": "Min 0.5dB"
+        },
+        {
+          "Parameter": "DDM",
+          "Value": "Yes"
+        },
+        {
+          "Parameter": "MSA compliance",
+          "Value": "OSFP RHS MSA"
+        },
+        {
+          "Parameter": "MSA compliance",
+          "Value": "CMIS5.0"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_general_definitions",
+      "title": "GENERAL DEFINITIONS",
+      "page": 2,
+      "headers": [
+        "Technology",
+        "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors."
+      ],
+      "rows": [
+        {
+          "Technology": "Transmission Media",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Type of fiber, e.g. Multimode (MM) or Singlemode (SM). Number of and connector type within brackets (e.g. 2x LC, 1x MPO)."
+        },
+        {
+          "Technology": "Typical reach",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Nominal distance performance based on typical fiber dispersion, fiber loss and power budget properties, i.e. w/o dispersion compensation and optical amplification. Actual distance is dependent on actual optical path loss and dispersion properties."
+        },
+        {
+          "Technology": "Bit rate range",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Supported bit rate range in Gigabit or Megabit per second (Gbps or Mbps)."
+        },
+        {
+          "Technology": "Protocols",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Protocols within supported bit rate range."
+        },
+        {
+          "Technology": "Nominal wavelength",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Typical wavelength(s) from transmitter."
+        },
+        {
+          "Technology": "Interface standards",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Referenced interface standards or MSA's, e.g. IEEE 802.3 standard for 10GbE services or 100G 4WDM-10 etc."
+        },
+        {
+          "Technology": "Power budget",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Min and max power budget between Transmitter and Receiver w/o optical path penalties."
+        },
+        {
+          "Technology": "Dispersion tolerance/penalty",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Maximum amount of tolerated dispersion and required reduction of power budget to maintain stipulated Bit Error Rate (BER) and at a given bit rate."
+        },
+        {
+          "Technology": "Temperature range",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Max operating case temperature range. Standard temperature range (C-temp): 0°C to +70°C (32°F to +158°F) Extended temperature range (E-temp): typically -20°C to +75°C (-4°F to +167°F) Industrial temperature range (I-temp): -40°C to +85°C (-40°F to +185°F)"
+        },
+        {
+          "Technology": "Power consumption",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Worst case power consumption. Will vary over temperature."
+        },
+        {
+          "Technology": "Transmitter Output power",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Average output power. Provided in min and max values."
+        },
+        {
+          "Technology": "Receiver minimum input power",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Minimum average input power at specified BER, normally 1E-'?. Note that some protocols require FEC to achieve sufficient BER."
+        },
+        {
+          "Technology": "Receiver max input power",
+          "Grey; Transceiver type for non-WDM applications. Electrical or optical. CWDM; Transceiver type for CWDM applications using G.694.2 channel grid. DWDM; Transceiver type for DWDM applications using G.694.1 channel grid. BiDi; Transceiver pair using two different wavelength channels operating on a single-fiber. DAC: Direct Attach Cable. Electrical cable with attached connectors. AOC: Active Optical Cable. Optical cable with attached connectors.": "Maximum average input power giving a BER, normally 1E-1?."
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_ordering_number",
+      "title": "Ordering number",
+      "headers": [
+        "Ordering number",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Ordering number": "TOS001-S31C-SO",
+          "Description": "OSFP112 RHS 400G-DR4 SM 500m MPO"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "marker"
+    }
+  ],
+  "structure": {
+    "section_order": [
+      "OSFP RHS 400G DR4, CMIS5.0",
+      "TECHNICAL DATA",
+      "ORDERING INFORMATION",
+      "GENERAL DEFINITIONS"
+    ],
+    "total_tables": 4,
+    "total_footnotes": 2,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

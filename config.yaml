@@ -1,0 +1,39 @@
+corpus_dir: datasheets
+ground_truth_dir: corpus/ground_truth
+output_dir: outputs
+report_dir: reports
+
+parsers:
+  opendataloader_heuristic:
+    enabled: true
+    timeout_per_page: 5
+  opendataloader_hybrid:
+    enabled: true
+    hybrid_port: 5002
+    timeout_per_page: 30
+  docling:
+    enabled: true
+    timeout_per_page: 10
+  marker:
+    enabled: true
+    timeout_per_page: 120
+    require_gpu: false
+  pymupdf4llm:
+    enabled: true
+    timeout_per_page: 5
+  unstructured_fast:
+    enabled: true
+    strategy: fast
+    timeout_per_page: 5
+  unstructured_hires:
+    enabled: true
+    strategy: hi_res
+    timeout_per_page: 60
+
+evaluation:
+  table_cell_similarity_threshold: 0.85
+  footnote_anchor_match: exact
+  weights:
+    tier1: 1.0
+    tier2: 1.5
+    tier3: 2.0

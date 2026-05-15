@@ -1,0 +1,1091 @@
+{
+  "source": "Juniper QSFP-100G-ZR-HP.pdf",
+  "page_count": 11,
+  "tier": 3,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Table 1",
+      "page": 2,
+      "headers": [
+        "Parameter",
+        "Conditions",
+        "Column 3",
+        "Symbol",
+        "Typ",
+        "Max",
+        "Unit",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Parameter": "Storage temperature",
+          "Conditions": "",
+          "Column 3": "",
+          "Symbol": "TS",
+          "Typ": "",
+          "Max": "85",
+          "Unit": "°C",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Case operating temperature Relative humidity",
+          "Conditions": "Central office",
+          "Column 3": "Long term",
+          "Symbol": "Top",
+          "Typ": "",
+          "Max": "70",
+          "Unit": "°C",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Case operating temperature Relative humidity",
+          "Conditions": "appl. (C-temp)",
+          "Column 3": "Short term < 96h",
+          "Symbol": "",
+          "Typ": "",
+          "Max": "75",
+          "Unit": "°C",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Case operating temperature Relative humidity",
+          "Conditions": "Non-condensing",
+          "Column 3": "",
+          "Symbol": "RH",
+          "Typ": "",
+          "Max": "85",
+          "Unit": "%",
+          "Notes": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "Table 2",
+      "page": 2,
+      "headers": [
+        "65 [9]",
+        "CAUI-4 C2M without FEC",
+        "NRZ",
+        "25.78125 68,",
+        "192, 193"
+      ],
+      "rows": [
+        {
+          "65 [9]": "66 [9]",
+          "CAUI-4 C2M without FEC": "CAUI-4 C2M with RS(528,514) FEC",
+          "NRZ": "NRZ",
+          "25.78125 68,": "25.78125 68,",
+          "192, 193": "192, 193"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_table_3",
+      "title": "Table 3",
+      "page": 3,
+      "headers": [
+        "Column 1",
+        "Column 2",
+        "Column 3",
+        "Column 4",
+        "Column 5",
+        "Column 6"
+      ],
+      "rows": [
+        {
+          "Column 1": "57 [10]",
+          "Column 2": "OTL4.4 (ITU-T G.709/ Y.1331 G.Sup58)",
+          "Column 3": "NRZ",
+          "Column 4": "RS(255,239)",
+          "Column 5": "27.9525",
+          "Column 6": "192, 193"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_table_4",
+      "title": "Table 4",
+      "page": 3,
+      "headers": [
+        "Line Interface ID [18]",
+        "Line Interface Description [18]",
+        "Modulation",
+        "Forward Error Correction Code",
+        "Nominal | ominal Symbo Rate (GBd)",
+        "Spectral Shaping"
+      ],
+      "rows": [
+        {
+          "Line Interface ID [18]": "QSFP-ZRH-100G and QSFP-ZRH-100G-S",
+          "Line Interface Description [18]": "QSFP-ZRH-100G and QSFP-ZRH-100G-S",
+          "Modulation": "QSFP-ZRH-100G and QSFP-ZRH-100G-S",
+          "Forward Error Correction Code": "QSFP-ZRH-100G and QSFP-ZRH-100G-S",
+          "Nominal | ominal Symbo Rate (GBd)": "QSFP-ZRH-100G and QSFP-ZRH-100G-S",
+          "Spectral Shaping": "QSFP-ZRH-100G and QSFP-ZRH-100G-S"
+        },
+        {
+          "Line Interface ID [18]": "68 [9]",
+          "Line Interface Description [18]": "100GBASE-ZR (Clause 154)",
+          "Modulation": "DP-DQPSK",
+          "Forward Error Correction Code": "Staircase (SC)",
+          "Nominal | ominal Symbo Rate (GBd)": "27.9525",
+          "Spectral Shaping": "None"
+        },
+        {
+          "Line Interface ID [18]": "QSFP-ZRH-100G-S only",
+          "Line Interface Description [18]": "QSFP-ZRH-100G-S only",
+          "Modulation": "QSFP-ZRH-100G-S only",
+          "Forward Error Correction Code": "QSFP-ZRH-100G-S only",
+          "Nominal | ominal Symbo Rate (GBd)": "QSFP-ZRH-100G-S only",
+          "Spectral Shaping": "QSFP-ZRH-100G-S only"
+        },
+        {
+          "Line Interface ID [18]": "192 [11]",
+          "Line Interface Description [18]": "OTU4 Long Reach",
+          "Modulation": "DP-DQPSK",
+          "Forward Error Correction Code": "Staircase (SC)",
+          "Nominal | ominal Symbo Rate (GBd)": "27.9525",
+          "Spectral Shaping": "None"
+        },
+        {
+          "Line Interface ID [18]": "193 [10]",
+          "Line Interface Description [18]": "OTU4 Short Reach",
+          "Modulation": "DP-DQPSK",
+          "Forward Error Correction Code": "RS(255,239)",
+          "Nominal | ominal Symbo Rate (GBd)": "27.9525",
+          "Spectral Shaping": "None"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "05_table_5",
+      "title": "Table 5",
+      "page": 3,
+      "headers": [
+        "Parameter",
+        "Conditions",
+        "Symbol",
+        "Min",
+        "Typ",
+        "Max",
+        "Unit",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Parameter": "Power supply - General",
+          "Conditions": "Power supply - General",
+          "Symbol": "Power supply - General",
+          "Min": "Power supply - General",
+          "Typ": "Power supply - General",
+          "Max": "Power supply - General",
+          "Unit": "Power supply - General",
+          "Notes": "Power supply - General"
+        },
+        {
+          "Parameter": "Power supply voltages",
+          "Conditions": "Including ripple, droop and noise below 100kHz",
+          "Symbol": "",
+          "Min": "3.135",
+          "Typ": "3.300",
+          "Max": "3.465",
+          "Unit": "",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Host RMS noise output",
+          "Conditions": "10Hz - 1OMHz",
+          "Symbol": "",
+          "Min": "",
+          "Typ": "",
+          "Max": "25",
+          "Unit": "mV",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Module RMS noise output",
+          "Conditions": "10Hz - 1OMHz",
+          "Symbol": "",
+          "Min": "",
+          "Typ": "",
+          "Max": "15",
+          "Unit": "mV",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Module supply noise tolerance",
+          "Conditions": "10Hz - 10MHz, peak-to- peak",
+          "Symbol": "",
+          "Min": "",
+          "Typ": "",
+          "Max": "66",
+          "Unit": "mV",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Module inrush",
+          "Conditions": "Instantaneous peak duration",
+          "Symbol": "",
+          "Min": "",
+          "Typ": "",
+          "Max": "50",
+          "Unit": "Us",
+          "Notes": ""
+        },
+        {
+          "Parameter": "",
+          "Conditions": "Initialization time",
+          "Symbol": "Tinit",
+          "Min": "",
+          "Typ": "",
+          "Max": "500",
+          "Unit": "ms",
+          "Notes": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "06_table_6",
+      "title": "Table 6",
+      "page": 3,
+      "headers": [
+        "Power dissipation",
+        "Column 2",
+        "Column 3",
+        "Column 4",
+        "Column 5",
+        "Column 6",
+        "Column 7"
+      ],
+      "rows": [
+        {
+          "Power dissipation": "Power supply current PPly",
+          "Column 2": "Instantaneous peak current",
+          "Column 3": "ICC,ip,lp",
+          "Column 4": "",
+          "Column 5": "600",
+          "Column 6": "mA",
+          "Column 7": ""
+        },
+        {
+          "Power dissipation": "Power supply current PPly",
+          "Column 2": "Sustained peak current",
+          "Column 3": "ICC,sp,lp",
+          "Column 4": "",
+          "Column 5": "495",
+          "Column 6": "",
+          "Column 7": ""
+        },
+        {
+          "Power dissipation": "Power supply current PPly",
+          "Column 2": "Steady state current",
+          "Column 3": "ICC,Ip",
+          "Column 4": "",
+          "Column 5": "478",
+          "Column 6": "",
+          "Column 7": ""
+        },
+        {
+          "Power dissipation": "Power supply - High power mode (with 2.4 ns/nm CD)",
+          "Column 2": "Power supply - High power mode (with 2.4 ns/nm CD)",
+          "Column 3": "Power supply - High power mode (with 2.4 ns/nm CD)",
+          "Column 4": "Power supply - High power mode (with 2.4 ns/nm CD)",
+          "Column 5": "Power supply - High power mode (with 2.4 ns/nm CD)",
+          "Column 6": "Power supply - High power mode (with 2.4 ns/nm CD)",
+          "Column 7": ""
+        },
+        {
+          "Power dissipation": "Power dissipation",
+          "Column 2": "",
+          "Column 3": "Php",
+          "Column 4": "5.5",
+          "Column 5": "6.2",
+          "Column 6": "mA",
+          "Column 7": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "07_table_7",
+      "title": "Table 7",
+      "page": 4,
+      "headers": [
+        "wer supply current",
+        "Instantaneous peak current",
+        "ICC,ip,hp",
+        "2480",
+        "mA"
+      ],
+      "rows": [
+        {
+          "wer supply current": "wer supply current",
+          "Instantaneous peak current": "Sustained peak current",
+          "ICC,ip,hp": "ICC,sp,hp",
+          "2480": "2046",
+          "mA": ""
+        },
+        {
+          "wer supply current": "wer supply current",
+          "Instantaneous peak current": "Steady state current",
+          "ICC,ip,hp": "Icc,hp",
+          "2480": "1978",
+          "mA": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "08_table_8",
+      "title": "Table 8",
+      "page": 4,
+      "headers": [
+        "Power supply current",
+        "Sustained peak current Steady state current",
+        "ICC,sp,hp IcC,hp",
+        "Column 4",
+        "2145 2073",
+        "mA",
+        "Column 7",
+        "Column 8",
+        "Column 9"
+      ],
+      "rows": [
+        {
+          "Power supply current": "",
+          "Sustained peak current Steady state current": "Sustained peak current Steady state current",
+          "ICC,sp,hp IcC,hp": "ICC,sp,hp IcC,hp",
+          "Column 4": "",
+          "2145 2073": "",
+          "mA": "",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Low speed I/O",
+          "Sustained peak current Steady state current": "Low speed I/O",
+          "ICC,sp,hp IcC,hp": "Low speed I/O",
+          "Column 4": "Low speed I/O",
+          "2145 2073": "Low speed I/O",
+          "mA": "Low speed I/O",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Clock frequency, SCL",
+          "Sustained peak current Steady state current": "Default",
+          "ICC,sp,hp IcC,hp": "",
+          "Column 4": "400",
+          "2145 2073": "2145 2073",
+          "mA": "mA",
+          "Column 7": "",
+          "Column 8": "kHz",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Clock frequency, SCL",
+          "Sustained peak current Steady state current": "Fast mode+",
+          "ICC,sp,hp IcC,hp": "fscL",
+          "Column 4": "1000",
+          "2145 2073": "",
+          "mA": "",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Output voltage, SCL and SDA",
+          "Sustained peak current Steady state current": "Output low",
+          "ICC,sp,hp IcC,hp": "VoL VOH",
+          "Column 4": "0.0",
+          "2145 2073": "0.4",
+          "mA": "",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Output voltage, SCL and SDA",
+          "Sustained peak current Steady state current": "Output high",
+          "ICC,sp,hp IcC,hp": "VoL VOH",
+          "Column 4": "Vcc-0.5",
+          "2145 2073": "Vcct+0.3",
+          "mA": "",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Input voltage, SCL and SDA",
+          "Sustained peak current Steady state current": "Input low",
+          "ICC,sp,hp IcC,hp": "VIL",
+          "Column 4": "",
+          "2145 2073": "0.3xVcc",
+          "mA": "",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Input voltage, SCL and SDA",
+          "Sustained peak current Steady state current": "Input high",
+          "ICC,sp,hp IcC,hp": "VIH",
+          "Column 4": "0.7xVcc",
+          "2145 2073": "Vcct+0.5",
+          "mA": "",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Capacitance for SCL and SDA I/O signal",
+          "Sustained peak current Steady state current": "",
+          "ICC,sp,hp IcC,hp": "Ci",
+          "Column 4": "",
+          "2145 2073": "14",
+          "mA": "pF",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Total bus capacitive load for SCL and SDA",
+          "Sustained peak current Steady state current": "AOOkHz clock rate",
+          "ICC,sp,hp IcC,hp": "3.0kQ pull- up resistor, max.",
+          "Column 4": "Cb",
+          "2145 2073": "100",
+          "mA": "pF",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Total bus capacitive load for SCL and SDA",
+          "Sustained peak current Steady state current": "",
+          "ICC,sp,hp IcC,hp": "1.6kQ pull- up resistor, max.",
+          "Column 4": "",
+          "2145 2073": "200",
+          "mA": "",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Input voltage / current, LPMode/TxDis, ResetL and ModSelL",
+          "Sustained peak current Steady state current": "Input voltage, low",
+          "ICC,sp,hp IcC,hp": "VIL",
+          "Column 4": "",
+          "2145 2073": "0.8",
+          "mA": "pF",
+          "Column 7": "",
+          "Column 8": "kHz",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Input voltage / current, LPMode/TxDis, ResetL and ModSelL",
+          "Sustained peak current Steady state current": "Input voltage, high",
+          "ICC,sp,hp IcC,hp": "VIH",
+          "Column 4": "2.0",
+          "2145 2073": "Vcct0.3",
+          "mA": "",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Input voltage / current, LPMode/TxDis, ResetL and ModSelL",
+          "Sustained peak current Steady state current": "Input current, OV < Vin < Vcc",
+          "ICC,sp,hp IcC,hp": "",
+          "Column 4": "-365",
+          "2145 2073": "125",
+          "mA": "yA",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Output voltage, ModPrsL and IntL/RxLOSL",
+          "Sustained peak current Steady state current": "Output low, Io,= 2MA",
+          "ICC,sp,hp IcC,hp": "VoL",
+          "Column 4": "0.0",
+          "2145 2073": "0.4",
+          "mA": "",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "Power supply current": "Output voltage, ModPrsL and IntL/RxLOSL",
+          "Sustained peak current Steady state current": "Output high, 10kQ pull-",
+          "ICC,sp,hp IcC,hp": "VOH",
+          "Column 4": "Vcc-0.5",
+          "2145 2073": "Vcct+0.3",
+          "mA": "",
+          "Column 7": "",
+          "Column 8": "",
+          "Column 9": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "09_table_9",
+      "title": "Table 9",
+      "page": 5,
+      "headers": [
+        "Parameter",
+        "Conditions",
+        "Symbol",
+        "Min",
+        "Typ",
+        "Max",
+        "Unit",
+        "Notes",
+        "Column 9"
+      ],
+      "rows": [
+        {
+          "Parameter": "Symbol rate",
+          "Conditions": "",
+          "Symbol": "Rbaud",
+          "Min": "",
+          "Typ": "27.95",
+          "Max": "",
+          "Unit": "GBd",
+          "Notes": "",
+          "Column 9": ""
+        },
+        {
+          "Parameter": "Modulation format",
+          "Conditions": "",
+          "Symbol": "",
+          "Min": "",
+          "Typ": "DP-DQPSK",
+          "Max": "",
+          "Unit": "",
+          "Notes": "",
+          "Column 9": ""
+        },
+        {
+          "Parameter": "Channel frequency range",
+          "Conditions": "100GHz grid",
+          "Symbol": "V_C",
+          "Min": "191.400",
+          "Typ": "193.700",
+          "Max": "196.100",
+          "Unit": "THz",
+          "Notes": "",
+          "Column 9": ""
+        },
+        {
+          "Parameter": "Channel frequency range",
+          "Conditions": "50GHz grid",
+          "Symbol": "",
+          "Min": "191.350",
+          "Typ": "193.700",
+          "Max": "196.100",
+          "Unit": "",
+          "Notes": "",
+          "Column 9": ""
+        },
+        {
+          "Parameter": "Channel spacing",
+          "Conditions": "100GHz grid",
+          "Symbol": "AV_C",
+          "Min": "",
+          "Typ": "100",
+          "Max": "",
+          "Unit": "GHz",
+          "Notes": "",
+          "Column 9": ""
+        },
+        {
+          "Parameter": "Channel spacing",
+          "Conditions": "50GHz grid",
+          "Symbol": "AV_C",
+          "Min": "",
+          "Typ": "50",
+          "Max": "",
+          "Unit": "",
+          "Notes": "",
+          "Column 9": ""
+        },
+        {
+          "Parameter": "Frequency accuracy",
+          "Conditions": "",
+          "Symbol": "dV_C",
+          "Min": "-1.8",
+          "Typ": "",
+          "Max": "1.8",
+          "Unit": "GHz",
+          "Notes": "",
+          "Column 9": ""
+        },
+        {
+          "Parameter": "Side-mode suppression ratio",
+          "Conditions": "No modulation",
+          "Symbol": "SMSR",
+          "Min": "40",
+          "Typ": "",
+          "Max": "",
+          "Unit": "dB",
+          "Notes": "",
+          "Column 9": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "10_table_10",
+      "title": "Table 10",
+      "page": 5,
+      "headers": [
+        "Parameter",
+        "Conditions",
+        "Symbol",
+        "Min",
+        "Typ",
+        "Max",
+        "Unit",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Parameter": "Tx output power",
+          "Conditions": "",
+          "Symbol": "PTx,out",
+          "Min": "",
+          "Typ": "",
+          "Max": "",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Tx output power monitor range",
+          "Conditions": "",
+          "Symbol": "PTx mon",
+          "Min": "-2",
+          "Typ": "",
+          "Max": "",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Tx output power monitor accuracy",
+          "Conditions": "Tx optical power monitor reading relative to actual Tx output power",
+          "Symbol": "8PTx,mon",
+          "Min": "-1.5",
+          "Typ": "",
+          "Max": "1.5",
+          "Unit": "dB",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Tx output power during tuning or when Tx disabled",
+          "Conditions": "",
+          "Symbol": "PTx,dark",
+          "Min": "",
+          "Typ": "",
+          "Max": "",
+          "Unit": "dBm",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Tx in-band optical Signal to noise ratio",
+          "Conditions": "Under modulation, | Af| < 60 GHz",
+          "Symbol": "",
+          "Min": "39",
+          "Typ": "",
+          "Max": "",
+          "Unit": "dB/12.5GH Zz",
+          "Notes": ""
+        },
+        {
+          "Parameter": "Tx out-of-band optical Signal to noise ratio",
+          "Conditions": "Under modulation, | Af| > 150 GHz",
+          "Symbol": "",
+          "Min": "30",
+          "Typ": "",
+          "Max": "",
+          "Unit": "dB/12.5GH Zz",
+          "Notes": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "11_table_11",
+      "title": "Table 11",
+      "page": 5,
+      "headers": [
+        "Parameter Rx total input power",
+        "Conditions",
+        "Conditions 2",
+        "Symbol",
+        "Min",
+        "Typ",
+        "Max",
+        "Unit",
+        "Notes",
+        "Column 10",
+        "Column 11",
+        "Column 12"
+      ],
+      "rows": [
+        {
+          "Parameter Rx total input power": "Parameter Rx total input power",
+          "Conditions": "Broadband",
+          "Conditions 2": "Broadband",
+          "Symbol": "Prx,tot Prxsig",
+          "Min": "",
+          "Typ": "",
+          "Max": "",
+          "Unit": "dBm",
+          "Notes": "",
+          "Column 10": "",
+          "Column 11": "",
+          "Column 12": ""
+        },
+        {
+          "Parameter Rx total input power": "Rx signal input power (amplified)",
+          "Conditions": "Full Rx OSNR",
+          "Conditions 2": "tolerance",
+          "Symbol": "Prx,tot Prxsig",
+          "Min": "",
+          "Typ": "",
+          "Max": "",
+          "Unit": "dBm",
+          "Notes": "",
+          "Column 10": "",
+          "Column 11": "",
+          "Column 12": ""
+        },
+        {
+          "Parameter Rx total input power": "Rx signal input power (amplified)",
+          "Conditions": "Extended range",
+          "Conditions 2": "",
+          "Symbol": "Prx,tot Prxsig",
+          "Min": "",
+          "Typ": "",
+          "Max": "",
+          "Unit": "",
+          "Notes": "",
+          "Column 10": "",
+          "Column 11": "",
+          "Column 12": ""
+        },
+        {
+          "Parameter Rx total input power": "Rx OSNR tolerance",
+          "Conditions": "Back-to-back,",
+          "Conditions 2": "100G DQPSK SC",
+          "Symbol": "",
+          "Min": "16.5",
+          "Typ": "",
+          "Max": "",
+          "Unit": "dBm",
+          "Notes": "",
+          "Column 10": "",
+          "Column 11": "dB/12.5G Hz",
+          "Column 12": ""
+        },
+        {
+          "Parameter Rx total input power": "Rx OSNR tolerance",
+          "Conditions": "Prx,sig > - 18dBm",
+          "Conditions 2": "100G DQPSK RS",
+          "Symbol": "",
+          "Min": "21.5",
+          "Typ": "",
+          "Max": "",
+          "Unit": "",
+          "Notes": "",
+          "Column 10": "",
+          "Column 11": "",
+          "Column 12": ""
+        },
+        {
+          "Parameter Rx total input power": "CD tolerance",
+          "Conditions": "Default, OSNR",
+          "Conditions 2": "penalty < 0.5dB",
+          "Symbol": "",
+          "Min": "",
+          "Typ": "",
+          "Max": "2.4",
+          "Unit": "ns/nm",
+          "Notes": "",
+          "Column 10": "",
+          "Column 11": "",
+          "Column 12": ""
+        },
+        {
+          "Parameter Rx total input power": "CD tolerance",
+          "Conditions": "Extended, OSNR penalty < 1.0dB",
+          "Conditions 2": "Extended, OSNR penalty < 1.0dB",
+          "Symbol": "",
+          "Min": "",
+          "Typ": "",
+          "Max": "6.0",
+          "Unit": "",
+          "Notes": "",
+          "Column 10": "",
+          "Column 11": "",
+          "Column 12": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "12_table_12",
+      "title": "Table 12",
+      "page": 6,
+      "headers": [
+        "PMD tolerance DGD tolerance Tolerance to change in SOP",
+        "OSNR penalty <",
+        "0.5dB",
+        "Column 4",
+        "Column 5",
+        "10",
+        "ps ps krad/s",
+        "Column 8",
+        "Column 9"
+      ],
+      "rows": [
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "PMD tolerance DGD tolerance Tolerance to change in SOP",
+          "OSNR penalty <": "OSNR penalty < 0.5dB",
+          "0.5dB": "OSNR penalty < 0.5dB",
+          "Column 4": "",
+          "Column 5": "",
+          "10": "30 50 0.5",
+          "ps ps krad/s": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "PMD tolerance DGD tolerance Tolerance to change in SOP",
+          "OSNR penalty <": "OSNR penalty < 0.5dB",
+          "0.5dB": "OSNR penalty < 0.5dB",
+          "Column 4": "",
+          "Column 5": "",
+          "10": "",
+          "ps ps krad/s": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "PMD tolerance DGD tolerance Tolerance to change in SOP",
+          "OSNR penalty <": "Change in 1dB PDL incipal stat principa S a e 3dB PDL of polarization",
+          "0.5dB": "Change in 1dB PDL incipal stat principa S a e 3dB PDL of polarization",
+          "Column 4": "",
+          "Column 5": "",
+          "10": "30 50 0.5",
+          "ps ps krad/s": "ps ps krad/s",
+          "Column 8": "dB/12.5G Hz",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "PDL OSNR penalty",
+          "OSNR penalty <": "Change in 1dB PDL incipal stat principa S a e 3dB PDL of polarization",
+          "0.5dB": "Change in 1dB PDL incipal stat principa S a e 3dB PDL of polarization",
+          "Column 4": "",
+          "Column 5": "",
+          "10": "30 50 0.5",
+          "ps ps krad/s": "ps ps krad/s",
+          "Column 8": "dB/12.5G Hz",
+          "Column 9": "1.0"
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "",
+          "OSNR penalty <": "< 1rad/ms",
+          "0.5dB": "AdB PDL",
+          "Column 4": "",
+          "Column 5": "",
+          "10": "3.0",
+          "ps ps krad/s": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "Rx signal input power transient amplitude",
+          "OSNR penalty <": "Peak excursion from steady state, transient within Rx signal input power (amplified) range, OSNR penalty < 0.5dB",
+          "0.5dB": "Peak excursion from steady state, transient within Rx signal input power (amplified) range, OSNR penalty < 0.5dB",
+          "Column 4": "",
+          "Column 5": "",
+          "10": "",
+          "ps ps krad/s": "dB",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "Rx signal input power transient rise/fall time",
+          "OSNR penalty <": "Rise/fall time for the above peak excursion, OSNR penalty < 0.5dB",
+          "0.5dB": "Rise/fall time for the above peak excursion, OSNR penalty < 0.5dB",
+          "Column 4": "",
+          "Column 5": "100",
+          "10": "",
+          "ps ps krad/s": "US",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "Colorless drop OSNR penalty",
+          "OSNR penalty <": "Rx total input power to signal input power ratio < 12dB",
+          "0.5dB": "Rx total input power to signal input power ratio < 12dB",
+          "Column 4": "",
+          "Column 5": "",
+          "10": "0.5",
+          "ps ps krad/s": "dB",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "Colorless drop adjacent channel crosstalk penalty",
+          "OSNR penalty <": "",
+          "0.5dB": "",
+          "Column 4": "",
+          "Column 5": "",
+          "10": "0.2",
+          "ps ps krad/s": "dB",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "Rx signal input power (unamplified)",
+          "OSNR penalty <": "100G OSNR > DQPSK SC 35dB/12.5GHz 100G DQPSK RS",
+          "0.5dB": "100G OSNR > DQPSK SC 35dB/12.5GHz 100G DQPSK RS",
+          "Column 4": "",
+          "Column 5": "-30",
+          "10": "",
+          "ps ps krad/s": "dBm",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "Rx signal input power (unamplified)",
+          "OSNR penalty <": "100G OSNR > DQPSK SC 35dB/12.5GHz 100G DQPSK RS",
+          "0.5dB": "100G OSNR > DQPSK SC 35dB/12.5GHz 100G DQPSK RS",
+          "Column 4": "",
+          "Column 5": "-24",
+          "10": "",
+          "ps ps krad/s": "",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "Rx signal input power monitor range",
+          "OSNR penalty <": "",
+          "0.5dB": "",
+          "Column 4": "PRx,mon(s)",
+          "Column 5": "-21",
+          "10": "",
+          "ps ps krad/s": "dBm",
+          "Column 8": "dB/12.5G Hz",
+          "Column 9": "dBm"
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "Rx signal input power monitor accuracy",
+          "OSNR penalty <": "",
+          "0.5dB": "",
+          "Column 4": "dP Rx,mon(s )",
+          "Column 5": "25",
+          "10": "2.5",
+          "ps ps krad/s": "dB",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "Rx total input power monitor range",
+          "OSNR penalty <": "",
+          "0.5dB": "",
+          "Column 4": "PRx,mon(t)",
+          "Column 5": "“21",
+          "10": "",
+          "ps ps krad/s": "dBm",
+          "Column 8": "",
+          "Column 9": ""
+        },
+        {
+          "PMD tolerance DGD tolerance Tolerance to change in SOP": "Rx total input power monitor accuracy",
+          "OSNR penalty <": "",
+          "0.5dB": "",
+          "Column 4": "dP Rx,mon(t )",
+          "Column 5": "2.0",
+          "10": "",
+          "ps ps krad/s": "dB",
+          "Column 8": "",
+          "Column 9": ""
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "13_table_13",
+      "title": "Table 13",
+      "page": 10,
+      "headers": [
+        "QSFP-ZRH-100G-S QSFP-ZRH-100G",
+        "100G ZR QSFP28 High-TX w/o TOF Coherent Optics Transceiver, 100G ZR QSFP28 High-TX w/o TOF Coherent Optics Transceiver,",
+        "120km over SMF, CMIS 120km over SMF, SFF-8636"
+      ],
+      "rows": [
+        {
+          "QSFP-ZRH-100G-S QSFP-ZRH-100G": "QSFP-ZRHF-100G-S",
+          "100G ZR QSFP28 High-TX w/o TOF Coherent Optics Transceiver, 100G ZR QSFP28 High-TX w/o TOF Coherent Optics Transceiver,": "100G ZR QSFP28 High-TX with TOF Coherent Optics Transceiver,",
+          "120km over SMF, CMIS 120km over SMF, SFF-8636": "120km over SMF, CMIS"
+        },
+        {
+          "QSFP-ZRH-100G-S QSFP-ZRH-100G": "QSFP-ZRHF-100G",
+          "100G ZR QSFP28 High-TX w/o TOF Coherent Optics Transceiver, 100G ZR QSFP28 High-TX w/o TOF Coherent Optics Transceiver,": "100G ZR QSFP28 High-TX with TOF Coherent Optics Transceiver,",
+          "120km over SMF, CMIS 120km over SMF, SFF-8636": "120km over SMF, SFF-8636"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": true,
+      "draft_source_parser": "unstructured_hires"
+    }
+  ],
+  "structure": {
+    "section_order": [],
+    "total_tables": 13,
+    "total_footnotes": 0,
+    "modulation_block": true
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "unstructured_hires",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

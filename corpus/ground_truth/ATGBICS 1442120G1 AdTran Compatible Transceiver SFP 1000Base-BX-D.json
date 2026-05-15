@@ -1,0 +1,269 @@
+{
+  "source": "ATGBICS 1442120G1 AdTran Compatible Transceiver SFP 1000Base-BX-D.pdf",
+  "page_count": 2,
+  "tier": 1,
+  "tables": [
+    {
+      "table_id": "01_table_1",
+      "title": "Performance",
+      "page": 1,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Column 2": "Fiber optic",
+          "Column 1": "SFP transceiver type *"
+        },
+        {
+          "Column 2": "1250 Mbit/s",
+          "Column 1": "Maximum data transfer rate *"
+        },
+        {
+          "Column 2": "SFP",
+          "Column 1": "Interface type *"
+        },
+        {
+          "Column 2": "✓",
+          "Column 1": "Single-mode fiber (SMF) supported"
+        },
+        {
+          "Column 2": "x",
+          "Column 1": "Multi-mode fiber (MMF) supported"
+        },
+        {
+          "Column 2": "Lc",
+          "Column 1": "Fiber optic connector"
+        },
+        {
+          "Column 2": "BX-D",
+          "Column 1": "SFP transceiver standard"
+        },
+        {
+          "Column 2": "10000 m",
+          "Column 1": "Maximum transfer distance"
+        },
+        {
+          "Column 2": "1490 nm",
+          "Column 1": "Tx wavelength (max)"
+        },
+        {
+          "Column 2": "1310 nm",
+          "Column 1": "Rx wavelength (max)"
+        },
+        {
+          "Column 2": "✓",
+          "Column 1": "Ethernet LAN"
+        },
+        {
+          "Column 2": "Gigabit Ethernet",
+          "Column 1": "Ethernet interface type"
+        },
+        {
+          "Column 2": "✓",
+          "Column 1": "Digital Diagnostics Monitoring (DDM)"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "02_table_2",
+      "title": "Features",
+      "page": 1,
+      "headers": [
+        "Performance",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Performance": "Product colour",
+          "Column 2": "Silver"
+        },
+        {
+          "Performance": "Housing material",
+          "Column 2": "Metal"
+        },
+        {
+          "Performance": "Plug and Play",
+          "Column 2": "✓"
+        },
+        {
+          "Performance": "Hot-swap",
+          "Column 2": "✓"
+        },
+        {
+          "Performance": "Easy to install",
+          "Column 2": "✓"
+        },
+        {
+          "Performance": "Country of origin",
+          "Column 2": "United Kingdom"
+        },
+        {
+          "Performance": "Brand compatibility",
+          "Column 2": "Adtran"
+        },
+        {
+          "Performance": "Certification",
+          "Column 2": "CE, FCC, RoHS"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "03_table_3",
+      "title": "Power",
+      "page": 1,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Column 2": "3.3V",
+          "Column 1": "Input voltage"
+        },
+        {
+          "Column 2": "3.5V",
+          "Column 1": "Maximum voltage"
+        },
+        {
+          "Column 2": "1W",
+          "Column 1": "Power consumption (typical)"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "unstructured_hires"
+    },
+    {
+      "table_id": "04_table_4",
+      "title": "Operational conditions",
+      "page": 1,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Column 1": "Maximum operating temperature",
+          "Column 2": "70°C"
+        },
+        {
+          "Column 1": "Operating temperature (T-T)",
+          "Column 2": "0-70°C"
+        },
+        {
+          "Column 1": "Storage temperature (T-T)",
+          "Column 2": "-40 - 85°C"
+        },
+        {
+          "Column 1": "Operating relative humidity (H-H)",
+          "Column 2": "0-95%"
+        },
+        {
+          "Column 1": "Storage relative humidity (H-H)",
+          "Column 2": "0-95%"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "pymupdf4llm"
+    },
+    {
+      "table_id": "04_table_4",
+      "title": "Weight & dimensions",
+      "page": 1,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Column 2": "13.4 mm",
+          "Column 1": "Width"
+        },
+        {
+          "Column 2": "56.5 mm",
+          "Column 1": "Depth"
+        },
+        {
+          "Column 2": "8.5mm",
+          "Column 1": "Height"
+        },
+        {
+          "Column 2": "15g",
+          "Column 1": "Weight"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "pymupdf4llm"
+    },
+    {
+      "table_id": "06_table_6",
+      "title": "Packaging data",
+      "page": 1,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Column 1": "Number of products included",
+          "Column 2": "1 pc(s)"
+        },
+        {
+          "Column 1": "Package type",
+          "Column 2": "Box"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "pymupdf4llm"
+    },
+    {
+      "table_id": "07_table_7",
+      "title": "Technical details",
+      "page": 1,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "rows": [
+        {
+          "Column 1": "Sustainability compliance",
+          "Column 2": "✓"
+        },
+        {
+          "Column 1": "Sustainability certificates",
+          "Column 2": "RoHS"
+        },
+        {
+          "Column 1": "Doesn't contain",
+          "Column 2": "Lead"
+        }
+      ],
+      "footnotes": {},
+      "needs_review": false,
+      "draft_source_parser": "pymupdf4llm"
+    }
+  ],
+  "structure": {
+    "section_order": [],
+    "total_tables": 2,
+    "total_footnotes": 0,
+    "modulation_block": false
+  },
+  "draft_metadata": {
+    "status": "vlm_ocr_candidate_needs_human_review",
+    "source_parser": "merged_unstructured_hires_marker_docling_pymupdf4llm",
+    "section_source_parser": "unstructured_hires",
+    "notes": "Generated from visual/OCR parser elements and HTML table geometry. Correct against the PDF before final scoring."
+  }
+}

@@ -1,0 +1,46 @@
+# Python environments and caches
+venv/
+.venv/
+env/
+.env/
+.env.*
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated benchmark artifacts
+outputs/
+reports/
+*.jsonl
+*.log
+
+# Ground-truth editor backups
+*.bak
+*.backup
+
+# Parser/tool temporary files
+**/_marker_tmp/
+tmp/
+temp/
+
+# Local notebooks and scratch work
+.ipynb_checkpoints/
+scratch/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
